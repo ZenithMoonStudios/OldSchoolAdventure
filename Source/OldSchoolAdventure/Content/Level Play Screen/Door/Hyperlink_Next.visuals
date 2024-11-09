@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Visuals>
+	<Sprites Texture="Hyperlinks">
+		<Sprite Name="Closed"><TextureRegion Left="124" Top="0" Width="79" Height="16" /></Sprite>
+		<Sprite Name="Open"><TextureRegion Left="124" Top="16" Width="79" Height="16" /></Sprite>
+	</Sprites>
+	<Animations>
+		<Animation Name="Default" Sprite="Closed"><DisplayOffset Width="-2" Height="-4" /></Animation>
+		<Animation Name="Closed" Sprite="Closed"><DisplayOffset Width="-2" Height="-4" /></Animation>
+		<Animation Name="Open" Sprite="Open"><DisplayOffset Width="-2" Height="-4" /></Animation>
+	</Animations>
+</Visuals>

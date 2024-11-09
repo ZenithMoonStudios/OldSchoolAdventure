@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="1280" Height="720" />
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 1/DevLand" />
+    <Background Path="Tile/Background/Layer 2/In">
+      <ScrollRate X="0.5" Y="0.5" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="40" Height="24" />
+      <Rows>
+        <Row Tiles="xxxxxxOOxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxOOOOOOOOOOOOOOxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxOOOOOOOOOOOOOOOOOOOOOOOOxxxxxxxxxxxxx" />
+        <Row Tiles="xxxOO000000000000000000000OOxxxxxOOOxxxx" />
+        <Row Tiles="xxOOO0000000000000000000000OOOOOOOOOOxxx" />
+        <Row Tiles="xxOOO0000000000000000000000OOOOOOOOOOOxx" />
+        <Row Tiles="xxOOO000000000000000000000000000000OOOxx" />
+        <Row Tiles="xxxOO000000000000000000000000000000OOxxx" />
+        <Row Tiles="xxxxO000000000000000000000000000000OOxxx" />
+        <Row Tiles="xxxxO00000000O________00000________Oxxxx" />
+        <Row Tiles="xxxxO00000000O000000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO00000000O000000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO00000000O000000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO00000000O________00000________OOxxx" />
+        <Row Tiles="xxxxO00000000O000000000000000000000OOxxx" />
+        <Row Tiles="xxxOO00000000O000000000000000000000OOOxx" />
+        <Row Tiles="xxxOO00000000O000000000000000000000OOOxx" />
+        <Row Tiles="xxxOO00000000OOO______00000________OOOxx" />
+        <Row Tiles="xxxOO000000000000000000000000000000OOOOx" />
+        <Row Tiles="xxOOO000000000000000000000000000000OOOOO" />
+        <Row Tiles="xxOOO000000000000000000000000000000OOOOO" />
+        <Row Tiles="xxxOOOOOOOOOOOOOOOOOOO00000OOOOOOOOOOOOx" />
+        <Row Tiles="xxxxOOOOOOOOOxxxxxOOOOGGGGGOOOOxxOOOOOOx" />
+        <Row Tiles="xxxxxOOOxxxxxxxxxxxxOOGGGGGOOxxxxxxxOOxx" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Plain">
+      <GridPosition Left="32.5" Top="20" />
+      <Target Room="Room/DevLand_13" ObjectName="Out" />
+    </Door>
+    <Door Name="Out" Template="Door/Plain">
+      <GridPosition Left="6.5" Top="20" />
+      <Target Room="Room/DevLand_15" ObjectName="In" />
+    </Door>
+  </Doors>
+  <Collectibles />
+  <Directors />
+  <SpawnPoints />
+  <Speakers />
+  <MusicPoints />
+  <Switches />
+  <Obstacles>
+    <Obstacle Name="c66f7520-7f12-4865-9dcf-5d85b72a2069" Template="Enemy/SlowSpike_Right">
+      <GridPosition Left="15" Top="16" />
+    </Obstacle>
+    <Obstacle Name="cf911324-9f99-4c2f-9cba-1a58c8f0e5a0" Template="Enemy/SlowSpike_Right">
+      <GridPosition Left="28" Top="12" />
+    </Obstacle>
+    <Obstacle Name="22f6f0f6-ee7f-49b5-a4c5-e861c8ccf5e3" Template="Enemy/SlowSpike_Left">
+      <GridPosition Left="20" Top="12" />
+    </Obstacle>
+    <Obstacle Name="c2108970-cd4a-49d4-9853-7f781d35d0b7" Template="Enemy/SlowSpike_Left">
+      <GridPosition Left="33" Top="16" />
+    </Obstacle>
+    <Obstacle Name="c861342d-460f-431b-9d36-6dc38d606bff" Template="Enemy/JumperSpike_Left">
+      <GridPosition Left="20" Top="8" />
+      <Conditions>
+        <Condition Has="False" Item="Collectible/Mode_Easy" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="5a9f3ea1-0967-4eba-81fc-9ca35fada815" Template="Enemy/SlowShooter_Right">
+      <GridPosition Left="9" Top="20" />
+    </Obstacle>
+  </Obstacles>
+</Room>

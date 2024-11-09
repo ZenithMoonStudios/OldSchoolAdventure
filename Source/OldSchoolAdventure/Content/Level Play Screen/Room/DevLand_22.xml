@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="1280" Height="720" />
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 2/WebSite">
+      <ScrollRate X="1" Y="1" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="40" Height="24" />
+      <Rows>
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000iiiiiiiiiiiiiiiiiiiiiiiiii0000000" />
+        <Row Tiles="0000000i000000000000000000000000i0000000" />
+        <Row Tiles="0000000i0000W0000000000000000000i0000000" />
+        <Row Tiles="0000000i0000W0000000000000000000i0000000" />
+        <Row Tiles="0000000i0000WXXX0000000000000000i0000000" />
+        <Row Tiles="0000000i0000WXXX0000000000000000i0000000" />
+        <Row Tiles="0000000i0000WXXX0000000000000000i0000000" />
+        <Row Tiles="0000000i0000W0000000000000000000i0000000" />
+        <Row Tiles="0000000i0___W0000000000000000000i0000000" />
+        <Row Tiles="0000000i000000000000000000000000i0000000" />
+        <Row Tiles="0000000i000000000000000000000000i0000000" />
+        <Row Tiles="0000000i000000000000000000000000i0000000" />
+        <Row Tiles="0000000iiiiiiiiiiiiiiiiiiiiiiiiii0000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Hyperlink_PreviousLocked">
+      <GridPosition Left="9.5" Top="20" />
+      <Target Room="Room/DevLand_21" ObjectName="Out" />
+    </Door>
+    <Door Name="Out" Template="Door/Hyperlink_Next">
+      <GridPosition Left="29.5" Top="20" />
+      <Target Room="Room/DevLand_23" ObjectName="In" />
+    </Door>
+  </Doors>
+  <Collectibles />
+  <Obstacles>
+    <Obstacle Name="d2095b36-519e-44f1-b410-4460e0cc017b" Template="Enemy/SlowSpike_Left">
+      <GridPosition Left="27" Top="20" />
+    </Obstacle>
+    <Obstacle Name="cc5e5008-d4fe-4ad0-9aa0-f8c4ef9dca8f" Template="Enemy/SlowSpike_Left">
+      <GridPosition Left="23" Top="20" />
+    </Obstacle>
+    <Obstacle Name="ce623103-6ed2-4dc6-bf42-1447b695647c" Template="Enemy/SlowSpike_Left">
+      <GridPosition Left="21" Top="20" />
+    </Obstacle>
+    <Obstacle Name="681d3ca6-6ac0-425a-b3d7-35aaa2d78cb9" Template="Enemy/SlowSpike_Left">
+      <GridPosition Left="19" Top="20" />
+    </Obstacle>
+    <Obstacle Name="79d48646-7bbd-40ea-b33b-1f413c4244d3" Template="Enemy/Slow_Left">
+      <GridPosition Left="25" Top="20" />
+    </Obstacle>
+  </Obstacles>
+  <Directors />
+  <SpawnPoints />
+  <Speakers>
+    <Speaker Name="f9f7432b-2d33-4181-aac5-18a242744189" Template="Speaker/AutoSpeak">
+      <GridPosition Left="9.5" Top="20" />
+      <Conversations>
+        <Conversation>
+          <Conditions>
+            <Condition Has="False" Item="Room/DevLand_22/AutoSpeak" Quantity="1" />
+          </Conditions>
+          <Sentences>
+            <Sentence Speaker="Character/Chris">It cannot be. It is... the INTERNET!</Sentence>
+            <Sentence Speaker="Character/Chris">Those must be... HYPERLINKS.</Sentence>
+            <Sentence Speaker="Character/Chris">If I follow the hyperlinks, maybe I'll find... the REAL WORLD.</Sentence>
+            <Sentence Speaker="Character/Chris">Then I will stop the developer once and for all!</Sentence>
+          </Sentences>
+          <Transactions>
+            <Transaction Type="Add" Item="Room/DevLand_22/AutoSpeak" Quantity="1" />
+          </Transactions>
+        </Conversation>
+      </Conversations>
+    </Speaker>
+  </Speakers>
+  <MusicPoints>
+    <MusicPoint Name="0a0da0f3-5e30-4d14-a144-aebaf259ec77" Template="MusicPoint/March">
+      <GridPosition Left="9.5" Top="19" />
+    </MusicPoint>
+  </MusicPoints>
+  <Switches />
+</Room>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TileTemplate Friction="0.5">
+	<TileSize Width="32" Height="30" />
+	<Left IsSolid="true" Velocity="1" />
+	<Top IsSolid="true" Velocity="-1" />
+	<Right IsSolid="true" Velocity="-1.5" Friction="0.8" />
+	<Bottom IsSolid="true" Velocity="1" />
+</TileTemplate>

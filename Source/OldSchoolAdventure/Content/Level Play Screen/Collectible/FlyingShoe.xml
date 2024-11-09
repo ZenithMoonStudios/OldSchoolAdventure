@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CollectibleTemplate>
+	<Size Width="48" Height="31" />
+	<Power OwnerPath="Character/Chris_FlyingShoe" CanFly="true" CanAccelerateFromTile="true" Offense="0" Defense="0" MaxHorizontalSpeedFactor="1" Gravity="0.2" />
+	<Audio>
+		<Cue Name="PowerUpFlyingBoots" Event="OnCollect" />
+	</Audio>
+</CollectibleTemplate>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="2560" Height="720" />
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 1/SpikeLand" />
+    <Background Path="Tile/Background/Layer 2/OutHorizontal">
+      <ScrollRate X="0.5" Y="0.5" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="80" Height="24" />
+      <Rows>
+        <Row Tiles="xxxxxxxOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOxxxxxxxxxxx" />
+        <Row Tiles="xxxOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOxxxxxxxx" />
+        <Row Tiles="xxxOOOOO0000000000000000000000000000000000OOOOOOO00000000000000ODODOOOOOOxxxxxxx" />
+        <Row Tiles="xxxxOO0000000000000000000000000000000000000OXXOO00000000000000000000OOOOOOOxxxxx" />
+        <Row Tiles="xxxxO00000000000000000000000000000000000000OXX0000000000000000000000000OOOOOxxxx" />
+        <Row Tiles="xxxxO000000000000000000000000000000000000000XX000000000000000000000000000OOOxxxx" />
+        <Row Tiles="xxxxO000000000000000000000000000000000000000XX0000000000000000000000000000OOxxxx" />
+        <Row Tiles="xxxxO000000000000000000000000000000000000000XX00000000000000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO000000000000000000000000000000000000000XX00000000000000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO000_____________00000000000000000000000XX00000000000000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO0000^^000000000000000000000000000000000XX00000000000000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO0000^^000000000000000000000000000000000XX0000________00000000000000000Oxxxx" />
+        <Row Tiles="xxxxO0000^^0000000000000000000000000XX^^^^^^XX^^^^^^XX000000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO0000^^0000000000000000000000000XX^^^^^^XX^^^^^^XX000000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO0000^^0000000000000000000000000XX^^^^^^XX^^^^^^XX000000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO0000^^0000000000000000000000000XX^^^^^^XX^^^^^^XX000000000000000000000Oxxxx" />
+        <Row Tiles="xxxOO0000^^0000000000000000000000000XX^^^^^^XX^^^^^^XX000000000000000000000Oxxxx" />
+        <Row Tiles="xxxOO0000000000000000000000000000000XX^^^^^^^^^^^^^^XX000000000000000000000Oxxxx" />
+        <Row Tiles="xxxOO0000000000000000000000000000000XX^^^^^^^^^^^^^^XX0O00000000000O0000000OOxxx" />
+        <Row Tiles="xxOOO0000000000000000000000000000000XX^^^^^^^^^^^^^^XX0OOOOOOOOOOOOO0000000OOxxx" />
+        <Row Tiles="xxOOOWWWWWW0000000000000000000000000XX^^^^^^^^^^^^^^XX000000000000000WWWWWWOOxxx" />
+        <Row Tiles="xxOOWWWWWWWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXWWWWWWWOOxx" />
+        <Row Tiles="xxOOWWWWWWWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXWWWWWWWOOxx" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Plain">
+      <GridPosition Left="6.5" Top="20" />
+      <Target Room="Room/SpikeLand_4" ObjectName="Out" />
+    </Door>
+    <Door Name="Out" Template="Door/Plain">
+      <GridPosition Left="72.5" Top="20" />
+      <Target Room="Room/SpikeLand_1" ObjectName="Out_Bottom" />
+    </Door>
+    <Door Name="Out_Top" Template="Door/Plain">
+      <GridPosition Left="55.5" Top="11" />
+      <Target Room="Room/SpikeLand_13" ObjectName="In" />
+    </Door>
+  </Doors>
+  <Collectibles />
+  <Directors>
+    <Director Name="d2b1e0ed-cc98-44b2-af49-032349f12774" Template="Director/Linear_Up">
+      <GridPosition Left="28.5" Top="16.5" />
+    </Director>
+    <Director Name="3079d881-dd39-4c03-8d6c-4fb67bee0f50" Template="Director/Linear_Up">
+      <GridPosition Left="23.5" Top="16.5" />
+    </Director>
+    <Director Name="b6e947e7-61b8-46bb-a17a-6d1e57abd917" Template="Director/Linear_Up">
+      <GridPosition Left="33.5" Top="16.5" />
+    </Director>
+    <Director Name="f5f92c41-c683-4440-a337-0e1761b52ad6" Template="Director/Linear_Down">
+      <GridPosition Left="33.5" Top="6.5" />
+    </Director>
+    <Director Name="4b000c7f-691f-4d87-b93d-ccbdba92870d" Template="Director/Linear_Down">
+      <GridPosition Left="23.5" Top="6.5" />
+    </Director>
+    <Director Name="24d41266-f731-4768-879d-b6cbfda47eb6" Template="Director/Linear_Down">
+      <GridPosition Left="28.5" Top="6.5" />
+    </Director>
+  </Directors>
+  <Obstacles>
+    <Obstacle Name="c338b568-e275-414a-8df2-c62725ec51c5" Template="Obstacle/Truss">
+      <GridPosition Left="23.5" Top="7" />
+    </Obstacle>
+    <Obstacle Name="437e9737-7471-4bea-bad2-24248b78e132" Template="Obstacle/Truss">
+      <GridPosition Left="28.5" Top="16" />
+    </Obstacle>
+    <Obstacle Name="c5f45871-e3db-43dc-9e0b-38cc6d4d3a32" Template="Obstacle/Truss">
+      <GridPosition Left="33.5" Top="7" />
+    </Obstacle>
+    <Obstacle Name="fcf5882e-c71e-407b-961a-5fd005483bd0" Template="Enemy/Slow_Right">
+      <GridPosition Left="9" Top="9" />
+      <Conditions>
+        <Condition Has="False" Item="Collectible/Mode_Hard" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="5ce1ef0b-3b40-4c72-88bc-19f66a3b7e0c" Template="Enemy/Slow_Right">
+      <GridPosition Left="12" Top="9" />
+      <Conditions>
+        <Condition Has="False" Item="Collectible/Mode_Hard" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="3819f930-54e4-42a9-9fad-f66be2abaca8" Template="Enemy/SolidTileShooter_Down">
+      <GridPosition Left="64" Top="3" />
+    </Obstacle>
+    <Obstacle Name="e75788c5-1af1-4d71-bad0-b35ef4a35bf8" Template="Enemy/SolidTileShooter_Down">
+      <GridPosition Left="66" Top="3" />
+    </Obstacle>
+    <Obstacle Name="4df60b95-a151-4a25-861f-92fe71bbb9cc" Template="Enemy/Fast_Left">
+      <GridPosition Left="65" Top="19" />
+    </Obstacle>
+    <Obstacle Name="f0a87ff3-5d49-40c3-8e69-5063547d8a48" Template="Enemy/SlowShooter_Right">
+      <GridPosition Left="10" Top="9" />
+      <Conditions>
+        <Condition Has="True" Item="Collectible/Mode_Hard" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="322a7104-5e0e-4a3d-a079-8a733569782f" Template="Enemy/SlowShooter_Right">
+      <GridPosition Left="13" Top="9" />
+      <Conditions>
+        <Condition Has="True" Item="Collectible/Mode_Hard" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="00f06d14-cf80-4998-bf9b-6f449eaa9d24" Template="Obstacle/Spike_2x2">
+      <GridPosition Left="23.5" Top="5" />
+      <Conditions>
+        <Condition Has="True" Item="Collectible/Mode_Hard" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="d618d4b5-4c9f-465d-a707-360971b2c9d4" Template="Obstacle/Spike_2x2">
+      <GridPosition Left="28.5" Top="5" />
+      <Conditions>
+        <Condition Has="True" Item="Collectible/Mode_Hard" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="6ba4c1fa-d040-4338-9963-ca49a3919069" Template="Obstacle/Spike_2x2">
+      <GridPosition Left="33.5" Top="5" />
+      <Conditions>
+        <Condition Has="True" Item="Collectible/Mode_Hard" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+  </Obstacles>
+  <SpawnPoints />
+  <Speakers />
+  <MusicPoints>
+    <MusicPoint Name="5f3d3149-2f56-4821-843f-098ac4c60ba3" Template="MusicPoint/Sunset">
+      <GridPosition Left="6.5" Top="19" />
+      <Conditions>
+        <Condition Has="False" Item="Collectible/FlyingShoe" Quantity="1" />
+        <Condition Has="False" Item="Collectible/Helmet" Quantity="1" />
+      </Conditions>
+    </MusicPoint>
+  </MusicPoints>
+  <Switches />
+</Room>

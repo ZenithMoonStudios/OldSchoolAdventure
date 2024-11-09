@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Level>
+	<Introduction Background="EndLand">
+		<Page>
+			<Line />
+			<Line>Having discovered the gateway, Chris</Line>
+			<Line>Unarmed emerges into the real world.</Line>
+			<Line />
+			<Line>His advantage lost, the developer agrees to</Line>
+			<Line>stop meddling with Chris Unarmed's world.</Line>
+		</Page>
+		<Page>
+			<Line />
+			<Line />
+			<Line />
+			<Line>Later...</Line>
+		</Page>
+	</Introduction>
+	<Rooms>
+		<Room Path="Room/EndLand_1" />
+	</Rooms>
+	<StartDoor Room="Room/EndLand_1" ObjectName="In" />
+	<EndDoor Room="Credits" ObjectName="In" />
+</Level>

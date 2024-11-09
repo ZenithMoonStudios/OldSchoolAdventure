@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CollectibleTemplate>
+	<Size Width="48" Height="31" />
+	<Power OwnerPath="Character/Chris_Helmet" CanFly="false" CanAccelerateFromTile="false" Offense="0" Defense="1" MaxHorizontalSpeedFactor="1" Gravity="0.5" />
+	<Audio>
+		<Cue Name="PowerUpWhiteArmor" Event="OnCollect" />
+	</Audio>
+</CollectibleTemplate>

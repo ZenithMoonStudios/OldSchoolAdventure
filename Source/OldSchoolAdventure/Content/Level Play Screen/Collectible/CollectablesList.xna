@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Destiny.Collectables">
+	<Item>FlyingShoe</Item>
+ 	<Item>Helmet</Item>
+	<Item>Invisible_Normal</Item>
+	<Item>Invisible_RunRight_Normal</Item>
+	<Item>Key_Blue</Item>
+	<Item>Key_Green</Item>
+	<Item>Key_Red</Item>
+	<Item>Key_Silver</Item>
+	<Item>Key_Yellow</Item>
+	<Item>Normal</Item>
+	<Item>RedArmor</Item>
+	<Item>RunRight_Helmet</Item>
+	<Item>RunRight_Normal</Item>
+ </Asset>
+</XnaContent>

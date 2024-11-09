@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Visuals>
+	<Sprites>
+		<Sprite Name="Default"><TextureRegion Left="0" Top="0" Width="20" Height="20" /></Sprite>
+		<Sprite Name="Die"><TextureRegion Left="20" Top="0" Width="30" Height="33" /></Sprite>
+	</Sprites>
+	<Animations>
+		<Animation Name="Default" Sprite="Default"><DisplayOffset Width="-3" Height="-3" /></Animation>
+		<Animation Name="Die" Sprite="Die"><DisplayOffset Width="-7" Height="-10" /></Animation>
+	</Animations>
+</Visuals>

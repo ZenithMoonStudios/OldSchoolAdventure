@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Visuals>
+	<Sprites Texture="Jumper">
+		<!-- Left -->
+		<Sprite Name="MoveLeft1"><TextureRegion Left="644" Top="46" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveLeft2"><TextureRegion Left="598" Top="46" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveLeft3"><TextureRegion Left="552" Top="46" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveLeft4"><TextureRegion Left="506" Top="46" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveLeft5"><TextureRegion Left="460" Top="46" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveLeft6"><TextureRegion Left="414" Top="46" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveLeft7"><TextureRegion Left="368" Top="46" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveLeft8"><TextureRegion Left="322" Top="46" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveLeft9"><TextureRegion Left="276" Top="46" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveLeft10"><TextureRegion Left="230" Top="46" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveLeft11"><TextureRegion Left="184" Top="46" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveLeft12"><TextureRegion Left="138" Top="46" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveLeft13"><TextureRegion Left="92" Top="46" Width="46" Height="46" /></Sprite>
+		<Sprite Name="JumpLeft"><TextureRegion Left="46" Top="46" Width="46" Height="46" /></Sprite>
+		<Sprite Name="StandLeft"><TextureRegion Left="0" Top="46" Width="46" Height="46" /></Sprite>
+		<!-- Right -->
+		<Sprite Name="MoveRight1"><TextureRegion Left="0" Top="0" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveRight2"><TextureRegion Left="46" Top="0" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveRight3"><TextureRegion Left="92" Top="0" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveRight4"><TextureRegion Left="138" Top="0" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveRight5"><TextureRegion Left="184" Top="0" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveRight6"><TextureRegion Left="230" Top="0" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveRight7"><TextureRegion Left="276" Top="0" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveRight8"><TextureRegion Left="322" Top="0" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveRight9"><TextureRegion Left="368" Top="0" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveRight10"><TextureRegion Left="414" Top="0" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveRight11"><TextureRegion Left="460" Top="0" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveRight12"><TextureRegion Left="506" Top="0" Width="46" Height="46" /></Sprite>
+		<Sprite Name="MoveRight13"><TextureRegion Left="552" Top="0" Width="46" Height="46" /></Sprite>
+		<Sprite Name="JumpRight"><TextureRegion Left="598" Top="0" Width="46" Height="46" /></Sprite>
+		<Sprite Name="StandRight"><TextureRegion Left="644" Top="0" Width="46" Height="46" /></Sprite>
+		<!-- Other -->
+		<Sprite Name="Die"><TextureRegion Left="690" Top="0" Width="46" Height="46" /></Sprite>
+	</Sprites>
+	<Animations>
+		<Animation Name="Default" Sprite="MoveLeft1"><DisplayOffset Width="-8" Height="-12" /></Animation>
+		<Animation Name="MoveLeft">
+			<DisplayOffset Width="-8" Height="-12" />
+			<Frames>
+				<Frame Sprite="MoveLeft7" Duration="2" />
+				<Frame Sprite="MoveLeft8" Duration="2" />
+				<Frame Sprite="MoveLeft9" Duration="2" />
+				<Frame Sprite="MoveLeft10" Duration="2" />
+				<Frame Sprite="MoveLeft11" Duration="2" />
+				<Frame Sprite="MoveLeft12" Duration="2" />
+				<Frame Sprite="MoveLeft13" Duration="2" />
+				<Frame Sprite="MoveLeft12" Duration="2" />
+				<Frame Sprite="MoveLeft11" Duration="2" />
+				<Frame Sprite="MoveLeft10" Duration="2" />
+				<Frame Sprite="MoveLeft9" Duration="2" />
+				<Frame Sprite="MoveLeft8" Duration="2" />
+				<Frame Sprite="MoveLeft7" Duration="2" />
+				<Frame Sprite="MoveLeft6" Duration="2" />
+				<Frame Sprite="MoveLeft5" Duration="2" />
+				<Frame Sprite="MoveLeft4" Duration="2" />
+				<Frame Sprite="MoveLeft3" Duration="2" />
+				<Frame Sprite="MoveLeft2" Duration="2" />
+				<Frame Sprite="MoveLeft1" Duration="2" />
+				<Frame Sprite="MoveLeft2" Duration="2" />
+				<Frame Sprite="MoveLeft3" Duration="2" />
+				<Frame Sprite="MoveLeft4" Duration="2" />
+				<Frame Sprite="MoveLeft5" Duration="2" />
+				<Frame Sprite="MoveLeft6" Duration="2" />
+			</Frames>
+		</Animation>
+		<Animation Name="MoveRight">
+			<DisplayOffset Width="-8" Height="-12" />
+			<Frames>
+				<Frame Sprite="MoveRight7" Duration="2" />
+				<Frame Sprite="MoveRight8" Duration="2" />
+				<Frame Sprite="MoveRight9" Duration="2" />
+				<Frame Sprite="MoveRight10" Duration="2" />
+				<Frame Sprite="MoveRight11" Duration="2" />
+				<Frame Sprite="MoveRight12" Duration="2" />
+				<Frame Sprite="MoveRight13" Duration="2" />
+				<Frame Sprite="MoveRight12" Duration="2" />
+				<Frame Sprite="MoveRight11" Duration="2" />
+				<Frame Sprite="MoveRight10" Duration="2" />
+				<Frame Sprite="MoveRight9" Duration="2" />
+				<Frame Sprite="MoveRight8" Duration="2" />
+				<Frame Sprite="MoveRight7" Duration="2" />
+				<Frame Sprite="MoveRight6" Duration="2" />
+				<Frame Sprite="MoveRight5" Duration="2" />
+				<Frame Sprite="MoveRight4" Duration="2" />
+				<Frame Sprite="MoveRight3" Duration="2" />
+				<Frame Sprite="MoveRight2" Duration="2" />
+				<Frame Sprite="MoveRight1" Duration="2" />
+				<Frame Sprite="MoveRight2" Duration="2" />
+				<Frame Sprite="MoveRight3" Duration="2" />
+				<Frame Sprite="MoveRight4" Duration="2" />
+				<Frame Sprite="MoveRight5" Duration="2" />
+				<Frame Sprite="MoveRight6" Duration="2" />
+			</Frames>
+		</Animation>
+		<Animation Name="FallLeft" Sprite="JumpLeft"><DisplayOffset Width="-8" Height="-12" /></Animation>
+		<Animation Name="FallRight" Sprite="JumpRight"><DisplayOffset Width="-8" Height="-12" /></Animation>
+		<Animation Name="Die" Sprite="Die"><DisplayOffset Width="-8" Height="-12" /></Animation>
+	</Animations>
+</Visuals>

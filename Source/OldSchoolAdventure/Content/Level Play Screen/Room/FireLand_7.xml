@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="1280" Height="720" />
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 1/FireLand" />
+    <Background Path="Tile/Background/Layer 2/OutHorizontal">
+      <ScrollRate X="0.5" Y="0.5" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="40" Height="24" />
+      <Rows>
+        <Row Tiles="xxxxxOOxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxOOOOOxxOOOOxxxxOOOOOOxxxxxxOOOOOOxxxx" />
+        <Row Tiles="xOOOOOOOOOOOOOxxxOOOOOOOOOOOOOOOOOOOOxxx" />
+        <Row Tiles="xOOOO00000000OxxOO00000000000000000OOOxx" />
+        <Row Tiles="xxOOO00000000OxxOO00000000000000000OOOxx" />
+        <Row Tiles="xxOOO00000000OxxOO00000000000000000OOOxx" />
+        <Row Tiles="xxxOO00000000OxxOO00000000000000000OOOxx" />
+        <Row Tiles="xxxOO00000000OxOOOOOOO0000000000000OOxxx" />
+        <Row Tiles="xxxxO00000000OOOO00OOOOOOO000000000OOxxx" />
+        <Row Tiles="xxxxO00000000OOOO00^^00000000000000OOxxx" />
+        <Row Tiles="xxxxO00000000OOO000^^00000000000000Oxxxx" />
+        <Row Tiles="xxxxO00000000OOO000000OOO0000000000Oxxxx" />
+        <Row Tiles="xxxxO0000O000OOO0000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO0000O000OOO0000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO0000O000OO00000000000000000000Oxxxx" />
+        <Row Tiles="xxxOO0000O0000000000000000000000000OOxxx" />
+        <Row Tiles="xxxOO0000O0000000000000000000OO0000OOxxx" />
+        <Row Tiles="xxOOO0000O0000000000000000000OO0000OOxxx" />
+        <Row Tiles="xxOOO0000O0000000000000000000OO0000OOOxx" />
+        <Row Tiles="xxxOO0000O000000000OO00000000OO0000OOOxx" />
+        <Row Tiles="xxxOO0000O000000OOOOOFFFFFFFFOO0000OOOxx" />
+        <Row Tiles="xxxOOOOOOOFFFFFFOOOxOFFFFFFFFOOOOOOOOxxx" />
+        <Row Tiles="xxxxxOOOOOFFFFFFOOxxOFFFFFFFFOOOOOOOxxxx" />
+        <Row Tiles="xxxxxxxOOOFFFFFFOxxxOFFFFFFFFOOxxxxxxxxx" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Plain">
+      <GridPosition Left="6.5" Top="20" />
+      <Target Room="Room/FireLand_2" ObjectName="TopLeft" />
+    </Door>
+    <Door Name="Out" Template="Door/Plain">
+      <GridPosition Left="32.5" Top="20" />
+      <Target Room="Room/FireLand_8" ObjectName="In" />
+    </Door>
+    <Door Name="Top" Template="Door/Plain">
+      <GridPosition Left="19.5" Top="6" />
+      <Target Room="Room/FireLand_9" ObjectName="In" />
+    </Door>
+  </Doors>
+  <Collectibles>
+    <Collectible Name="42292487-85f0-4c04-a8a6-e35b006b55d5" Template="Collectible/Normal">
+      <GridPosition Left="19.5" Top="9.5" />
+    </Collectible>
+  </Collectibles>
+  <Obstacles>
+  </Obstacles>
+  <Directors />
+  <SpawnPoints />
+  <Speakers />
+  <MusicPoints />
+  <Switches>
+  </Switches>
+</Room>

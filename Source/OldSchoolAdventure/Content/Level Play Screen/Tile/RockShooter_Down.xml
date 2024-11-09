@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TileTemplate>
+	<TileSize Width="32" Height="30" />
+	<Left IsSolid="false" />
+	<Top IsSolid="false" />
+	<Right IsSolid="false" />
+	<Bottom IsSolid="false" />
+</TileTemplate>

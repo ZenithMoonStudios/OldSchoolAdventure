@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Visuals>
+	<Sprites><Sprite Name="Default"><TextureRegion Left="0" Top="0" Width="60" Height="60" /></Sprite></Sprites>
+	<Animations><Animation Name="Default" Sprite="Default"><DisplayOffset Width="-17" Height="-17" /></Animation></Animations>
+</Visuals>

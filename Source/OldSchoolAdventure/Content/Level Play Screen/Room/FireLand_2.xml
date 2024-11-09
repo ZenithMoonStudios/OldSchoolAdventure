@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="1280" Height="720" />
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 1/FireLand" />
+    <Background Path="Tile/Background/Layer 2/In">
+      <ScrollRate X="0.5" Y="0.5" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="40" Height="24" />
+      <Rows>
+        <Row Tiles="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxOOOOOxxx" />
+        <Row Tiles="xxxxOOOOxxxOOOOxxxOOOOxxxxxxOOOOOOOOOOxx" />
+        <Row Tiles="xxxOOOOOOOOOOOOOxOOOOOOxOOOOOOOOOOOOOOxx" />
+        <Row Tiles="xxxOO000000000OOOO0000OxOO000000000OOOxx" />
+        <Row Tiles="xxxxO0000000000OOO0000OOO0000000000OOxxx" />
+        <Row Tiles="xxxxO0000000000OOO0000OOO0000000000OOxxx" />
+        <Row Tiles="xxxOO0000000000OOO0000OOO0000000000OOxxx" />
+        <Row Tiles="xxOOO0000000000OOO0000OOO0000000000OOxxx" />
+        <Row Tiles="xOOOOOOOO0000000OOOOOOOO0000000OOOOOxxxx" />
+        <Row Tiles="xxxOO00000000000000000000000000OOOxxxxxx" />
+        <Row Tiles="xxxOO00000000000000000000000000Oxxxxxxxx" />
+        <Row Tiles="xxxxO00000000000000000000000000OOOxxxxxx" />
+        <Row Tiles="xxxxO0000OOOOOOOOXXXXXXOOOOOOOOOOOOOxxxx" />
+        <Row Tiles="xxxxO0000OOO00000000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO0000OOO00000000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO000000000000000000000000000000OOxxx" />
+        <Row Tiles="xxxOO000000000000000000000000000000OOxxx" />
+        <Row Tiles="xxxOO000000000000000000000000000000OOxxx" />
+        <Row Tiles="xxOOO000000000000000000000000000000OOOxx" />
+        <Row Tiles="xxOOO000000000000000000000000000000OOOxx" />
+        <Row Tiles="xxOOO000000OOOO0000000000OOOO000000OOOxx" />
+        <Row Tiles="xxxxOOOOOOOOOOOFFFFFFFFFFOOOOOOOOOOOOxxx" />
+        <Row Tiles="xxxxxxxxOOOOOOOFFFFFFFFFFOOOOxxxxOOOxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxOOFFFFFFFFFFOOxxxxxxxxxxxxx" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Plain">
+      <GridPosition Left="6.5" Top="20" />
+      <Target Room="Room/FireLand_1" ObjectName="Out" />
+    </Door>
+    <Door Name="Out" Template="Door/Plain">
+      <GridPosition Left="32.5" Top="20" />
+      <Target Room="Room/FireLand_10" ObjectName="In" />
+    </Door>
+    <Door Name="TopMiddle" Template="Door/Plain">
+      <GridPosition Left="19.5" Top="7" />
+      <Target Room="Room/FireLand_6" ObjectName="Out" />
+    </Door>
+    <Door Name="TopLeft" Template="Door/Key_Red">
+      <GridPosition Left="32.5" Top="7" />
+      <Target Room="Room/FireLand_7" ObjectName="In" />
+    </Door>
+    <Door Name="TopRight" Template="Door/Plain">
+      <GridPosition Left="6.5" Top="7" />
+      <Target Room="Room/FireLand_3" ObjectName="In" />
+    </Door>
+  </Doors>
+  <Collectibles>
+    <Collectible Name="802ac236-5878-45a1-b874-31f1135f5e49" Template="Collectible/RedArmor">
+      <GridPosition Left="19.5" Top="3.5" />
+    </Collectible>
+  </Collectibles>
+  <Obstacles>
+    <Obstacle Name="08822417-8d3f-47d9-b1fe-421cd958d7a8" Template="Enemy/SlowShooter_Left">
+      <GridPosition Left="29" Top="11" />
+    </Obstacle>
+    <Obstacle Name="4263cf8f-5a6f-4aab-9718-8652eb5328b2" Template="Enemy/SlowSpike_Left">
+      <GridPosition Left="27" Top="11" />
+      <Conditions>
+        <Condition Has="True" Item="Collectible/Mode_Hard" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+  </Obstacles>
+  <Directors />
+  <SpawnPoints />
+  <Speakers />
+  <MusicPoints>
+    <MusicPoint Name="49753658-4293-4fff-93ba-923138ee60e8" Template="MusicPoint/March">
+      <GridPosition Left="19.5" Top="3" />
+    </MusicPoint>
+  </MusicPoints>
+  <Switches />
+</Room>

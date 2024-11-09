@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EnemyTemplate VerticalAlignment="Bottom" RenderMode="Movement" Friction="0.5">
+	<Size Width="32" Height="30" />
+	<Left IsSolid="true" Friction="0" />
+	<Top IsSolid="true" />
+	<Right IsSolid="true" Friction="0" />
+	<Bottom IsSolid="true" />
+	<ShootInformation Duration="10" MinWait="48" MaxWait="288" FlipOnNegativeX="false" FlipOnNegativeY="false">
+		<Object Path="Projectile/Fire" MaxCount="5" />
+		<StartPosition X="16" Y="15" />
+		<StartVelocity X="0" Y="7.5" />
+	</ShootInformation>
+</EnemyTemplate>

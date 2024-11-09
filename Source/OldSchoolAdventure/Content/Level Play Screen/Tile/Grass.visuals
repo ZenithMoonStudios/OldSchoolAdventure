@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Visuals>
+	<Sprites>
+		<Sprite Name="0000"><TextureRegion Left="0" Top="0" Width="49" Height="50" /></Sprite>
+		<Sprite Name="0001"><TextureRegion Left="0" Top="0" Width="49" Height="46" /></Sprite>
+		<Sprite Name="0010"><TextureRegion Left="0" Top="0" Width="41" Height="50" /></Sprite>
+		<Sprite Name="0011"><TextureRegion Left="0" Top="0" Width="41" Height="46" /></Sprite>
+		<Sprite Name="0100"><TextureRegion Left="0" Top="16" Width="49" Height="34" /></Sprite>
+		<Sprite Name="0101"><TextureRegion Left="0" Top="16" Width="49" Height="30" /></Sprite>
+		<Sprite Name="0110"><TextureRegion Left="0" Top="16" Width="41" Height="34" /></Sprite>
+		<Sprite Name="0111"><TextureRegion Left="0" Top="16" Width="41" Height="30" /></Sprite>
+		<Sprite Name="1000"><TextureRegion Left="9" Top="0" Width="40" Height="50" /></Sprite>
+		<Sprite Name="1001"><TextureRegion Left="9" Top="0" Width="40" Height="46" /></Sprite>
+		<Sprite Name="1010"><TextureRegion Left="9" Top="0" Width="32" Height="50" /></Sprite>
+		<Sprite Name="1011"><TextureRegion Left="9" Top="0" Width="32" Height="46" /></Sprite>
+		<Sprite Name="1100"><TextureRegion Left="9" Top="16" Width="40" Height="34" /></Sprite>
+		<Sprite Name="1101"><TextureRegion Left="9" Top="16" Width="40" Height="30" /></Sprite>
+		<Sprite Name="1110"><TextureRegion Left="9" Top="16" Width="32" Height="34" /></Sprite>
+		<Sprite Name="1111"><TextureRegion Left="9" Top="16" Width="32" Height="30" /></Sprite>
+	</Sprites>
+	<Animations>
+		<Animation Name="0000" Sprite="0000"><DisplayOffset Width="-9" Height="-16" /></Animation>
+		<Animation Name="0001" Sprite="0001"><DisplayOffset Width="-9" Height="-16" /></Animation>
+		<Animation Name="0010" Sprite="0010"><DisplayOffset Width="-9" Height="-16" /></Animation>
+		<Animation Name="0011" Sprite="0011"><DisplayOffset Width="-9" Height="-16" /></Animation>
+		<Animation Name="0100" Sprite="0100"><DisplayOffset Width="-9" Height="0" /></Animation>
+		<Animation Name="0101" Sprite="0101"><DisplayOffset Width="-9" Height="0" /></Animation>
+		<Animation Name="0110" Sprite="0110"><DisplayOffset Width="-9" Height="0" /></Animation>
+		<Animation Name="0111" Sprite="0111"><DisplayOffset Width="-9" Height="0" /></Animation>
+		<Animation Name="1000" Sprite="1000"><DisplayOffset Width="0" Height="-16" /></Animation>
+		<Animation Name="1001" Sprite="1001"><DisplayOffset Width="0" Height="-16" /></Animation>
+		<Animation Name="1010" Sprite="1010"><DisplayOffset Width="0" Height="-16" /></Animation>
+		<Animation Name="1011" Sprite="1011"><DisplayOffset Width="0" Height="-16" /></Animation>
+		<Animation Name="1100" Sprite="1100"><DisplayOffset Width="0" Height="0" /></Animation>
+		<Animation Name="1101" Sprite="1101"><DisplayOffset Width="0" Height="0" /></Animation>
+		<Animation Name="1110" Sprite="1110"><DisplayOffset Width="0" Height="0" /></Animation>
+		<Animation Name="1111" Sprite="1111"><DisplayOffset Width="0" Height="0" /></Animation>
+	</Animations>
+</Visuals>

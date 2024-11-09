@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DirectorTemplate Type="Linear">
+	<Size Width="2" Height="2" />
+	<Velocity X="0" Y="-2" />
+</DirectorTemplate>

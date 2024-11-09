@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DirectorTemplate Type="Circular" Direction="Clockwise" TimePerRevolution="300">
+	<Size Width="2" Height="2" />
+	<RotationGridOffset X="10" Y="0" />
+</DirectorTemplate>

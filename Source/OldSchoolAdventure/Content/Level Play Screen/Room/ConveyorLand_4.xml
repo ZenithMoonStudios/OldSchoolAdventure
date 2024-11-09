@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="1280" Height="1440" />
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 1/ConveyorLand" />
+    <Background Path="Tile/Background/Layer 2/In">
+      <ScrollRate X="0.5" Y="0.5" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="40" Height="48" />
+      <Rows>
+        <Row Tiles="xxxxxxxxxxxOOOOOOOOOOOOOOOOOOOxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxOOOOOOOIIIIIIIIIIOOOOOOxxxxxxxxx" />
+        <Row Tiles="xxxxxxxOOOOOIIIIIIIIIIIIIIIIOOOOOxxxxxxx" />
+        <Row Tiles="xxxxxxxxO0000000000000000000000OOxxxxxxx" />
+        <Row Tiles="xxxxOOxxO0000000000000000000000OOOxxxxxx" />
+        <Row Tiles="xxxOOOOxO0000000000000000000000OOOOOxxxx" />
+        <Row Tiles="xxxOOOOOO0000000000000000000000OOOOOOxxx" />
+        <Row Tiles="xxxxO000000000000000000000000000000OOxxx" />
+        <Row Tiles="xxxxO000000000000000000000000000000OOxxx" />
+        <Row Tiles="xxxOO00000000000^^^^^^^^00000000000OOOxx" />
+        <Row Tiles="xxxOORRRRRRRRRRRR^^^^^^LLLLLLLLLLLLOOOxx" />
+        <Row Tiles="xxOOOOOOOOOOOOOOOO^^^^OOOOOOOOOOOOOOOOxx" />
+        <Row Tiles="xxOOOOOxxxxxxOOOOO^^^^OOOOxxxxOOOOOOOOxx" />
+        <Row Tiles="xxOOxxxxxxxxxxOOOO^^^^OOxxxxxxxxxOOOxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxOO^^^^OOxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxO^^^^OOxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxO^^^^Oxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxOO^^^^Oxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxOOO^^^OOOxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxOOO^^^OOOOxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxOOO^^^OOOOxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxOOOOxxxxxxxOOO^^^OOOOOxxxxxxxxxxxxxx" />
+        <Row Tiles="xxOOOOOOOOOOxxxOOO^^^OOOOOOOOxxxxOOOOOxx" />
+        <Row Tiles="xOOOOOOOOOOOOOOOOO^^^OOOOOOOOOOOOOOOOOOx" />
+        <Row Tiles="xOOOOOXXX00000000000000000000000000RROOx" />
+        <Row Tiles="xOOOOXXXX00000000000000000000000000RROOO" />
+        <Row Tiles="xOOOOXXX000000000000000000000000000RROOO" />
+        <Row Tiles="xxOOXXXX000000000000000000000000000RROOO" />
+        <Row Tiles="xxOOXXX^^^^^00000000000000000000000RROOO" />
+        <Row Tiles="xxOOXXX^^^^^XX0__________00000XX000RROOx" />
+        <Row Tiles="xxOOXX^^^^^^XX0000000000000000XX000RROOx" />
+        <Row Tiles="xxOOXX^^^^^XXXX00000000000000XXX000RROOx" />
+        <Row Tiles="xxOOXX^^^^^XXXX00000000000000XXX000RROOx" />
+        <Row Tiles="xxOOXX^^^^XXXXXX000000000000XXXX000RROxx" />
+        <Row Tiles="xxOOXX^^^^XXXXXX000000000000XXXX000RROxx" />
+        <Row Tiles="xxOOXX^^^^XXXXXX000000000000XXXX000RROxx" />
+        <Row Tiles="xOOOXX^^^^^XXXX00000000000000XXX000RROxx" />
+        <Row Tiles="xOOOXX^^^^^XXXX00000000000000XXX000RROxx" />
+        <Row Tiles="xOOOXX^^^^^^XX0000000000000000XX000RROxx" />
+        <Row Tiles="xOOOXXX^^^^^XX0000000000000000XX000RROOx" />
+        <Row Tiles="xOOOXXX^^^^^00000000000000000000000RROOx" />
+        <Row Tiles="xxOOXXXX000000000000000000000000000RROOx" />
+        <Row Tiles="xxOOOXXX000000000000000000000000000RROOx" />
+        <Row Tiles="xxOOOXXXX00000000000000000000000000RROOO" />
+        <Row Tiles="xxxOOOXXX00000000000000000000000000RROOO" />
+        <Row Tiles="xxxOOOXXXRRRRRRRRRRRRRRRRRRRRRR0000RROOO" />
+        <Row Tiles="xxxxOOOOOOOOOOOOOOOOOOOOOOOOORRRRRRRROOO" />
+        <Row Tiles="xxxxxOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Plain">
+      <GridPosition Left="6.5" Top="9" />
+      <Target Room="Room/ConveyorLand_3" ObjectName="Out" />
+    </Door>
+    <Door Name="Out" Template="Door/Plain">
+      <GridPosition Left="32.5" Top="9" />
+      <Target Room="Room/ConveyorLand_5" ObjectName="In" />
+    </Door>
+    <Door Name="Bottom" Template="Door/Plain">
+      <GridPosition Left="19.5" Top="44" />
+      <Target Room="Room/ConveyorLand_9" ObjectName="Out" />
+    </Door>
+  </Doors>
+  <Collectibles>
+    <Collectible Name="e5381bd0-dcff-4385-bce9-035bc9b8740d" Template="Collectible/Helmet">
+      <GridPosition Left="19" Top="19.5" />
+    </Collectible>
+  </Collectibles>
+  <Obstacles>
+    <Obstacle Name="5a367de3-2669-4587-8186-a7b2988060cb" Template="Enemy/Tall_Right">
+      <GridPosition Left="28" Top="9" />
+    </Obstacle>
+    <Obstacle Name="fde57c5d-2317-47ae-8bba-f30bedfb0bd2" Template="Enemy/Slow_Left">
+      <GridPosition Left="23" Top="28" />
+    </Obstacle>
+    <Obstacle Name="e168b3bd-8ef9-4eb8-8cfd-f5a1ee20f8d0" Template="Enemy/JumperSpike_Right">
+      <GridPosition Left="27" Top="44" />
+    </Obstacle>
+  </Obstacles>
+  <Directors />
+  <SpawnPoints>
+    <SpawnPoint Name="4652ff89-5768-4f1e-85cc-41a5b515b971" Template="SpawnPoint/SpawnPoint">
+      <GridPosition Left="19" Top="20" />
+    </SpawnPoint>
+  </SpawnPoints>
+  <Speakers>
+    <Speaker Name="2adc62de-2625-4b7c-a98e-1a6bcce617af" Template="Speaker/AutoSpeak">
+      <GridPosition Left="19" Top="19.5" />
+      <Conversations>
+        <Conversation>
+          <Conditions>
+            <Condition Has="False" Item="Room/ConveyorLand_4/AutoSpeak" Quantity="1" />
+            <Condition Has="True" Item="Collectible/Helmet" Quantity="1" />
+          </Conditions>
+          <Sentences>
+            <Sentence Speaker="Character/Chris_Helmet">This armor is heavy!</Sentence>
+            <Sentence Speaker="Character/Chris_Helmet">But it should protect me from all the spikes around here!</Sentence>
+          </Sentences>
+          <Transactions>
+            <Transaction Type="Add" Item="Room/ConveyorLand_4/AutoSpeak" Quantity="1" />
+          </Transactions>
+        </Conversation>
+      </Conversations>
+    </Speaker>
+  </Speakers>
+  <MusicPoints>
+    <MusicPoint Name="8cfe9679-5adb-40c4-8ad3-5c2896290a9f" Template="MusicPoint/March">
+      <GridPosition Left="19" Top="19" />
+      <Conditions>
+        <Condition Has="False" Item="Room/ConveyorLand_4/AutoSpeak" Quantity="1" />
+      </Conditions>
+    </MusicPoint>
+  </MusicPoints>
+  <Switches />
+</Room>

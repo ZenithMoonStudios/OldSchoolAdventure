@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EnemyTemplate VerticalAlignment="Bottom" RenderMode="Movement" Offense="4" Defense="4">
+	<Size Width="31" Height="47" />
+	<StartVelocity X="1" Y="0" />
+	<Left IsSolid="true" />
+	<Top IsSolid="true" />
+	<Right IsSolid="true" />
+	<Bottom IsSolid="true" />
+	<MovementProvider Name="RunAndJump" MaxHorizontalSpeed="1.25" IntelligenceAlgorithm="FollowPlayer" />
+</EnemyTemplate>

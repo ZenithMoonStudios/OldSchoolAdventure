@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="1280" Height="720" />
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 1/DevLand" />
+    <Background Path="Tile/Background/Layer 2/In">
+      <ScrollRate X="0.5" Y="0.5" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="40" Height="24" />
+      <Rows>
+        <Row Tiles="xxxxxOOOOOxxxxxxxxxxxxxxxxxxxxxxOOOxxxxx" />
+        <Row Tiles="xxxxOOOOOOOOxxxxxxxxxxxxxxxxxOOOOOOOxxxx" />
+        <Row Tiles="xxxOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOxxx" />
+        <Row Tiles="xxxOO00000000000II0000II00000000000OOOxx" />
+        <Row Tiles="xxxOO00000000000II0000II00000000000OOOxx" />
+        <Row Tiles="xxxxO00000000000II0000II00000000000OOOxx" />
+        <Row Tiles="xxxxO00000000000II0000II00000000000OOOxx" />
+        <Row Tiles="xxxxO00000000000II0000II00000000000OOxxx" />
+        <Row Tiles="xxxxO00000000000II0000II00000000000OOxxx" />
+        <Row Tiles="xxxxO00000000000II0000II00000000000OOxxx" />
+        <Row Tiles="xxxxO00000000000II0000II00000000000OOxxx" />
+        <Row Tiles="xxxxO00000000000II0000II00000000000Oxxxx" />
+        <Row Tiles="xxxxO00000000000II0000II00000000000Oxxxx" />
+        <Row Tiles="xxxxO00000000000II0000II00000000000Oxxxx" />
+        <Row Tiles="xxxOO00000000000II0000II00000000000Oxxxx" />
+        <Row Tiles="xxOOO00000000000II0000II00000000000Oxxxx" />
+        <Row Tiles="xxOOO00000000000II0000II00000000000Oxxxx" />
+        <Row Tiles="xOOOO00000000000II0000II00000000000OOxxx" />
+        <Row Tiles="xOOOO00000000000II0000II00000000000OOxxx" />
+        <Row Tiles="xOOOO00000000000II0000II00000000000OOxxx" />
+        <Row Tiles="xxOOO00000000000OOOOOOOO00000000000OOOxx" />
+        <Row Tiles="xxOOOGGGGGGGGGGGOOOOOOOOGGGGGGGGGGGOOOxx" />
+        <Row Tiles="xxxOOOOOOOOOOOOOOOxxxxOOOOOOOOOOOOOOOxxx" />
+        <Row Tiles="xxxxOOOOOOOOOOOOxxxxxxxxxxOOOOOOOOOOxxxx" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Key_Silver">
+      <GridPosition Left="19.5" Top="6" />
+      <Target Room="Room/DevLand_18" ObjectName="Out" />
+    </Door>
+    <Door Name="Out" Template="Door/Plain">
+      <GridPosition Left="19.5" Top="19" />
+      <Target Room="Room/DevLand_20" ObjectName="In" />
+    </Door>
+  </Doors>
+  <Collectibles />
+  <Obstacles>
+    <Obstacle Name="c421e8e9-28e0-4c9b-9463-31de913d5096" Template="Obstacle/Rock_1x5">
+      <GridPosition Left="33.5" Top="11" />
+      <MovementProvider>
+        <Conditions>
+          <Condition Has="False" Item="Room/DevLand_19/AutoSpeak2" />
+        </Conditions>
+      </MovementProvider>
+    </Obstacle>
+    <Obstacle Name="d80f7921-f98a-49f2-bcad-dfa3c32f03a4" Template="Obstacle/Rock_1x5">
+      <GridPosition Left="5.5" Top="11" />
+      <MovementProvider>
+        <Conditions>
+          <Condition Has="False" Item="Room/DevLand_19/AutoSpeak2" />
+        </Conditions>
+      </MovementProvider>
+    </Obstacle>
+    <Obstacle Name="7d8c13c4-668b-4170-9509-fa2bb34c88fd" Template="Obstacle/Rock_1x5">
+      <GridPosition Left="5.5" Top="5.5" />
+      <MovementProvider>
+        <Conditions>
+          <Condition Has="False" Item="Room/DevLand_19/AutoSpeak2" />
+        </Conditions>
+      </MovementProvider>
+    </Obstacle>
+    <Obstacle Name="956a5984-4fdd-487b-89d2-59c886eaa8fb" Template="Obstacle/Rock_1x5">
+      <GridPosition Left="33.5" Top="5.5" />
+      <MovementProvider>
+        <Conditions>
+          <Condition Has="False" Item="Room/DevLand_19/AutoSpeak2" />
+        </Conditions>
+      </MovementProvider>
+    </Obstacle>
+    <Obstacle Name="29d491c6-1184-4b72-9624-685300d9c91a" Template="Obstacle/Rock_1x5">
+      <GridPosition Left="5.5" Top="16.5" />
+      <MovementProvider>
+        <Conditions>
+          <Condition Has="False" Item="Room/DevLand_19/AutoSpeak2" />
+        </Conditions>
+      </MovementProvider>
+    </Obstacle>
+    <Obstacle Name="eeefbc6e-f76c-4a6c-b346-a6707b531f4c" Template="Obstacle/Rock_1x5">
+      <GridPosition Left="33.5" Top="16.5" />
+      <MovementProvider>
+        <Conditions>
+          <Condition Has="False" Item="Room/DevLand_19/AutoSpeak2" />
+        </Conditions>
+      </MovementProvider>
+    </Obstacle>
+    <Obstacle Name="fb9235d4-7503-4881-b55f-1994245a0ab1" Template="Obstacle/Truss">
+      <GridPosition Left="19.5" Top="7" />
+      <MovementProvider>
+        <Conditions>
+          <Condition Has="True" Item="Room/DevLand_19/AutoSpeak2" />
+          <Condition Has="False" Item="Room/DevLand_19/AutoSpeak3" />
+        </Conditions>
+      </MovementProvider>
+    </Obstacle>
+  </Obstacles>
+  <Directors>
+    <Director Name="48e681f2-61b0-46ee-bf50-dd26a0909935" Template="Director/Linear_Right">
+      <GridPosition Left="5" Top="5.5" />
+    </Director>
+    <Director Name="80ad4d10-8a8a-4be3-8227-a3afb3367379" Template="Director/Linear_Right">
+      <GridPosition Left="5" Top="11" />
+    </Director>
+    <Director Name="2c727da5-6fe4-4bc5-bf0b-6fa0f5112d0d" Template="Director/Linear_Right">
+      <GridPosition Left="5" Top="16.5" />
+    </Director>
+    <Director Name="23a0e7fa-0bda-405c-88a8-45ac92ae45dc" Template="Director/Linear_Left">
+      <GridPosition Left="34" Top="16.5" />
+    </Director>
+    <Director Name="363769d1-9553-45c0-bd10-797cf9bde28f" Template="Director/Linear_Left">
+      <GridPosition Left="34" Top="11" />
+    </Director>
+    <Director Name="419fca94-53cc-4ad5-8de0-e40c6b91f20f" Template="Director/Linear_Left">
+      <GridPosition Left="34" Top="5.5" />
+    </Director>
+    <Director Name="8c61228f-9fe0-4244-ad09-720234b28ac5" Template="Director/Linear_Down">
+      <GridPosition Left="19.5" Top="7" />
+    </Director>
+    <Director Name="3fad437e-69fa-414d-9274-d01f55436760" Template="Director/Stop">
+      <GridPosition Left="21.5" Top="0" />
+    </Director>
+    <Director Name="3e95d0b6-f233-4c51-a86b-68f1dce4bc9d" Template="Director/Stop">
+      <GridPosition Left="19.5" Top="23" />
+    </Director>
+  </Directors>
+  <SpawnPoints />
+  <Speakers>
+    <Speaker Name="3b9acbf3-8f6e-4920-9019-cff9c708b324" Template="Speaker/AutoSpeak">
+      <GridPosition Left="19.5" Top="6" />
+      <Conversations>
+        <Conversation>
+          <Conditions>
+            <Condition Has="False" Item="Room/DevLand_19/AutoSpeak1" Quantity="1" />
+          </Conditions>
+          <Sentences>
+            <Sentence Speaker="Speaker/Developer">Enough with the games. Prepare to die!</Sentence>
+          </Sentences>
+          <Transactions>
+            <Transaction Type="Add" Item="Room/DevLand_19/AutoSpeak1" Quantity="1" />
+          </Transactions>
+        </Conversation>
+      </Conversations>
+    </Speaker>
+    <Speaker Name="5e855794-b62b-4c58-9e00-55c2fb4c7995" Template="Speaker/AutoSpeak">
+      <GridPosition Left="5" Top="6.5" />
+      <Conversations>
+        <Conversation>
+          <Conditions>
+            <Condition Has="False" Item="Room/DevLand_19/AutoSpeak2" Quantity="1" />
+          </Conditions>
+          <Sentences>
+            <Sentence Speaker="Character/Chris">Haha!</Sentence>
+            <Sentence Speaker="Character/Chris">Haha! Haha!</Sentence>
+            <Sentence Speaker="Character/Chris">Haha! Haha! Haha!</Sentence>
+            <Sentence Speaker="Speaker/Developer">What's so funny? I'm about to destroy you, once and for all!</Sentence>
+            <Sentence Speaker="Character/Chris">I'm just a video game character, remember?</Sentence>
+            <Sentence Speaker="Character/Chris">You're about to destroy hundreds of hours you spent building this game!</Sentence>
+            <Sentence Speaker="Character/Chris">Haha! Haha! Haha!</Sentence>
+            <Sentence Speaker="Speaker/Developer">Aarghhhh! I... I can't do it!</Sentence>
+            <Sentence Speaker="Character/Chris">Back down, developer! You cannot destroy me!</Sentence>
+          </Sentences>
+          <Transactions>
+            <Transaction Type="Add" Item="Room/DevLand_19/AutoSpeak2" Quantity="1" />
+          </Transactions>
+        </Conversation>
+      </Conversations>
+    </Speaker>
+  </Speakers>
+  <MusicPoints />
+  <Switches />
+</Room>

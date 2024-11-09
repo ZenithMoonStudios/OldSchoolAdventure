@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="2560" Height="720" />
+  <Lighting Axis="X">
+    <Start GridPosition="20">
+      <Color Red="255" Green="0" Blue="0" Alpha="255" />
+    </Start>
+    <Finish GridPosition="60">
+      <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </Finish>
+  </Lighting>
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 1/DevLand" />
+    <Background Path="Tile/Background/Layer 2/OutHorizontal">
+      <ScrollRate X="0.5" Y="0.5" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="80" Height="24" />
+      <Rows>
+        <Row Tiles="xxxxxxxOOOOxxxxxxxxxxxxOOOOxxxxxxxxxxxxxxxxxxxxxxOOOOOOOOOOxxxxxxxxxxxOIIIIOOOxx" />
+        <Row Tiles="xxxxOOOOOOOOOOOxxxxOOOOOOOOOOxxxxxxxxxxxxxxxxxOOOOOOOOOOOOOOOxxxxxxxxxOIIIIOOOxx" />
+        <Row Tiles="xxxOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOXXOXXOXXOOOOxxxxxxOOOIIIIOOOxx" />
+        <Row Tiles="xxxOO00000000000OOO0000000000000000000000000000000XX0XX0XXOOOOOOOOOOOOOIIIIOOxxx" />
+        <Row Tiles="xxOOO00000000000OOO0000000000000000000000000000000XX0XX0XX00000000000000000OOxxx" />
+        <Row Tiles="xxOOO00000000000OOO0000000000000000000000000000000XX0XX0XX00000000000000000OOxxx" />
+        <Row Tiles="xxOOO00000000000OOO0000000000000000000000000000000XX0XX0XX00000000000000000OOxxx" />
+        <Row Tiles="xxOOX000XOOOOOOOOOO00000^^^X000000________00000000XX0XX0XXOOOOOOOO000OO____OOxxx" />
+        <Row Tiles="xxOOX000XOOOOOOOOOO00000^^^X0000000^^^^00000000000XX0XX0XXOOOxxxOO000OO0000Oxxxx" />
+        <Row Tiles="xOOOX000XOOOOOOOOOO00000^^^X0000000^^^^XXXX0000000XX0XX0XXOxxxxxOO000000000Oxxxx" />
+        <Row Tiles="xOOOX000XO000000OOO00000^^^X0000000^^^^XXXX0000000XX0XX0XXOxxxxxOO000000000Oxxxx" />
+        <Row Tiles="xOOOX000XO00000000000000^^^X0000XXX^^^^XXXX0000000XX0XX0XXOOxxxxxO000000000Oxxxx" />
+        <Row Tiles="xOOOX000XO00000000000000^^^X^^^^XXX^^^^XXXX^^^^^^^^^^XX^XXOOxxxxxOOOOOO0000OOxxx" />
+        <Row Tiles="xOOOX000XO00000000000000000X^^^^XXX^^^^XXXX^^^^^^^^^^XX^XXOOOOxxxOOOOOO0000OOxxx" />
+        <Row Tiles="xOOOX000XOOOOOOOOOO00000000X^^^^XXX^^^^XXXX^XX^^^^^^^XX^XXOOOOOOxxOOOOO0000OOxxx" />
+        <Row Tiles="xOOOX000XOOOOOOOOOO00000000O^^^^XXX^^^^XXXX^XX^^^^^^^^^^XXOOOOOOOxxxxOO0000OOxxx" />
+        <Row Tiles="xOOOO000000000OOOOO00000000O^^^^XXX^^^^XXXX^XX^^^^^^^^^^XXXXXXXOOxxxxOO0000OOOxx" />
+        <Row Tiles="xxOOO00000000000OOO00000000X^^^^^^^^^^^XXXX^XX^XX^^^^^^^^^^^^^XOOxxxxOO0000OOOxx" />
+        <Row Tiles="xxOOO0000000000000000000000X^^^^^^^^^^^XXXX^XX^XX^^^^^^^^^^^^^XOOOxxxxO0000OOOxx" />
+        <Row Tiles="xxOOO0000000000000000000000X^^^^^^^^^^^XXXX^XX^XX^XX^^^^^^^^^^XOOOxxxxO0000OOOxx" />
+        <Row Tiles="xxOOO0000000000000000000000X^^^^^^^^^^^XXXX^XX^XX^XX^XX^^^^^^^XOOOxxxxO0000OOOxx" />
+        <Row Tiles="xxOOOOOOOOOOOOOOOOOOOOOOOOOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXOOOxxxxOOOOOOOxxx" />
+        <Row Tiles="xxOOOOOOxxxxxxxxxxxxxOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOxxxxxxOOOOOOxxx" />
+        <Row Tiles="xxxOOxxxxxxxxxxxxxxxxxxxxOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOxxxxxxxxxxOOxxxx" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Plain">
+      <GridPosition Left="10.5" Top="6" />
+      <Target Room="Room/DevLand_32" ObjectName="Out" />
+    </Door>
+    <Door Name="Out" Template="Door/Plain">
+      <GridPosition Left="72.5" Top="20" />
+      <Target Room="Room/DevLand_19" ObjectName="In" />
+    </Door>
+    <Door Name="2a39c620-c6dd-473e-8a84-8d4b35e59dd2" Template="Door/Gold">
+      <GridPosition Left="24.5" Top="20" />
+      <MovementProvider>
+        <Conditions>
+          <Condition Has="True" Item="Room/DevLand_18/AutoSpeak1" />
+        </Conditions>
+      </MovementProvider>
+      <Target Room="" ObjectName="" />
+    </Door>
+    <Door Name="WarpIn" Template="Door/Plain">
+      <GridPosition Left="59.5" Top="19" />
+      <Target Room="Room/DevLand_18" ObjectName="WarpOut" />
+    </Door>
+    <Door Name="WarpOut" Template="Door/Plain">
+      <GridPosition Left="59.5" Top="6" />
+      <Target Room="Room/DevLand_18" ObjectName="WarpIn" />
+    </Door>
+  </Doors>
+  <Collectibles />
+  <Obstacles>
+    <Obstacle Name="14b5ab3d-83f3-4b75-af08-f6fe28c26d81" Template="Obstacle/Rock_2x2">
+      <GridPosition Left="17" Top="12" />
+      <MovementProvider>
+        <Conditions>
+          <Condition Has="True" Item="Room/DevLand_18/AutoSpeak1" />
+        </Conditions>
+      </MovementProvider>
+    </Obstacle>
+    <Obstacle Name="ecc3f2ac-2759-4d3d-a7a5-c5bfb1dc0adb" Template="Obstacle/Spike_2x2">
+      <GridPosition Left="72.5" Top="19.5" />
+      <MovementProvider>
+        <Conditions>
+          <Condition Has="True" Item="Room/DevLand_18/AutoSpeak3" />
+        </Conditions>
+      </MovementProvider>
+    </Obstacle>
+    <Obstacle Name="0dd0a3b4-3bdd-49d0-8fce-96fccc61026e" Template="Enemy/FastSpike_Right">
+      <GridPosition Left="11" Top="13" />
+    </Obstacle>
+    <Obstacle Name="834596ca-39fe-42f2-a0a8-a627053dc30c" Template="Enemy/FastSpike_Right">
+      <GridPosition Left="14" Top="13" />
+    </Obstacle>
+  </Obstacles>
+  <Directors>
+    <Director Name="27bd87e2-8014-4d1d-a66d-2e53d9cc7cc2" Template="Director/Linear_Down">
+      <GridPosition Left="24.5" Top="19" />
+    </Director>
+    <Director Name="e4a91a35-9965-45db-a69b-5666cb4510b1" Template="Director/Stop">
+      <GridPosition Left="24.5" Top="23" />
+    </Director>
+    <Director Name="6d6982f8-6d5a-413b-9b8b-a010af67e54b" Template="Director/Linear_Up">
+      <GridPosition Left="17" Top="13" />
+    </Director>
+    <Director Name="880a8828-6736-4e37-a28c-1325194a9df9" Template="Director/Stop">
+      <GridPosition Left="17" Top="8" />
+    </Director>
+    <Director Name="5dd3f9b4-74c3-400b-b255-51e2ab5b5622" Template="Director/Stop">
+      <GridPosition Left="72.5" Top="0.5" />
+    </Director>
+    <Director Name="05ea9e77-ce78-4cac-902f-e9bf422682d3" Template="Director/Linear_Up">
+      <GridPosition Left="72.5" Top="18.5" />
+    </Director>
+  </Directors>
+  <SpawnPoints />
+  <Speakers>
+    <Speaker Name="54d3b8ab-2851-4901-a907-a4ad194dced3" Template="Speaker/AutoSpeak">
+      <GridPosition Left="17" Top="20" />
+      <Conversations>
+        <Conversation>
+          <Conditions>
+            <Condition Has="False" Item="Room/DevLand_18/AutoSpeak1" Quantity="1" />
+          </Conditions>
+          <Sentences />
+          <Transactions>
+            <Transaction Type="Add" Item="Room/DevLand_18/AutoSpeak1" Quantity="1" />
+          </Transactions>
+        </Conversation>
+      </Conversations>
+    </Speaker>
+    <Speaker Name="aba37a1f-7634-4e76-9158-436a9a8f664b" Template="Speaker/AutoSpeak">
+      <GridPosition Left="10.5" Top="6" />
+      <Conversations>
+        <Conversation>
+          <Conditions>
+            <Condition Has="True" Item="Room/DevLand_18/AutoSpeak1" Quantity="1" />
+          </Conditions>
+          <Sentences />
+          <Transactions>
+            <Transaction Type="Remove" Item="Room/DevLand_18/AutoSpeak1" Quantity="1" />
+          </Transactions>
+        </Conversation>
+      </Conversations>
+    </Speaker>
+    <Speaker Name="5bf7cd29-0e0d-4778-bc19-e44c66fada97" Template="Speaker/AutoSpeak">
+      <GridPosition Left="74" Top="6" />
+      <Conversations>
+        <Conversation>
+          <Conditions>
+            <Condition Has="False" Item="Room/DevLand_18/AutoSpeak3" Quantity="1" />
+          </Conditions>
+          <Sentences />
+          <Transactions>
+            <Transaction Type="Add" Item="Room/DevLand_18/AutoSpeak3" Quantity="1" />
+          </Transactions>
+        </Conversation>
+      </Conversations>
+    </Speaker>
+    <Speaker Name="aba37a1f-7634-4e76-9158-436a9a8f664c" Template="Speaker/AutoSpeak">
+      <GridPosition Left="10.5" Top="6.5" />
+      <Conversations>
+        <Conversation>
+          <Conditions>
+            <Condition Has="True" Item="Room/DevLand_18/AutoSpeak3" Quantity="1" />
+          </Conditions>
+          <Sentences />
+          <Transactions>
+            <Transaction Type="Remove" Item="Room/DevLand_18/AutoSpeak3" Quantity="1" />
+          </Transactions>
+        </Conversation>
+      </Conversations>
+    </Speaker>
+    <Speaker Name="b134f80e-1c04-4fc4-aaec-e5b00cc2fd0c" Template="Speaker/SignPost">
+      <GridPosition Left="72.5" Top="6" />
+      <Conversations>
+        <Conversation>
+          <Conditions />
+          <Sentences>
+            <Sentence Speaker="Speaker/SignPost">Look down!</Sentence>
+          </Sentences>
+          <Transactions />
+        </Conversation>
+      </Conversations>
+    </Speaker>
+  </Speakers>
+  <MusicPoints />
+  <Switches />
+</Room>

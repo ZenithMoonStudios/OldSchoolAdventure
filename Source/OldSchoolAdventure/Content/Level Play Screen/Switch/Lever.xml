@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SwitchTemplate VerticalAlignment="Bottom" RenderMode="Collision">
+	<Size Width="30" Height="50" />
+	<Audio>
+		<Cue Name="LeverPull" Event="OnToggle" />
+	</Audio>
+</SwitchTemplate>

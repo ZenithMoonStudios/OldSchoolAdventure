@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Level>
+	<Introduction Background="FireLand">
+		<Page>
+			<Line>Chris Unarmed soldiers forward with renewed</Line>
+			<Line>confidence.</Line>
+			<Line />
+			<Line>The armor that he wears carries amazing</Line>
+			<Line>strength. Only molten lava is known to damage</Line>
+			<Line>it, and it is extremely unlikely that such</Line>
+			<Line>terrain would be found in this adventure.</Line>
+		</Page>
+	</Introduction>
+	<Rooms>
+		<Room Path="Room/FireLand_1" />
+		<Room Path="Room/FireLand_2" />
+		<Room Path="Room/FireLand_3" />
+		<Room Path="Room/FireLand_4" />
+		<Room Path="Room/FireLand_5" />
+		<Room Path="Room/FireLand_6" />
+		<Room Path="Room/FireLand_7" />
+		<Room Path="Room/FireLand_8" />
+		<Room Path="Room/FireLand_9" />
+		<Room Path="Room/FireLand_10" />
+		<Room Path="Room/FireLand_11" />
+		<Room Path="Room/FireLand_12" />
+		<Room Path="Room/FireLand_13" />
+		<Room Path="Room/FireLand_14" />
+		<Room Path="Room/FireLand_15" />
+		<Room Path="Room/FireLand_16" />
+    <Room Path="Room/FireLand_17" />
+    <Room Path="Room/ConveyorLand_1" />
+		<Room Path="Room/ConveyorLand_2" />
+		<Room Path="Room/ConveyorLand_3" />
+		<Room Path="Room/ConveyorLand_4" />
+		<Room Path="Room/ConveyorLand_5" />
+		<Room Path="Room/ConveyorLand_6" />
+		<Room Path="Room/ConveyorLand_7" />
+		<Room Path="Room/ConveyorLand_8" />
+		<Room Path="Room/ConveyorLand_9" />
+		<Room Path="Room/ConveyorLand_10" />
+		<Room Path="Room/ConveyorLand_11" />
+		<Room Path="Room/ConveyorLand_12" />
+		<Room Path="Room/ConveyorLand_13" />
+		<Room Path="Room/ConveyorLand_14" />
+		<Room Path="Room/ConveyorLand_15" />
+    <Room Path="Room/ConveyorLand_16" />
+    <Room Path="Room/ConveyorLand_17" />
+    <Room Path="Room/SpikeLand_1" />
+		<Room Path="Room/SpikeLand_2" />
+		<Room Path="Room/SpikeLand_3" />
+		<Room Path="Room/SpikeLand_4" />
+		<Room Path="Room/SpikeLand_5" />
+		<Room Path="Room/SpikeLand_6" />
+		<Room Path="Room/SpikeLand_7" />
+		<Room Path="Room/SpikeLand_8" />
+		<Room Path="Room/SpikeLand_9" />
+		<Room Path="Room/SpikeLand_10" />
+		<Room Path="Room/SpikeLand_11" />
+		<Room Path="Room/SpikeLand_12" />
+		<Room Path="Room/SpikeLand_13" />
+		<Room Path="Room/SpikeLand_14" />
+	</Rooms>
+	<StartDoor Room="Room/FireLand_1" ObjectName="In" />
+	<EndDoor Room="Room/DevLand_1" ObjectName="In" />
+</Level>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Level>
+	<Introduction Background="ConveyorLand">
+		<Page>
+			<Line>Chris Unarmed emerges from the darkness,</Line>
+			<Line>soaring through the air in flying boots.</Line>
+			<Line />
+			<Line>Easily defeated by Mango in their recent</Line>
+			<Line>encounter and banished to the darkness above</Line>
+			<Line>the spiky colorful place, Chris Unarmed</Line>
+			<Line>realizes that he must face Mango once more!</Line>
+		</Page>
+		<Page>
+			<Line>Meanwhile, in the depths of the spiky colorful</Line>
+			<Line>place, a tall spiky monster returns home to</Line>
+			<Line>his family.</Line>
+			<Line />
+			<Line>And future generations will share the tale of</Line>
+			<Line>the unspiked one who emerged from darkness</Line>
+			<Line>and stole the sacred flying boots.</Line>
+		</Page>
+	</Introduction>
+	<Rooms>
+		<Room Path="Room/ConveyorLand_1" />
+		<Room Path="Room/ConveyorLand_2" />
+		<Room Path="Room/ConveyorLand_3" />
+		<Room Path="Room/ConveyorLand_4" />
+		<Room Path="Room/ConveyorLand_5" />
+		<Room Path="Room/ConveyorLand_6" />
+		<Room Path="Room/ConveyorLand_7" />
+		<Room Path="Room/ConveyorLand_8" />
+		<Room Path="Room/ConveyorLand_9" />
+		<Room Path="Room/ConveyorLand_10" />
+		<Room Path="Room/ConveyorLand_11" />
+		<Room Path="Room/ConveyorLand_12" />
+		<Room Path="Room/ConveyorLand_13" />
+		<Room Path="Room/ConveyorLand_14" />
+		<Room Path="Room/ConveyorLand_15" />
+    <Room Path="Room/ConveyorLand_16" />
+    <Room Path="Room/ConveyorLand_17" />
+    <Room Path="Room/SpikeLand_1" />
+		<Room Path="Room/SpikeLand_2" />
+		<Room Path="Room/SpikeLand_3" />
+		<Room Path="Room/SpikeLand_4" />
+		<Room Path="Room/SpikeLand_5" />
+		<Room Path="Room/SpikeLand_6" />
+		<Room Path="Room/SpikeLand_7" />
+		<Room Path="Room/SpikeLand_8" />
+		<Room Path="Room/SpikeLand_9" />
+		<Room Path="Room/SpikeLand_10" />
+		<Room Path="Room/SpikeLand_11" />
+		<Room Path="Room/SpikeLand_12" />
+		<Room Path="Room/SpikeLand_13" />
+		<Room Path="Room/SpikeLand_14" />
+		<Room Path="Room/FireLand_16" />
+	</Rooms>
+	<StartDoor Room="Room/ConveyorLand_1" ObjectName="In" />
+	<EndDoor Room="Room/IceLand_1" ObjectName="In" />
+</Level>

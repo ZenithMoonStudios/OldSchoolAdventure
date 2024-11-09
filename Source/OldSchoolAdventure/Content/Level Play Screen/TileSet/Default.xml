@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TileSet>
+	<TileSize Width="32" Height="30" />
+	<TileTemplates>
+		<TileTemplate Path="Tile/Black" GridSymbol="x" Height="0" />
+		<TileTemplate Path="Tile/Invisible" GridSymbol="i" Height="0" />
+		<TileTemplate Path="Tile/Wind_Up" GridSymbol="^" Height="0" />
+		<TileTemplate Path="Tile/Ice" GridSymbol="I" Height="1" />
+		<TileTemplate Path="Tile/Fire" GridSymbol="F" Height="2" />
+		<TileTemplate Path="Tile/Goop" GridSymbol="G" Height="2" />
+		<TileTemplate Path="Tile/ConveyorBelt_Left" GridSymbol="L" Height="3" />
+		<TileTemplate Path="Tile/ConveyorBelt_Right" GridSymbol="R" Height="3" />
+		<TileTemplate Path="Tile/WoodLog" GridSymbol="_" Height="4" />
+		<TileTemplate Path="Tile/Spike" GridSymbol="X" Height="5" />
+		<TileTemplate Path="Tile/Spike_Horizontal" GridSymbol="H" Height="5" />
+		<TileTemplate Path="Tile/Grass" GridSymbol="W" Height="6" />
+		<TileTemplate Path="Tile/Rock" GridSymbol="O" Height="7" />
+		<TileTemplate Path="Tile/RockShooter_Left" GridSymbol="{" Height="7" />
+		<TileTemplate Path="Tile/RockShooter_Right" GridSymbol="}" Height="7" />
+		<TileTemplate Path="Tile/RockShooter_Down" GridSymbol="D" Height="7" />
+	</TileTemplates>
+</TileSet>

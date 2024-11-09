@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CollectibleTemplate ShowCarry="true">
+	<Size Width="18" Height="30" />
+	<Audio>
+		<Cue Name="KeyCollect" Event="OnCollect" />
+	</Audio>
+</CollectibleTemplate>

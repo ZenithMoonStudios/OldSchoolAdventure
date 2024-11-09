@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="1280" Height="720" />
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 1/DevLand" />
+    <Background Path="Tile/Background/Layer 2/OutVertical">
+      <ScrollRate X="0.5" Y="0.5" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="40" Height="24" />
+      <Rows>
+        <Row Tiles="xxxxxxxxxxxxxOOOOOOOOOOOOxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxOOOOOOOOOOOOOOOOOOxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxOOOOOOOOOOOOOOOOOOOOOOOxxxxxxxxxx" />
+        <Row Tiles="xxxxxxOOOOOOOO000000000000OOOOOOOOxxxxxx" />
+        <Row Tiles="xxxxxOOOOO00000000000000000000OOOOOxxxxx" />
+        <Row Tiles="xxxxxOOO000000000000000000000000OOOxxxxx" />
+        <Row Tiles="xxxxxOO00000000000000000000000000OOOxxxx" />
+        <Row Tiles="xxxxxOO00000000000____00000000000OOOxxxx" />
+        <Row Tiles="xxxxOO0000000000000^^0000000000000OOxxxx" />
+        <Row Tiles="xxxxOO0000000000000^^0000000000000OOxxxx" />
+        <Row Tiles="xxxxOO0000000000000^^0000000000000OOOxxx" />
+        <Row Tiles="xxxOOO0000000000000000000000000000OOOxxx" />
+        <Row Tiles="xxxOO000000000000000000000000000000OOxxx" />
+        <Row Tiles="xxxOO000000000____________000000000OOxxx" />
+        <Row Tiles="xxxOO000000000000000000000000000000OOxxx" />
+        <Row Tiles="xxxOO000000000000000000000000000000OOxxx" />
+        <Row Tiles="xxOOO000000000000000000000000000000OOOxx" />
+        <Row Tiles="xxOOO000__________0000__________000OOOxx" />
+        <Row Tiles="xOOOO000000000000000000000000000000OOOxx" />
+        <Row Tiles="xOOOO000000000000000000000000000000OOOxx" />
+        <Row Tiles="xOOOO000000000000000000000000000000OOOOx" />
+        <Row Tiles="xxOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOx" />
+        <Row Tiles="xxxOOOOOOOxxxxxxxxxxxxxxxxxxxxxOOOOOOOxx" />
+        <Row Tiles="xxxxOOOxxxxxxxxxxxxxxxxxxxxxxxxxxxOOxxxx" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Plain">
+      <GridPosition Left="19.5" Top="20" />
+      <Target Room="Room/DevLand_5" ObjectName="Out" />
+    </Door>
+    <Door Name="Out" Template="Door/Plain">
+      <GridPosition Left="19.5" Top="6" />
+      <Target Room="Room/DevLand_7" ObjectName="In" />
+    </Door>
+  </Doors>
+  <Obstacles>
+    <Obstacle Name="eb752694-8f95-4f36-8952-248afd78b9dc" Template="Enemy/Zombie_Right">
+      <GridPosition Left="9" Top="16" />
+      <Conditions>
+        <Condition Has="False" Item="Collectible/Mode_Easy" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="47574ccf-0f5f-44f6-8fe8-b6427042725f" Template="Enemy/Zombie_Left">
+      <GridPosition Left="30" Top="16" />
+      <Conditions>
+        <Condition Has="False" Item="Collectible/Mode_Easy" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="19e7e789-a684-4888-85de-02a645c8b429" Template="Enemy/Zombie_Right">
+      <GridPosition Left="11" Top="16" />
+    </Obstacle>
+    <Obstacle Name="617dc5f9-bcda-4c9e-bcb5-ec296fa66109" Template="Enemy/Zombie_Right">
+      <GridPosition Left="13" Top="16" />
+    </Obstacle>
+    <Obstacle Name="c0e69533-cfac-4349-a070-7c3ee8daf457" Template="Enemy/Zombie_Left">
+      <GridPosition Left="28" Top="16" />
+    </Obstacle>
+    <Obstacle Name="8eccdf80-865f-4b1c-afb9-c742048d9c79" Template="Enemy/Zombie_Left">
+      <GridPosition Left="26" Top="16" />
+    </Obstacle>
+    <Obstacle Name="039a42ea-8a55-48c9-85de-153af289f8d4" Template="Enemy/Zombie_Left">
+      <GridPosition Left="24" Top="12" />
+      <Conditions>
+        <Condition Has="False" Item="Collectible/Mode_Easy" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="8603ec09-775f-43fc-b3f1-32c787bad5aa" Template="Enemy/Zombie_Left">
+      <GridPosition Left="22" Top="12" />
+    </Obstacle>
+    <Obstacle Name="6605842c-b1c0-4f80-9ea4-875d7a211ce5" Template="Enemy/Zombie_Right">
+      <GridPosition Left="15" Top="12" />
+      <Conditions>
+        <Condition Has="False" Item="Collectible/Mode_Easy" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="1303924a-1f4b-4dd6-a814-42cb89eb730c" Template="Enemy/Zombie_Right">
+      <GridPosition Left="17" Top="12" />
+    </Obstacle>
+  </Obstacles>
+  <Directors />
+  <SpawnPoints />
+  <Collectibles />
+  <Speakers />
+  <MusicPoints />
+  <Switches />
+</Room>

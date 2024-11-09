@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="1280" Height="720" />
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 1/ConveyorLand" />
+    <Background Path="Tile/Background/Layer 2/In">
+      <ScrollRate X="0.5" Y="0.5" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="40" Height="24" />
+      <Rows>
+        <Row Tiles="xxxxxxxOOXIIIIXOOOxxxxxOOXIIIIXOOxxxxxxx" />
+        <Row Tiles="xxxxOOOOOXIIIIXOOOxxxOOOOXIIIIXOOOOOxxxx" />
+        <Row Tiles="xxOOOOOOOXIIIIXOOOOOOOOOOXXXXXXOOOOOOxxx" />
+        <Row Tiles="xxxOO0000XIIIIX00000000000XXXX00000OOOxx" />
+        <Row Tiles="xxxOO0000XIIIIX00000000000000000000OOOxx" />
+        <Row Tiles="xxxOO0000XIIIIX00000000000000000000OOOxx" />
+        <Row Tiles="xxxxO0000XIIIIX00000000000000000000OOxxx" />
+        <Row Tiles="xxxxO0000XIIIIX00000000000000000000OOxxx" />
+        <Row Tiles="xxxxO0000XIIIIX00000000000000000000OOxxx" />
+        <Row Tiles="xxxxO0000XIIIIX00000000000XXXX00000OOxxx" />
+        <Row Tiles="xxxxO0000XIIIIX0000000000XXXXXX0000OOxxx" />
+        <Row Tiles="xxxxO0000XIIIIX0000000000XIIIIX0000OOxxx" />
+        <Row Tiles="xxxxO0000XIIIIX0000000000XIIIIX0000Oxxxx" />
+        <Row Tiles="xxxxO0000XXXXXX0000000000XIIIIX0000Oxxxx" />
+        <Row Tiles="xxxxO00000XXXX00000000000XIIIIX0000Oxxxx" />
+        <Row Tiles="xxxxO00000000000000000000XIIIIX0000Oxxxx" />
+        <Row Tiles="xxxOO00000000000000000000XIIIIX0000Oxxxx" />
+        <Row Tiles="xxxOO00000000000000000000XIIIIX0000OOxxx" />
+        <Row Tiles="xxxOO00000000000000000000XIIIIX0000OOxxx" />
+        <Row Tiles="xxxOO00000000000000000000XIIIIX0000OOxxx" />
+        <Row Tiles="xxxxO00000XXXX00000000000XIIIIX0000OOOxx" />
+        <Row Tiles="xxxxOOOOOXXXXXXOOOOOOOOOOXIIIIXOOOOOOOxx" />
+        <Row Tiles="xxxxxxOOOXIIIIXOOOxxxxOOOXIIIIXOOOOOOxxx" />
+        <Row Tiles="xxxxxxxxOXIIIIXOxxxxxxxxOXIIIIXOOxxxxxxx" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Plain">
+      <GridPosition Left="32.5" Top="20" />
+      <Target Room="Room/ConveyorLand_12" ObjectName="Out" />
+    </Door>
+    <Door Name="Out" Template="Door/Plain">
+      <GridPosition Left="6.5" Top="5" />
+      <Target Room="Room/ConveyorLand_10" ObjectName="Top" />
+    </Door>
+  </Doors>
+  <Collectibles>
+  </Collectibles>
+  <Obstacles>
+    <Obstacle Name="faef2bac-2038-4c21-87a8-fbe6d3094690" Template="Obstacle/Fireball">
+      <GridPosition Left="19.5" Top="11.5" />
+    </Obstacle>
+    <Obstacle Name="a63a8874-10e6-41ed-b19a-967d336d8efb" Template="Obstacle/Fireball">
+      <GridPosition Left="17.5" Top="11.5" />
+    </Obstacle>
+    <Obstacle Name="4d66aa27-d755-4136-8cb3-0c50ff3cd342" Template="Obstacle/Fireball">
+      <GridPosition Left="15.5" Top="11.5" />
+    </Obstacle>
+    <Obstacle Name="47c615ea-ac2d-4ae2-9460-65b17a9ba8bb" Template="Obstacle/Fireball">
+      <GridPosition Left="13.5" Top="11.5" />
+    </Obstacle>
+    <Obstacle Name="37f8cb7a-b7e5-40e1-bb95-0edb5b11fedd" Template="Obstacle/Fireball">
+      <GridPosition Left="11.5" Top="11.5" />
+    </Obstacle>
+    <Obstacle Name="f3d6c348-796d-4c84-8652-dcea08a89e82" Template="Obstacle/Fireball">
+      <GridPosition Left="9.5" Top="11.5" />
+    </Obstacle>
+    <Obstacle Name="15fd5995-31b0-4d66-8cb6-dd86d23ab4bd" Template="Obstacle/Fireball">
+      <GridPosition Left="21.5" Top="11.5" />
+      <Conditions>
+        <Condition Has="True" Item="Collectible/Mode_Hard" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="d09b77f3-8a7e-4642-99b1-d3111db25709" Template="Obstacle/Fireball">
+      <GridPosition Left="23.5" Top="11.5" />
+      <Conditions>
+        <Condition Has="True" Item="Collectible/Mode_Hard" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="b004f145-7d29-45a8-afb1-48283c4618c9" Template="Obstacle/Fireball">
+      <GridPosition Left="25.5" Top="11.5" />
+      <Conditions>
+        <Condition Has="True" Item="Collectible/Mode_Hard" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="56ca0c03-001b-4971-839b-7f2ac7854e9d" Template="Obstacle/Fireball">
+      <GridPosition Left="27.5" Top="11.5" />
+      <Conditions>
+        <Condition Has="True" Item="Collectible/Mode_Hard" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="e71f99fe-beaa-4aef-a83e-b07006f16acd" Template="Obstacle/Fireball">
+      <GridPosition Left="29.5" Top="11.5" />
+      <Conditions>
+        <Condition Has="True" Item="Collectible/Mode_Hard" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+  </Obstacles>
+  <Directors>
+    <Director Name="f3820f58-37b2-4372-9cdf-0b613327adaa" Template="Director/Circular_CW_R1">
+      <GridPosition Left="17.5" Top="11.5" />
+    </Director>
+    <Director Name="acb63bd1-6135-4fbc-87f0-03253db50c77" Template="Director/Circular_CW_R2">
+      <GridPosition Left="15.5" Top="11.5" />
+    </Director>
+    <Director Name="e5d56741-bd99-42bc-9e1d-e1c301d53145" Template="Director/Circular_CW_R3">
+      <GridPosition Left="13.5" Top="11.5" />
+    </Director>
+    <Director Name="8d876cbb-497b-4379-ba68-af8cdb16fb31" Template="Director/Circular_CW_R4">
+      <GridPosition Left="11.5" Top="11.5" />
+    </Director>
+    <Director Name="482d63ba-1c18-4c58-9b1f-04f2e13575d3" Template="Director/Circular_CW_R5">
+      <GridPosition Left="9.5" Top="11.5" />
+    </Director>
+    <Director Name="daeca8ff-b8cd-4c37-a510-26babcf1cff6" Template="Director/Circular_CW_L1">
+      <GridPosition Left="21.5" Top="11.5" />
+    </Director>
+    <Director Name="d69f9e78-ebd8-47e2-b9ae-1dbeaf316633" Template="Director/Circular_CW_L2">
+      <GridPosition Left="23.5" Top="11.5" />
+    </Director>
+    <Director Name="b244d815-70b8-46d5-9180-c720bff40a12" Template="Director/Circular_CW_L3">
+      <GridPosition Left="25.5" Top="11.5" />
+    </Director>
+    <Director Name="fc0edc6b-c055-49e4-8ed0-4b94558d6d76" Template="Director/Circular_CW_L4">
+      <GridPosition Left="27.5" Top="11.5" />
+    </Director>
+    <Director Name="314f8f15-10d7-4d07-af3d-aa26e887eb86" Template="Director/Circular_CW_L5">
+      <GridPosition Left="29.5" Top="11.5" />
+    </Director>
+  </Directors>
+  <SpawnPoints />
+  <Speakers />
+  <MusicPoints />
+  <Switches />
+</Room>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SpeakerTemplate VerticalAlignment="Bottom">
+	<Size Width="40" Height="52" />
+</SpeakerTemplate>

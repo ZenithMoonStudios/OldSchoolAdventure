@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Visuals>
+	<Sprites Texture="Hyperlinks">
+		<Sprite Name="Default"><TextureRegion Left="0" Top="32" Width="124" Height="16" /></Sprite>
+	</Sprites>
+	<Animations>
+		<Animation Name="Default" Sprite="Default"><DisplayOffset Width="-2" Height="-4" /></Animation>
+	</Animations>
+</Visuals>

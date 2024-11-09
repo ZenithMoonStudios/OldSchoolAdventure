@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="1280" Height="720" />
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 1/ConveyorLand" />
+    <Background Path="Tile/Background/Layer 2/In">
+      <ScrollRate X="0.5" Y="0.5" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="40" Height="24" />
+      <Rows>
+        <Row Tiles="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxOOOOOxxOOOOOOxxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxOOOOOOOOOOOOOOOxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxOOO000000000OOOxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxOOO000000000OOOxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxOO000000000OOOxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxOO0000OO000OOxxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxOO^^^^OO000OOxxxxxxxxxxxxxOOOOOOOxxxx" />
+        <Row Tiles="xxxOO^^^^OO000OOxxOOOOOOOOOOOOOOOOOOOxxx" />
+        <Row Tiles="xxxxO^^^^OO000OOOOOOOOOOOOOOOOOOOOOOOxxx" />
+        <Row Tiles="xxxxO^^^^OO0000000^^^^^^^^000000000OOOxx" />
+        <Row Tiles="xxxxO^^^^OO0000000^^^^^^^^000000000OOOxx" />
+        <Row Tiles="xxxxO^^^^OO000OOOO^^^^^^^^OOOOO0000OOxxx" />
+        <Row Tiles="xxxxO^^^^OO000OOOO^^^^^^^^OOOOO0000OOxxx" />
+        <Row Tiles="xxxOO^^^^OO000OOOO^^^^^^^^OOOOO0000OOxxx" />
+        <Row Tiles="xxxOO^^^^OO000OOOO^^^^^^^^OOOOO0000Oxxxx" />
+        <Row Tiles="xxxOO0000OO000OOOO00000000OOOOO__00Oxxxx" />
+        <Row Tiles="xxxOO0000OO000OOOO00000000OOOOO0000Oxxxx" />
+        <Row Tiles="xxOOO0000OO000000000000000000000000OOxxx" />
+        <Row Tiles="xxOOO0000OO000000000000000000000000OOxxx" />
+        <Row Tiles="xxOOO0000OO000000000000000000000000OOxxx" />
+        <Row Tiles="xxOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOxx" />
+        <Row Tiles="xxxOOOOOOOOOOOOOxxxxxxxOOOOOOOOOOOOOOOxx" />
+        <Row Tiles="xxxxxxxOOOOOOxxxxxxxxxxxxxxxxOOOOOOOxxxx" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Plain">
+      <GridPosition Left="32.5" Top="20" />
+      <Target Room="Room/ConveyorLand_14" ObjectName="Out" />
+    </Door>
+    <Door Name="Out" Template="Door/Plain">
+      <GridPosition Left="6.5" Top="20" />
+      <Target Room="Room/ConveyorLand_16" ObjectName="In" />
+    </Door>
+  </Doors>
+  <Collectibles />
+  <Obstacles>
+    <Obstacle Name="5f5baedf-eb29-420f-8bc0-f00466c08456" Template="Enemy/Copier">
+      <GridPosition Left="30" Top="20" />
+      <Conditions>
+        <Condition Has="False" Item="Collectible/Mode_Easy" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="51244d47-7fa3-431c-893f-c8ef7a8d326a" Template="Enemy/SlowShooter_Right">
+      <GridPosition Left="12" Top="20" />
+      <Conditions>
+        <Condition Has="False" Item="Collectible/Mode_Normal" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+  </Obstacles>
+  <Directors />
+  <SpawnPoints />
+  <Speakers />
+  <MusicPoints />
+  <Switches />
+</Room>

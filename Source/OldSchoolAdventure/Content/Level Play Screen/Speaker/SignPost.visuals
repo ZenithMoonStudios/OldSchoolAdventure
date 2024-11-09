@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Visuals>
+	<Sprites>
+		<Sprite Name="Default"><TextureRegion Left="0" Top="0" Width="40" Height="52" /></Sprite>
+		<Sprite Name="Speak"><TextureRegion Left="40" Top="0" Width="80" Height="100" /></Sprite>
+	</Sprites>
+	<Animations>
+		<Animation Name="Default" Sprite="Default" />
+		<Animation Name="Speak" Sprite="Speak" />
+	</Animations>
+</Visuals>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TileTemplate CompensateForGravityChanges="true">
+	<Acceleration Y="-0.6" />
+	<TileSize Width="32" Height="30" />
+	<Left IsSolid="false" />
+	<Top IsSolid="false" />
+	<Right IsSolid="false" />
+	<Bottom IsSolid="false" />
+</TileTemplate>

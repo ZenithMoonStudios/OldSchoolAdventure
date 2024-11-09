@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CharacterTemplate VerticalAlignment="Bottom" RenderMode="Movement">
+	<Size Width="31" Height="47" />
+	<Left IsSolid="false" />
+	<Top IsSolid="false" />
+	<Right IsSolid="false" />
+	<Bottom IsSolid="false" />
+	<MovementProvider Name="RunAndJump" MaxHorizontalSpeed="5" FlyAcceleration="0.4" IntelligenceAlgorithm="UserInput" DeathDuration="120" />
+	<Audio>
+		<Cue Name="MainCharacterDie" Event="OnDie" />
+		<Cue Name="MainCharacterJump" Event="OnJump" />
+		<Cue Name="MainCharacterWallJump" Event="OnWallJump" />
+	</Audio>
+</CharacterTemplate>

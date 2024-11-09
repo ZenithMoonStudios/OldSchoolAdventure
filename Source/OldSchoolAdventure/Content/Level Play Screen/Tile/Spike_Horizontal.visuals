@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Visuals>
+	<Sprites>
+		<Sprite Name="0010"><TextureRegion Left="0" Top="0" Width="41" Height="36" /></Sprite>
+		<Sprite Name="1000"><TextureRegion Left="73" Top="0" Width="41" Height="36" /></Sprite>
+		<Sprite Name="1010"><TextureRegion Left="41" Top="0" Width="32" Height="36" /></Sprite>
+	</Sprites>
+	<Animations>
+		<Animation Name="0000" Sprite="1010"><DisplayOffset Width="0" Height="-3" /></Animation>
+		<Animation Name="0010" Sprite="0010"><DisplayOffset Width="-9" Height="-3" /></Animation>
+		<Animation Name="1000" Sprite="1000"><DisplayOffset Width="0" Height="-3" /></Animation>
+		<Animation Name="1010" Sprite="1010"><DisplayOffset Width="0" Height="-3" /></Animation>
+	</Animations>
+</Visuals>

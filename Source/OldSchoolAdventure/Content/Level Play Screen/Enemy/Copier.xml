@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EnemyTemplate VerticalAlignment="Bottom" RenderMode="Movement" Offense="2" Defense="2">
+	<Size Width="31" Height="47" />
+	<Left IsSolid="false" />
+	<Top IsSolid="false" />
+	<Right IsSolid="false" />
+	<Bottom IsSolid="false" />
+	<MovementProvider Name="RunAndJump" IntelligenceAlgorithm="UserInput" />
+</EnemyTemplate>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TileTemplate Friction="0.5" Offense="1">
+	<TileSize Width="32" Height="30" />
+	<Left IsSolid="true" Friction="0" />
+	<Top IsSolid="true" IsDeadly="false" />
+	<Right IsSolid="true" Friction="0" />
+	<Bottom IsSolid="true" IsDeadly="false" />
+</TileTemplate>

@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Visuals>
+	<Sprites Texture="ConveyorBelt">
+		<Sprite Name="0000_1"><TextureRegion Left="160" Top="0" Width="40" Height="38" /></Sprite>
+		<Sprite Name="0000_2"><TextureRegion Left="120" Top="0" Width="40" Height="38" /></Sprite>
+		<Sprite Name="0000_3"><TextureRegion Left="80" Top="0" Width="40" Height="38" /></Sprite>
+		<Sprite Name="0000_4"><TextureRegion Left="40" Top="0" Width="40" Height="38" /></Sprite>
+		<Sprite Name="0000_5"><TextureRegion Left="0" Top="0" Width="40" Height="38" /></Sprite>
+		<Sprite Name="0001_1"><TextureRegion Left="160" Top="0" Width="40" Height="34" /></Sprite>
+		<Sprite Name="0001_2"><TextureRegion Left="120" Top="0" Width="40" Height="34" /></Sprite>
+		<Sprite Name="0001_3"><TextureRegion Left="80" Top="0" Width="40" Height="34" /></Sprite>
+		<Sprite Name="0001_4"><TextureRegion Left="40" Top="0" Width="40" Height="34" /></Sprite>
+		<Sprite Name="0001_5"><TextureRegion Left="0" Top="0" Width="40" Height="34" /></Sprite>
+		<Sprite Name="0010_1"><TextureRegion Left="160" Top="0" Width="36" Height="38" /></Sprite>
+		<Sprite Name="0010_2"><TextureRegion Left="120" Top="0" Width="36" Height="38" /></Sprite>
+		<Sprite Name="0010_3"><TextureRegion Left="80" Top="0" Width="36" Height="38" /></Sprite>
+		<Sprite Name="0010_4"><TextureRegion Left="40" Top="0" Width="36" Height="38" /></Sprite>
+		<Sprite Name="0010_5"><TextureRegion Left="0" Top="0" Width="36" Height="38" /></Sprite>
+		<Sprite Name="0011_1"><TextureRegion Left="160" Top="0" Width="36" Height="34" /></Sprite>
+		<Sprite Name="0011_2"><TextureRegion Left="120" Top="0" Width="36" Height="34" /></Sprite>
+		<Sprite Name="0011_3"><TextureRegion Left="80" Top="0" Width="36" Height="34" /></Sprite>
+		<Sprite Name="0011_4"><TextureRegion Left="40" Top="0" Width="36" Height="34" /></Sprite>
+		<Sprite Name="0011_5"><TextureRegion Left="0" Top="0" Width="36" Height="34" /></Sprite>
+		<Sprite Name="0100_1"><TextureRegion Left="160" Top="4" Width="40" Height="34" /></Sprite>
+		<Sprite Name="0100_2"><TextureRegion Left="120" Top="4" Width="40" Height="34" /></Sprite>
+		<Sprite Name="0100_3"><TextureRegion Left="80" Top="4" Width="40" Height="34" /></Sprite>
+		<Sprite Name="0100_4"><TextureRegion Left="40" Top="4" Width="40" Height="34" /></Sprite>
+		<Sprite Name="0100_5"><TextureRegion Left="0" Top="4" Width="40" Height="34" /></Sprite>
+		<Sprite Name="0101_1"><TextureRegion Left="160" Top="4" Width="40" Height="30" /></Sprite>
+		<Sprite Name="0101_2"><TextureRegion Left="120" Top="4" Width="40" Height="30" /></Sprite>
+		<Sprite Name="0101_3"><TextureRegion Left="80" Top="4" Width="40" Height="30" /></Sprite>
+		<Sprite Name="0101_4"><TextureRegion Left="40" Top="4" Width="40" Height="30" /></Sprite>
+		<Sprite Name="0101_5"><TextureRegion Left="0" Top="4" Width="40" Height="30" /></Sprite>
+		<Sprite Name="0110_1"><TextureRegion Left="160" Top="4" Width="36" Height="34" /></Sprite>
+		<Sprite Name="0110_2"><TextureRegion Left="120" Top="4" Width="36" Height="34" /></Sprite>
+		<Sprite Name="0110_3"><TextureRegion Left="80" Top="4" Width="36" Height="34" /></Sprite>
+		<Sprite Name="0110_4"><TextureRegion Left="40" Top="4" Width="36" Height="34" /></Sprite>
+		<Sprite Name="0110_5"><TextureRegion Left="0" Top="4" Width="36" Height="34" /></Sprite>
+		<Sprite Name="0111_1"><TextureRegion Left="160" Top="4" Width="36" Height="30" /></Sprite>
+		<Sprite Name="0111_2"><TextureRegion Left="120" Top="4" Width="36" Height="30" /></Sprite>
+		<Sprite Name="0111_3"><TextureRegion Left="80" Top="4" Width="36" Height="30" /></Sprite>
+		<Sprite Name="0111_4"><TextureRegion Left="40" Top="4" Width="36" Height="30" /></Sprite>
+		<Sprite Name="0111_5"><TextureRegion Left="0" Top="4" Width="36" Height="30" /></Sprite>
+		<Sprite Name="1000_1"><TextureRegion Left="164" Top="0" Width="36" Height="38" /></Sprite>
+		<Sprite Name="1000_2"><TextureRegion Left="124" Top="0" Width="36" Height="38" /></Sprite>
+		<Sprite Name="1000_3"><TextureRegion Left="84" Top="0" Width="36" Height="38" /></Sprite>
+		<Sprite Name="1000_4"><TextureRegion Left="44" Top="0" Width="36" Height="38" /></Sprite>
+		<Sprite Name="1000_5"><TextureRegion Left="4" Top="0" Width="36" Height="38" /></Sprite>
+		<Sprite Name="1001_1"><TextureRegion Left="164" Top="0" Width="36" Height="34" /></Sprite>
+		<Sprite Name="1001_2"><TextureRegion Left="124" Top="0" Width="36" Height="34" /></Sprite>
+		<Sprite Name="1001_3"><TextureRegion Left="84" Top="0" Width="36" Height="34" /></Sprite>
+		<Sprite Name="1001_4"><TextureRegion Left="44" Top="0" Width="36" Height="34" /></Sprite>
+		<Sprite Name="1001_5"><TextureRegion Left="4" Top="0" Width="36" Height="34" /></Sprite>
+		<Sprite Name="1010_1"><TextureRegion Left="164" Top="0" Width="32" Height="38" /></Sprite>
+		<Sprite Name="1010_2"><TextureRegion Left="124" Top="0" Width="32" Height="38" /></Sprite>
+		<Sprite Name="1010_3"><TextureRegion Left="84" Top="0" Width="32" Height="38" /></Sprite>
+		<Sprite Name="1010_4"><TextureRegion Left="44" Top="0" Width="32" Height="38" /></Sprite>
+		<Sprite Name="1010_5"><TextureRegion Left="4" Top="0" Width="32" Height="38" /></Sprite>
+		<Sprite Name="1011_1"><TextureRegion Left="164" Top="0" Width="32" Height="34" /></Sprite>
+		<Sprite Name="1011_2"><TextureRegion Left="124" Top="0" Width="32" Height="34" /></Sprite>
+		<Sprite Name="1011_3"><TextureRegion Left="84" Top="0" Width="32" Height="34" /></Sprite>
+		<Sprite Name="1011_4"><TextureRegion Left="44" Top="0" Width="32" Height="34" /></Sprite>
+		<Sprite Name="1011_5"><TextureRegion Left="4" Top="0" Width="32" Height="34" /></Sprite>
+		<Sprite Name="1100_1"><TextureRegion Left="164" Top="4" Width="36" Height="34" /></Sprite>
+		<Sprite Name="1100_2"><TextureRegion Left="124" Top="4" Width="36" Height="34" /></Sprite>
+		<Sprite Name="1100_3"><TextureRegion Left="84" Top="4" Width="36" Height="34" /></Sprite>
+		<Sprite Name="1100_4"><TextureRegion Left="44" Top="4" Width="36" Height="34" /></Sprite>
+		<Sprite Name="1100_5"><TextureRegion Left="4" Top="4" Width="36" Height="34" /></Sprite>
+		<Sprite Name="1101_1"><TextureRegion Left="164" Top="4" Width="36" Height="30" /></Sprite>
+		<Sprite Name="1101_2"><TextureRegion Left="124" Top="4" Width="36" Height="30" /></Sprite>
+		<Sprite Name="1101_3"><TextureRegion Left="84" Top="4" Width="36" Height="30" /></Sprite>
+		<Sprite Name="1101_4"><TextureRegion Left="44" Top="4" Width="36" Height="30" /></Sprite>
+		<Sprite Name="1101_5"><TextureRegion Left="4" Top="4" Width="36" Height="30" /></Sprite>
+		<Sprite Name="1110_1"><TextureRegion Left="164" Top="4" Width="32" Height="34" /></Sprite>
+		<Sprite Name="1110_2"><TextureRegion Left="124" Top="4" Width="32" Height="34" /></Sprite>
+		<Sprite Name="1110_3"><TextureRegion Left="84" Top="4" Width="32" Height="34" /></Sprite>
+		<Sprite Name="1110_4"><TextureRegion Left="44" Top="4" Width="32" Height="34" /></Sprite>
+		<Sprite Name="1110_5"><TextureRegion Left="4" Top="4" Width="32" Height="34" /></Sprite>
+		<Sprite Name="1111_1"><TextureRegion Left="164" Top="4" Width="32" Height="30" /></Sprite>
+		<Sprite Name="1111_2"><TextureRegion Left="124" Top="4" Width="32" Height="30" /></Sprite>
+		<Sprite Name="1111_3"><TextureRegion Left="84" Top="4" Width="32" Height="30" /></Sprite>
+		<Sprite Name="1111_4"><TextureRegion Left="44" Top="4" Width="32" Height="30" /></Sprite>
+		<Sprite Name="1111_5"><TextureRegion Left="4" Top="4" Width="32" Height="30" /></Sprite>
+	</Sprites>
+	<Animations>
+		<Animation Name="0000">
+			<DisplayOffset Width="-4" Height="-4" />
+			<Frames>
+				<Frame Sprite="0000_1" Duration="2" />
+				<Frame Sprite="0000_2" Duration="2" />
+				<Frame Sprite="0000_3" Duration="2" />
+				<Frame Sprite="0000_4" Duration="2" />
+				<Frame Sprite="0000_5" Duration="2" />
+			</Frames>
+		</Animation>
+		<Animation Name="0001">
+			<DisplayOffset Width="-4" Height="-4" />
+			<Frames>
+				<Frame Sprite="0001_1" Duration="2" />
+				<Frame Sprite="0001_2" Duration="2" />
+				<Frame Sprite="0001_3" Duration="2" />
+				<Frame Sprite="0001_4" Duration="2" />
+				<Frame Sprite="0001_5" Duration="2" />
+			</Frames>
+		</Animation>
+		<Animation Name="0010">
+			<DisplayOffset Width="-4" Height="-4" />
+			<Frames>
+				<Frame Sprite="0010_1" Duration="2" />
+				<Frame Sprite="0010_2" Duration="2" />
+				<Frame Sprite="0010_3" Duration="2" />
+				<Frame Sprite="0010_4" Duration="2" />
+				<Frame Sprite="0010_5" Duration="2" />
+			</Frames>
+		</Animation>
+		<Animation Name="0011">
+			<DisplayOffset Width="-4" Height="-4" />
+			<Frames>
+				<Frame Sprite="0011_1" Duration="2" />
+				<Frame Sprite="0011_2" Duration="2" />
+				<Frame Sprite="0011_3" Duration="2" />
+				<Frame Sprite="0011_4" Duration="2" />
+				<Frame Sprite="0011_5" Duration="2" />
+			</Frames>
+		</Animation>
+		<Animation Name="0100">
+			<DisplayOffset Width="-4" Height="0" />
+			<Frames>
+				<Frame Sprite="0100_1" Duration="2" />
+				<Frame Sprite="0100_2" Duration="2" />
+				<Frame Sprite="0100_3" Duration="2" />
+				<Frame Sprite="0100_4" Duration="2" />
+				<Frame Sprite="0100_5" Duration="2" />
+			</Frames>
+		</Animation>
+		<Animation Name="0101">
+			<DisplayOffset Width="-4" Height="0" />
+			<Frames>
+				<Frame Sprite="0101_1" Duration="2" />
+				<Frame Sprite="0101_2" Duration="2" />
+				<Frame Sprite="0101_3" Duration="2" />
+				<Frame Sprite="0101_4" Duration="2" />
+				<Frame Sprite="0101_5" Duration="2" />
+			</Frames>
+		</Animation>
+		<Animation Name="0110">
+			<DisplayOffset Width="-4" Height="0" />
+			<Frames>
+				<Frame Sprite="0110_1" Duration="2" />
+				<Frame Sprite="0110_2" Duration="2" />
+				<Frame Sprite="0110_3" Duration="2" />
+				<Frame Sprite="0110_4" Duration="2" />
+				<Frame Sprite="0110_5" Duration="2" />
+			</Frames>
+		</Animation>
+		<Animation Name="0111">
+			<DisplayOffset Width="-4" Height="0" />
+			<Frames>
+				<Frame Sprite="0111_1" Duration="2" />
+				<Frame Sprite="0111_2" Duration="2" />
+				<Frame Sprite="0111_3" Duration="2" />
+				<Frame Sprite="0111_4" Duration="2" />
+				<Frame Sprite="0111_5" Duration="2" />
+			</Frames>
+		</Animation>
+		<Animation Name="1000">
+			<DisplayOffset Width="0" Height="-4" />
+			<Frames>
+				<Frame Sprite="1000_1" Duration="2" />
+				<Frame Sprite="1000_2" Duration="2" />
+				<Frame Sprite="1000_3" Duration="2" />
+				<Frame Sprite="1000_4" Duration="2" />
+				<Frame Sprite="1000_5" Duration="2" />
+			</Frames>
+		</Animation>
+		<Animation Name="1001">
+			<DisplayOffset Width="0" Height="-4" />
+			<Frames>
+				<Frame Sprite="1001_1" Duration="2" />
+				<Frame Sprite="1001_2" Duration="2" />
+				<Frame Sprite="1001_3" Duration="2" />
+				<Frame Sprite="1001_4" Duration="2" />
+				<Frame Sprite="1001_5" Duration="2" />
+			</Frames>
+		</Animation>
+		<Animation Name="1010">
+			<DisplayOffset Width="0" Height="-4" />
+			<Frames>
+				<Frame Sprite="1010_1" Duration="2" />
+				<Frame Sprite="1010_2" Duration="2" />
+				<Frame Sprite="1010_3" Duration="2" />
+				<Frame Sprite="1010_4" Duration="2" />
+				<Frame Sprite="1010_5" Duration="2" />
+			</Frames>
+		</Animation>
+		<Animation Name="1011">
+			<DisplayOffset Width="0" Height="-4" />
+			<Frames>
+				<Frame Sprite="1011_1" Duration="2" />
+				<Frame Sprite="1011_2" Duration="2" />
+				<Frame Sprite="1011_3" Duration="2" />
+				<Frame Sprite="1011_4" Duration="2" />
+				<Frame Sprite="1011_5" Duration="2" />
+			</Frames>
+		</Animation>
+		<Animation Name="1100">
+			<DisplayOffset Width="0" Height="0" />
+			<Frames>
+				<Frame Sprite="1100_1" Duration="2" />
+				<Frame Sprite="1100_2" Duration="2" />
+				<Frame Sprite="1100_3" Duration="2" />
+				<Frame Sprite="1100_4" Duration="2" />
+				<Frame Sprite="1100_5" Duration="2" />
+			</Frames>
+		</Animation>
+		<Animation Name="1101">
+			<DisplayOffset Width="0" Height="0" />
+			<Frames>
+				<Frame Sprite="1101_1" Duration="2" />
+				<Frame Sprite="1101_2" Duration="2" />
+				<Frame Sprite="1101_3" Duration="2" />
+				<Frame Sprite="1101_4" Duration="2" />
+				<Frame Sprite="1101_5" Duration="2" />
+			</Frames>
+		</Animation>
+		<Animation Name="1110">
+			<DisplayOffset Width="0" Height="0" />
+			<Frames>
+				<Frame Sprite="1110_1" Duration="2" />
+				<Frame Sprite="1110_2" Duration="2" />
+				<Frame Sprite="1110_3" Duration="2" />
+				<Frame Sprite="1110_4" Duration="2" />
+				<Frame Sprite="1110_5" Duration="2" />
+			</Frames>
+		</Animation>
+		<Animation Name="1111">
+			<DisplayOffset Width="0" Height="0" />
+			<Frames>
+				<Frame Sprite="1111_1" Duration="2" />
+				<Frame Sprite="1111_2" Duration="2" />
+				<Frame Sprite="1111_3" Duration="2" />
+				<Frame Sprite="1111_4" Duration="2" />
+				<Frame Sprite="1111_5" Duration="2" />
+			</Frames>
+		</Animation>
+	</Animations>
+</Visuals>

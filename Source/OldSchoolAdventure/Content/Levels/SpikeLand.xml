@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Level>
+	<Introduction />
+	<Rooms>
+		<Room Path="Room/SpikeLand_1" />
+		<Room Path="Room/SpikeLand_2" />
+		<Room Path="Room/SpikeLand_3" />
+		<Room Path="Room/SpikeLand_4" />
+		<Room Path="Room/SpikeLand_5" />
+		<Room Path="Room/SpikeLand_6" />
+		<Room Path="Room/SpikeLand_7" />
+		<Room Path="Room/SpikeLand_8" />
+		<Room Path="Room/SpikeLand_9" />
+		<Room Path="Room/SpikeLand_10" />
+		<Room Path="Room/SpikeLand_11" />
+		<Room Path="Room/SpikeLand_12" />
+		<Room Path="Room/SpikeLand_13" />
+		<Room Path="Room/SpikeLand_14" />
+	</Rooms>
+	<StartDoor Room="Room/SpikeLand_1" ObjectName="In" />
+	<EndDoor Room="Room/ConveyorLand_1" ObjectName="In" />
+</Level>

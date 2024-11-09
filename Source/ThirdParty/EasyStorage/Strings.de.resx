@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+    <comment>Value description</comment>
+  </data>
+  <data name="Yes_Select_new_device" xml:space="preserve">
+    <value>Ja, neues Speichergerät auswählen.</value>
+    <comment>Value description</comment>
+  </data>
+  <data name="No_Continue_without_device" xml:space="preserve">
+    <value>Nein, ohne Speichergerät fortsetzen.</value>
+    <comment>Value description</comment>
+  </data>
+  <data name="Reselect_Storage_Device" xml:space="preserve">
+    <value>Neues Speichergerät auswählen?</value>
+    <comment>Value description</comment>
+  </data>
+  <data name="Storage_Device_Required" xml:space="preserve">
+    <value>Ein Speichergerät wird benötigt</value>
+    <comment>Value description</comment>
+  </data>
+  <data name="forceDisconnectedReselectionMessage" xml:space="preserve">
+    <value>Das Speichergerät wurde entfernt. Ein Speichergerät wird benötigt um fortzusetzen.</value>
+    <comment>Value description</comment>
+  </data>
+  <data name="promptForDisconnectedMessage" xml:space="preserve">
+    <value>Das Speichergerät wurde entfernt. Du kannst ohne Speichergerät fortfahren, kannst dann aber nicht speichern. Willst du ein Speichergerät auswählen?</value>
+    <comment>Value description</comment>
+  </data>
+  <data name="forceCanceledReselectionMessage" xml:space="preserve">
+    <value>Es wurde kein Speichergerät ausgewählt. Ein Speichergerät wird benötigt um fortzusetzen.</value>
+    <comment>Value description</comment>
+  </data>
+  <data name="promptForCancelledMessage" xml:space="preserve">
+    <value>Es wurde kein Speichergerät ausgewählt. Du kannst ohne Speichergerät fortfahren, kannst dann aber nicht speichern. Willst du ein Speichergerät auswählen?</value>
+    <comment>Value description</comment>
+  </data>
+  <data name="StorageDevice_is_not_valid" xml:space="preserve">
+    <value>Ungültiges Speichergerät.</value>
+    <comment>SaveValue description</comment>
+  </data>
+  <data name="NeedGamerService" xml:space="preserve">
+    <value>SaveDevice requries gamer services to operate. Add the GamerServicesComponent to your game.</value>
+    <comment>UpdateValue description</comment>
+  </data>
+</root>

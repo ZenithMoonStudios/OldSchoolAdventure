@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="1280" Height="720" />
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 1/SpikeLand" />
+    <Background Path="Tile/Background/Layer 2/In">
+      <ScrollRate X="0.5" Y="0.5" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="40" Height="24" />
+      <Rows>
+        <Row Tiles="xxxxxxxxxxxOOOxxxxxxxxxOOOOxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxOOOOOOOOxxxxxOOOOOOOOOxxxxxxxxx" />
+        <Row Tiles="xxxxxxxOOOOOOOOOOOOOOOOOOOOOOOOOOOxxxxxx" />
+        <Row Tiles="xxxxxxOOOO00000000000000000000OOOOxxxxxx" />
+        <Row Tiles="xxxxOOOOO0000000000000000000000OOOOxxxxx" />
+        <Row Tiles="xxxOOOOO000000000000000000000000OOOOOxxx" />
+        <Row Tiles="xxxOOOO00000000000000000000000000OOOOxxx" />
+        <Row Tiles="xxxOOO0000000000000000000000000000OOOxxx" />
+        <Row Tiles="xxxOO000000000000000000000000000000OOxxx" />
+        <Row Tiles="xxxOO000000000000000000000000000000Oxxxx" />
+        <Row Tiles="xxxOO000000000000000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO0000000000000OOOO0000000000000Oxxxx" />
+        <Row Tiles="xxxxO000000000000OOOOOO000000000000Oxxxx" />
+        <Row Tiles="xxxxO00000000000OOOOOOOO00000000000Oxxxx" />
+        <Row Tiles="xxxxO0000000000OOOOOOOOOO0000000000OOxxx" />
+        <Row Tiles="xxxOO000000000OOOxxxxxxOOO000000000OOxxx" />
+        <Row Tiles="xxxOO00000000OOxxxxxxxxxxOO00000000OOxxx" />
+        <Row Tiles="xxxOO0000000OOxxxxxxxxxxxOOO0000000OOxxx" />
+        <Row Tiles="xxOOO000000OOOxxxxxxxxxxxxxOO000000OOxxx" />
+        <Row Tiles="xxOOO00000OOOxxxxxxxxxxxxxxxOO00000OOOxx" />
+        <Row Tiles="xxOOO0000OOxxxxxxxxxxxxxxxxxOOO0000OOOxx" />
+        <Row Tiles="xxOOOOOOOOOxxxxxxxxxxxxxxxxxxOOOOOOOOOxx" />
+        <Row Tiles="xxxOOOOOOOOxxxxxxxxxxxxxxxxxxxOOOOOOOxxx" />
+        <Row Tiles="xxxxxxOOOOxxxxxxxxxxxxxxxxxxxxxxOOxxxxxx" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Plain">
+      <GridPosition Left="6.5" Top="20" />
+      <Target Room="Room/SpikeLand_11" ObjectName="Out" />
+    </Door>
+  </Doors>
+  <Collectibles>
+    <Collectible Name="995f3f63-a07c-49dd-8055-58c9ab628bf0" Template="Collectible/FlyingShoe">
+      <GridPosition Left="19.5" Top="9.5" />
+    </Collectible>
+  </Collectibles>
+  <Speakers>
+    <Speaker Name="dd9c16ba-59d4-4a78-821b-0fe573acfc71" Template="Speaker/SignPost">
+      <GridPosition Left="32.5" Top="20" />
+      <Conversations>
+        <Conversation>
+          <Conditions />
+          <Sentences>
+            <Sentence Speaker="Speaker/SignPost">Use the flying boots by holding down the A button.</Sentence>
+          </Sentences>
+          <Transactions />
+        </Conversation>
+      </Conversations>
+    </Speaker>
+  </Speakers>
+  <MusicPoints>
+    <MusicPoint Name="619bf72c-d13b-4b41-ba2e-d4b19ea2e355" Template="MusicPoint/March">
+      <GridPosition Left="19.5" Top="9.5" />
+    </MusicPoint>
+  </MusicPoints>
+  <Directors />
+  <Obstacles />
+  <SpawnPoints />
+  <Switches />
+</Room>

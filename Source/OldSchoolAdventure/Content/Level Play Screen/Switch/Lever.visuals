@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Visuals>
+	<Sprites>
+		<Sprite Name="Off"><TextureRegion Left="0" Top="0" Width="60" Height="51" /></Sprite>
+		<Sprite Name="On"><TextureRegion Left="60" Top="0" Width="60" Height="51" /></Sprite>
+	</Sprites>
+	<Animations>
+		<Animation Name="Default" Sprite="Off"><DisplayOffset Width="-15" Height="-1" /></Animation>
+		<Animation Name="Off" Sprite="Off"><DisplayOffset Width="-15" Height="-1" /></Animation>
+		<Animation Name="On" Sprite="On"><DisplayOffset Width="-15" Height="-1" /></Animation>
+	</Animations>
+</Visuals>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Destiny.GameSettings">
+		<Levels>
+			<Item>SpikeLand</Item>
+			<Item>ConveyorLand</Item>
+			<Item>FireLand</Item>
+			<Item>DevLand</Item>
+			<Item>EndLand</Item>
+		</Levels>
+	  <Modes>
+			<Item>
+				<Name>Easy</Name>
+				<Items>
+					<Item>Collectible/Mode_Easy</Item>
+				</Items>
+			</Item>
+			<Item>
+				<Name>Normal</Name>
+				<Items>
+					<Item>Collectible/Mode_Normal</Item>
+				</Items>
+			</Item>
+			<Item>
+				<Name>Hard</Name>
+				<Items>
+					<Item>Collectible/Mode_Hard</Item>
+				</Items>
+			</Item>
+	  </Modes>
+  </Asset>
+</XnaContent>

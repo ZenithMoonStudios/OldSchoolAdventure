@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="1280" Height="720" />
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 1/DevLand" />
+    <Background Path="Tile/Background/Layer 2/In">
+      <ScrollRate X="0.5" Y="0.5" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="40" Height="24" />
+      <Rows>
+        <Row Tiles="xxxxxxOOOOOxxxxxxxxxxxxxxxxOOOOOxxxxOOxx" />
+        <Row Tiles="xxxxOOOOOOOOOOOOxxxxxxxxOOOOOOOOOOOOOOOx" />
+        <Row Tiles="xxxxOOOOOOOOOOOOOOOOOOOOOOOOOXXOOOOOOOOO" />
+        <Row Tiles="xxxOOOO0000000000000000000OOOXX0000XOOOO" />
+        <Row Tiles="xxOOOO000000000000000000000OOXX0000XOOOO" />
+        <Row Tiles="xxOOOO0000000000000000000000OXX0000XOOOx" />
+        <Row Tiles="xxxOO00000000000000000000000OXX0000XOOxx" />
+        <Row Tiles="xxxOO000000000000000000000000XX0000XOOxx" />
+        <Row Tiles="xxxOO0000XOOOOOOOOOOOOOX00000XX^^^^XOOxx" />
+        <Row Tiles="xxxxO000000000000000000000000XX^^^^XOxxx" />
+        <Row Tiles="xxxxO000000000000000000000000XX^^^^XOxxx" />
+        <Row Tiles="xxxxO000000000000000000000000XX^^^^XOxxx" />
+        <Row Tiles="xxxxO0000000000000000000^^^^^XX^^^^XOxxx" />
+        <Row Tiles="xxxxO0000000000000000000^^^^^XX^^^^XOxxx" />
+        <Row Tiles="xxxxO0000000000000000000^^^^^XX^^^^XOxxx" />
+        <Row Tiles="xxxOO0000000000000000000^^^^^XX^^^^XOxxx" />
+        <Row Tiles="xxxOO0000XOOOOOOOOOOOOOX^^^^^XX^^^^XOOxx" />
+        <Row Tiles="xxxOO00000000000000000OX^^^^^^^^^^^XOOxx" />
+        <Row Tiles="xxOOO00000000000000000OX^^^^^^^^^^^XOOxx" />
+        <Row Tiles="xxOOO00000000000000000OX^^^^^^^^^^^XOOOx" />
+        <Row Tiles="xxOOOOOOOOOO000000OOOOOX^^^^^^^^^^^XOOOx" />
+        <Row Tiles="xxxOOOOOOOOOGGGGGGOxxOOXXXXXXXXXXXXXOOOx" />
+        <Row Tiles="xxxxxOOxxxOOGGGGGGOxxxOOOOOOOOOOOOOOOOxx" />
+        <Row Tiles="xxxxxxxxxxxOGGGGGGOOxxxxxxxxxxxxOOOOxxxx" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Key_Silver">
+      <GridPosition Left="19.5" Top="19" />
+      <Target Room="" ObjectName="" />
+    </Door>
+    <Door Name="Out" Template="Door/Plain">
+      <GridPosition Left="32.5" Top="5" />
+      <Target Room="Room/DevLand_2" ObjectName="In" />
+    </Door>
+  </Doors>
+  <Collectibles>
+    <Collectible Name="54c75fcd-50fb-4ebd-a6f5-06fb7ae6d7ad" Template="Collectible/Normal">
+      <GridPosition Left="10.5" Top="18.5" />
+    </Collectible>
+  </Collectibles>
+  <Obstacles>
+    <Obstacle Name="e1925a4a-7dfa-43ea-a99d-b2b8bfd3c08b" Template="Enemy/TallRock_Left">
+      <GridPosition Left="22" Top="15" />
+    </Obstacle>
+    <Obstacle Name="40db7e55-e54f-4c22-a02e-7700cc7dccae" Template="Enemy/SlowShooter_Left">
+      <GridPosition Left="21" Top="7" />
+    </Obstacle>
+  </Obstacles>
+  <Directors />
+  <SpawnPoints>
+    <SpawnPoint Name="cdd4bad9-c879-417d-ad5d-369132495229" Template="SpawnPoint/SpawnPoint">
+      <GridPosition Left="10.5" Top="19" />
+    </SpawnPoint>
+  </SpawnPoints>
+  <Speakers>
+    <Speaker Name="5f00ccd7-0cac-4611-a836-c2f79a919290" Template="Speaker/Developer">
+      <GridPosition Left="0" Top="0" />
+      <Conversations />
+    </Speaker>
+    <Speaker Name="5f00ccd7-0cac-4611-a836-c2f79a919291" Template="Speaker/AutoSpeak">
+      <GridPosition Left="19.5" Top="19" />
+      <Conversations>
+        <Conversation>
+          <Conditions>
+            <Condition Has="False" Item="Room/DevLand_1/AutoSpeak" Quantity="1" />
+          </Conditions>
+          <Sentences>
+            <Sentence Speaker="Character/Chris">This doesn't look like Mango's lair!</Sentence>
+          </Sentences>
+          <Transactions>
+            <Transaction Type="Add" Item="Room/DevLand_1/AutoSpeak" Quantity="1" />
+          </Transactions>
+        </Conversation>
+      </Conversations>
+    </Speaker>
+  </Speakers>
+  <Switches />
+  <MusicPoints />
+</Room>

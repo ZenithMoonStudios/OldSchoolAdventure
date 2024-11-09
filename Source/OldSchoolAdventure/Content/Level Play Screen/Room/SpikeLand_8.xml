@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="1280" Height="720" />
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 1/SpikeLand" />
+    <Background Path="Tile/Background/Layer 2/In">
+      <ScrollRate X="0.5" Y="0.5" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="40" Height="24" />
+      <Rows>
+        <Row Tiles="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxxOOOOOOOOOOOOxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxOOOOOOOOOOOOOOxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxO000000000000OOxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxO000000000000OOxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxOO000000000000OOxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxOO000000000000OOxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxOO000000000000OOxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxOO000000000000OOxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxOOO0000OOOOOOOOOxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxOOO0000OOOOOOOxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxOOOO0000OOOOOxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxOOOOOO0000OOOOxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxOOOOOOOOO0000OOOOxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxOOOOOOOOOO0000OOOxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxOO000000000000OOOxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxOO000000000000OOOxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxOO000000000000OOOxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxOO000000000000OOOxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxOO000000000000OOxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxOO000000000000OOxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxOOOOOOOOOOOOOOOxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxOOOOOOOOOxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Plain">
+      <GridPosition Left="11.5" Top="20" />
+      <Target Room="Room/SpikeLand_7" ObjectName="Out" />
+    </Door>
+    <Door Name="Out" Template="Door/Plain">
+      <GridPosition Left="27.5" Top="8" />
+      <Target Room="Room/SpikeLand_9" ObjectName="In" />
+    </Door>
+  </Doors>
+  <Collectibles />
+  <Directors />
+  <Obstacles>
+  </Obstacles>
+  <SpawnPoints />
+  <Speakers>
+    <Speaker Name="f99872e8-77c6-4de1-b850-e3d6d39be50b" Template="Speaker/SignPost">
+      <GridPosition Left="19.5" Top="20" />
+      <Conversations>
+        <Conversation>
+          <Conditions />
+          <Sentences>
+            <Sentence Speaker="Speaker/SignPost">Jump off walls by jumping at the wall and holding (flick and hold).</Sentence>
+          </Sentences>
+          <Transactions />
+        </Conversation>
+      </Conversations>
+    </Speaker>
+  </Speakers>
+  <MusicPoints />
+  <Switches />
+</Room>

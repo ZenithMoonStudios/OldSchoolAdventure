@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Visuals>
+	<Sprites Texture="Doors">
+		<Sprite Name="Locked"><TextureRegion Left="180" Top="0" Width="60" Height="60" /></Sprite>
+		<Sprite Name="Closed"><TextureRegion Left="0" Top="0" Width="60" Height="60" /></Sprite>
+		<Sprite Name="Open"><TextureRegion Left="60" Top="0" Width="60" Height="60" /></Sprite>
+	</Sprites>
+	<Animations>
+		<Animation Name="Default" Sprite="Locked"><DisplayOffset Width="-5" Height="-5" /></Animation>
+		<Animation Name="Locked" Sprite="Locked"><DisplayOffset Width="-5" Height="-5" /></Animation>
+		<Animation Name="Closed" Sprite="Closed"><DisplayOffset Width="-5" Height="-5" /></Animation>
+		<Animation Name="Open" Sprite="Open"><DisplayOffset Width="-5" Height="-5" /></Animation>
+	</Animations>
+</Visuals>

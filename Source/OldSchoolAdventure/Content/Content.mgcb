@@ -1,0 +1,2635 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin
+/intermediateDir:obj
+/platform:Windows
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:..\..\Destiny\bin\Release\net8.0\Destiny.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Audio/Music/BasicMarch.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Music/BasicMarch.wav
+
+#begin Audio/Music/BasicMarchPhone.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Music/BasicMarchPhone.wav
+
+#begin Audio/Music/EpicSoundtrack.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Music/EpicSoundtrack.wav
+
+#begin Audio/Music/EpicSoundtrackPhone.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Music/EpicSoundtrackPhone.wav
+
+#begin Audio/Sound Files/CoinCollect1_Phone.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/CoinCollect1_Phone.wav
+
+#begin Audio/Sound Files/CoinCollect1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/CoinCollect1.wav
+
+#begin Audio/Sound Files/DoorClose1_Phone.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/DoorClose1_Phone.wav
+
+#begin Audio/Sound Files/DoorClose1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/DoorClose1.wav
+
+#begin Audio/Sound Files/DoorOpen1_Phone.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/DoorOpen1_Phone.wav
+
+#begin Audio/Sound Files/DoorOpen1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/DoorOpen1.wav
+
+#begin Audio/Sound Files/DoorUnlock1_Phone.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/DoorUnlock1_Phone.wav
+
+#begin Audio/Sound Files/DoorUnlock1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/DoorUnlock1.wav
+
+#begin Audio/Sound Files/KeyCollect1_Phone.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/KeyCollect1_Phone.wav
+
+#begin Audio/Sound Files/KeyCollect1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/KeyCollect1.wav
+
+#begin Audio/Sound Files/Lever1_Phone.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/Lever1_Phone.wav
+
+#begin Audio/Sound Files/Lever1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/Lever1.wav
+
+#begin Audio/Sound Files/MainCharacterDie1_Phone.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/MainCharacterDie1_Phone.wav
+
+#begin Audio/Sound Files/MainCharacterDie1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/MainCharacterDie1.wav
+
+#begin Audio/Sound Files/MainCharacterJump1_Phone.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/MainCharacterJump1_Phone.wav
+
+#begin Audio/Sound Files/MainCharacterJump1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/MainCharacterJump1.wav
+
+#begin Audio/Sound Files/MenuBack1_Phone.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/MenuBack1_Phone.wav
+
+#begin Audio/Sound Files/MenuBack1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/MenuBack1.wav
+
+#begin Audio/Sound Files/MenuChange1_Phone.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/MenuChange1_Phone.wav
+
+#begin Audio/Sound Files/MenuChange1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/MenuChange1.wav
+
+#begin Audio/Sound Files/MenuSelect1_Phone.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/MenuSelect1_Phone.wav
+
+#begin Audio/Sound Files/MenuSelect1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/Sound Files/MenuSelect1.wav
+
+#begin Audio/SoundLibrary.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Audio/SoundLibrary.xml
+
+#begin Command Screen/Background.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Command Screen/Background.png
+
+#begin Command Screen/Font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Command Screen/Font.spritefont
+
+#begin Credits Screen/Font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Credits Screen/Font.spritefont
+
+#begin GameExceptionFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:GameExceptionFont.spritefont
+
+#begin GameSettings.xml
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:GameSettings.xml
+
+#begin Level Editor Screen/Dialog.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Level Editor Screen/Dialog.spritefont
+
+#begin Level Intro Screen/Backgrounds/ConveyorLand.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Intro Screen/Backgrounds/ConveyorLand.png
+
+#begin Level Intro Screen/Backgrounds/DevLand.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Intro Screen/Backgrounds/DevLand.png
+
+#begin Level Intro Screen/Backgrounds/EndLand.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Intro Screen/Backgrounds/EndLand.png
+
+#begin Level Intro Screen/Backgrounds/FireLand.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Intro Screen/Backgrounds/FireLand.png
+
+#begin Level Intro Screen/Button_Phone.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Intro Screen/Button_Phone.png
+
+#begin Level Intro Screen/Button.tga
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Intro Screen/Button.tga
+
+#begin Level Intro Screen/Dialog.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Level Intro Screen/Dialog.spritefont
+
+#begin Level Intro Screen/DialogBackground.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Intro Screen/DialogBackground.png
+
+#begin Level Play Screen/Character/Chris_FlyingShoe_Helmet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Character/Chris_FlyingShoe_Helmet.png
+
+#begin Level Play Screen/Character/Chris_FlyingShoe_Helmet.visuals
+/copy:Level Play Screen/Character/Chris_FlyingShoe_Helmet.visuals
+
+#begin Level Play Screen/Character/Chris_FlyingShoe.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Character/Chris_FlyingShoe.png
+
+#begin Level Play Screen/Character/Chris_FlyingShoe.visuals
+/copy:Level Play Screen/Character/Chris_FlyingShoe.visuals
+
+#begin Level Play Screen/Character/Chris_Helmet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Character/Chris_Helmet.png
+
+#begin Level Play Screen/Character/Chris_Helmet.visuals
+/copy:Level Play Screen/Character/Chris_Helmet.visuals
+
+#begin Level Play Screen/Character/Chris_RedArmor.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Character/Chris_RedArmor.png
+
+#begin Level Play Screen/Character/Chris_RedArmor.visuals
+/copy:Level Play Screen/Character/Chris_RedArmor.visuals
+
+#begin Level Play Screen/Character/Chris.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Character/Chris.png
+
+#begin Level Play Screen/Character/Chris.visuals
+/copy:Level Play Screen/Character/Chris.visuals
+
+#begin Level Play Screen/Character/Chris.xml
+/copy:Level Play Screen/Character/Chris.xml
+
+#begin Level Play Screen/Collectible/CollectablesList.xna
+/importer:XmlImporter
+/processor:PassThroughProcessor
+/build:Level Play Screen/Collectible/CollectablesList.xna
+
+#begin Level Play Screen/Collectible/FlyingShoe.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Collectible/FlyingShoe.png
+
+#begin Level Play Screen/Collectible/FlyingShoe.visuals
+/copy:Level Play Screen/Collectible/FlyingShoe.visuals
+
+#begin Level Play Screen/Collectible/FlyingShoe.xml
+/copy:Level Play Screen/Collectible/FlyingShoe.xml
+
+#begin Level Play Screen/Collectible/Helmet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Collectible/Helmet.png
+
+#begin Level Play Screen/Collectible/Helmet.visuals
+/copy:Level Play Screen/Collectible/Helmet.visuals
+
+#begin Level Play Screen/Collectible/Helmet.xml
+/copy:Level Play Screen/Collectible/Helmet.xml
+
+#begin Level Play Screen/Collectible/Invisible_Normal.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Collectible/Invisible_Normal.png
+
+#begin Level Play Screen/Collectible/Invisible_Normal.visuals
+/copy:Level Play Screen/Collectible/Invisible_Normal.visuals
+
+#begin Level Play Screen/Collectible/Invisible_Normal.xml
+/copy:Level Play Screen/Collectible/Invisible_Normal.xml
+
+#begin Level Play Screen/Collectible/Invisible_RunRight_Normal.visuals
+/copy:Level Play Screen/Collectible/Invisible_RunRight_Normal.visuals
+
+#begin Level Play Screen/Collectible/Invisible_RunRight_Normal.xml
+/copy:Level Play Screen/Collectible/Invisible_RunRight_Normal.xml
+
+#begin Level Play Screen/Collectible/Key_Blue.visuals
+/copy:Level Play Screen/Collectible/Key_Blue.visuals
+
+#begin Level Play Screen/Collectible/Key_Blue.xml
+/copy:Level Play Screen/Collectible/Key_Blue.xml
+
+#begin Level Play Screen/Collectible/Key_Green.visuals
+/copy:Level Play Screen/Collectible/Key_Green.visuals
+
+#begin Level Play Screen/Collectible/Key_Green.xml
+/copy:Level Play Screen/Collectible/Key_Green.xml
+
+#begin Level Play Screen/Collectible/Key_Red.visuals
+/copy:Level Play Screen/Collectible/Key_Red.visuals
+
+#begin Level Play Screen/Collectible/Key_Red.xml
+/copy:Level Play Screen/Collectible/Key_Red.xml
+
+#begin Level Play Screen/Collectible/Key_Silver.visuals
+/copy:Level Play Screen/Collectible/Key_Silver.visuals
+
+#begin Level Play Screen/Collectible/Key_Silver.xml
+/copy:Level Play Screen/Collectible/Key_Silver.xml
+
+#begin Level Play Screen/Collectible/Key_Yellow.visuals
+/copy:Level Play Screen/Collectible/Key_Yellow.visuals
+
+#begin Level Play Screen/Collectible/Key_Yellow.xml
+/copy:Level Play Screen/Collectible/Key_Yellow.xml
+
+#begin Level Play Screen/Collectible/Keys.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Collectible/Keys.png
+
+#begin Level Play Screen/Collectible/Normal.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Collectible/Normal.png
+
+#begin Level Play Screen/Collectible/Normal.visuals
+/copy:Level Play Screen/Collectible/Normal.visuals
+
+#begin Level Play Screen/Collectible/Normal.xml
+/copy:Level Play Screen/Collectible/Normal.xml
+
+#begin Level Play Screen/Collectible/RedArmor.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Collectible/RedArmor.png
+
+#begin Level Play Screen/Collectible/RedArmor.visuals
+/copy:Level Play Screen/Collectible/RedArmor.visuals
+
+#begin Level Play Screen/Collectible/RedArmor.xml
+/copy:Level Play Screen/Collectible/RedArmor.xml
+
+#begin Level Play Screen/Collectible/RunRight_Helmet.visuals
+/copy:Level Play Screen/Collectible/RunRight_Helmet.visuals
+
+#begin Level Play Screen/Collectible/RunRight_Helmet.xml
+/copy:Level Play Screen/Collectible/RunRight_Helmet.xml
+
+#begin Level Play Screen/Collectible/RunRight_Normal.visuals
+/copy:Level Play Screen/Collectible/RunRight_Normal.visuals
+
+#begin Level Play Screen/Collectible/RunRight_Normal.xml
+/copy:Level Play Screen/Collectible/RunRight_Normal.xml
+
+#begin Level Play Screen/Director/Circular_ACW_L1.visuals
+/copy:Level Play Screen/Director/Circular_ACW_L1.visuals
+
+#begin Level Play Screen/Director/Circular_ACW_L1.xml
+/copy:Level Play Screen/Director/Circular_ACW_L1.xml
+
+#begin Level Play Screen/Director/Circular_ACW_L2.visuals
+/copy:Level Play Screen/Director/Circular_ACW_L2.visuals
+
+#begin Level Play Screen/Director/Circular_ACW_L2.xml
+/copy:Level Play Screen/Director/Circular_ACW_L2.xml
+
+#begin Level Play Screen/Director/Circular_ACW_L3.visuals
+/copy:Level Play Screen/Director/Circular_ACW_L3.visuals
+
+#begin Level Play Screen/Director/Circular_ACW_L3.xml
+/copy:Level Play Screen/Director/Circular_ACW_L3.xml
+
+#begin Level Play Screen/Director/Circular_ACW_L4.visuals
+/copy:Level Play Screen/Director/Circular_ACW_L4.visuals
+
+#begin Level Play Screen/Director/Circular_ACW_L4.xml
+/copy:Level Play Screen/Director/Circular_ACW_L4.xml
+
+#begin Level Play Screen/Director/Circular_ACW_L5.visuals
+/copy:Level Play Screen/Director/Circular_ACW_L5.visuals
+
+#begin Level Play Screen/Director/Circular_ACW_L5.xml
+/copy:Level Play Screen/Director/Circular_ACW_L5.xml
+
+#begin Level Play Screen/Director/Circular_ACW_R1.visuals
+/copy:Level Play Screen/Director/Circular_ACW_R1.visuals
+
+#begin Level Play Screen/Director/Circular_ACW_R1.xml
+/copy:Level Play Screen/Director/Circular_ACW_R1.xml
+
+#begin Level Play Screen/Director/Circular_ACW_R2.visuals
+/copy:Level Play Screen/Director/Circular_ACW_R2.visuals
+
+#begin Level Play Screen/Director/Circular_ACW_R2.xml
+/copy:Level Play Screen/Director/Circular_ACW_R2.xml
+
+#begin Level Play Screen/Director/Circular_ACW_R3.visuals
+/copy:Level Play Screen/Director/Circular_ACW_R3.visuals
+
+#begin Level Play Screen/Director/Circular_ACW_R3.xml
+/copy:Level Play Screen/Director/Circular_ACW_R3.xml
+
+#begin Level Play Screen/Director/Circular_ACW_R4.visuals
+/copy:Level Play Screen/Director/Circular_ACW_R4.visuals
+
+#begin Level Play Screen/Director/Circular_ACW_R4.xml
+/copy:Level Play Screen/Director/Circular_ACW_R4.xml
+
+#begin Level Play Screen/Director/Circular_ACW_R5.visuals
+/copy:Level Play Screen/Director/Circular_ACW_R5.visuals
+
+#begin Level Play Screen/Director/Circular_ACW_R5.xml
+/copy:Level Play Screen/Director/Circular_ACW_R5.xml
+
+#begin Level Play Screen/Director/Circular_CW_L1.visuals
+/copy:Level Play Screen/Director/Circular_CW_L1.visuals
+
+#begin Level Play Screen/Director/Circular_CW_L1.xml
+/copy:Level Play Screen/Director/Circular_CW_L1.xml
+
+#begin Level Play Screen/Director/Circular_CW_L2.visuals
+/copy:Level Play Screen/Director/Circular_CW_L2.visuals
+
+#begin Level Play Screen/Director/Circular_CW_L2.xml
+/copy:Level Play Screen/Director/Circular_CW_L2.xml
+
+#begin Level Play Screen/Director/Circular_CW_L3.visuals
+/copy:Level Play Screen/Director/Circular_CW_L3.visuals
+
+#begin Level Play Screen/Director/Circular_CW_L3.xml
+/copy:Level Play Screen/Director/Circular_CW_L3.xml
+
+#begin Level Play Screen/Director/Circular_CW_L4.visuals
+/copy:Level Play Screen/Director/Circular_CW_L4.visuals
+
+#begin Level Play Screen/Director/Circular_CW_L4.xml
+/copy:Level Play Screen/Director/Circular_CW_L4.xml
+
+#begin Level Play Screen/Director/Circular_CW_L5.visuals
+/copy:Level Play Screen/Director/Circular_CW_L5.visuals
+
+#begin Level Play Screen/Director/Circular_CW_L5.xml
+/copy:Level Play Screen/Director/Circular_CW_L5.xml
+
+#begin Level Play Screen/Director/Circular_CW_R1.visuals
+/copy:Level Play Screen/Director/Circular_CW_R1.visuals
+
+#begin Level Play Screen/Director/Circular_CW_R1.xml
+/copy:Level Play Screen/Director/Circular_CW_R1.xml
+
+#begin Level Play Screen/Director/Circular_CW_R2.visuals
+/copy:Level Play Screen/Director/Circular_CW_R2.visuals
+
+#begin Level Play Screen/Director/Circular_CW_R2.xml
+/copy:Level Play Screen/Director/Circular_CW_R2.xml
+
+#begin Level Play Screen/Director/Circular_CW_R3.visuals
+/copy:Level Play Screen/Director/Circular_CW_R3.visuals
+
+#begin Level Play Screen/Director/Circular_CW_R3.xml
+/copy:Level Play Screen/Director/Circular_CW_R3.xml
+
+#begin Level Play Screen/Director/Circular_CW_R4.visuals
+/copy:Level Play Screen/Director/Circular_CW_R4.visuals
+
+#begin Level Play Screen/Director/Circular_CW_R4.xml
+/copy:Level Play Screen/Director/Circular_CW_R4.xml
+
+#begin Level Play Screen/Director/Circular_CW_R5.visuals
+/copy:Level Play Screen/Director/Circular_CW_R5.visuals
+
+#begin Level Play Screen/Director/Circular_CW_R5.xml
+/copy:Level Play Screen/Director/Circular_CW_R5.xml
+
+#begin Level Play Screen/Director/Circular.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Director/Circular.png
+
+#begin Level Play Screen/Director/Linear_Down.visuals
+/copy:Level Play Screen/Director/Linear_Down.visuals
+
+#begin Level Play Screen/Director/Linear_Down.xml
+/copy:Level Play Screen/Director/Linear_Down.xml
+
+#begin Level Play Screen/Director/Linear_Left.visuals
+/copy:Level Play Screen/Director/Linear_Left.visuals
+
+#begin Level Play Screen/Director/Linear_Left.xml
+/copy:Level Play Screen/Director/Linear_Left.xml
+
+#begin Level Play Screen/Director/Linear_Right.visuals
+/copy:Level Play Screen/Director/Linear_Right.visuals
+
+#begin Level Play Screen/Director/Linear_Right.xml
+/copy:Level Play Screen/Director/Linear_Right.xml
+
+#begin Level Play Screen/Director/Linear_Up.visuals
+/copy:Level Play Screen/Director/Linear_Up.visuals
+
+#begin Level Play Screen/Director/Linear_Up.xml
+/copy:Level Play Screen/Director/Linear_Up.xml
+
+#begin Level Play Screen/Director/Linear.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Director/Linear.png
+
+#begin Level Play Screen/Director/Stop.visuals
+/copy:Level Play Screen/Director/Stop.visuals
+
+#begin Level Play Screen/Director/Stop.xml
+/copy:Level Play Screen/Director/Stop.xml
+
+#begin Level Play Screen/Door/Doors.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Door/Doors.png
+
+#begin Level Play Screen/Door/Gold.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Door/Gold.png
+
+#begin Level Play Screen/Door/Gold.visuals
+/copy:Level Play Screen/Door/Gold.visuals
+
+#begin Level Play Screen/Door/Gold.xml
+/copy:Level Play Screen/Door/Gold.xml
+
+#begin Level Play Screen/Door/Hyperlink_Next.visuals
+/copy:Level Play Screen/Door/Hyperlink_Next.visuals
+
+#begin Level Play Screen/Door/Hyperlink_Next.xml
+/copy:Level Play Screen/Door/Hyperlink_Next.xml
+
+#begin Level Play Screen/Door/Hyperlink_NextLocked.visuals
+/copy:Level Play Screen/Door/Hyperlink_NextLocked.visuals
+
+#begin Level Play Screen/Door/Hyperlink_NextLocked.xml
+/copy:Level Play Screen/Door/Hyperlink_NextLocked.xml
+
+#begin Level Play Screen/Door/Hyperlink_Previous.visuals
+/copy:Level Play Screen/Door/Hyperlink_Previous.visuals
+
+#begin Level Play Screen/Door/Hyperlink_Previous.xml
+/copy:Level Play Screen/Door/Hyperlink_Previous.xml
+
+#begin Level Play Screen/Door/Hyperlink_PreviousLocked.visuals
+/copy:Level Play Screen/Door/Hyperlink_PreviousLocked.visuals
+
+#begin Level Play Screen/Door/Hyperlink_PreviousLocked.xml
+/copy:Level Play Screen/Door/Hyperlink_PreviousLocked.xml
+
+#begin Level Play Screen/Door/Hyperlinks.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Door/Hyperlinks.png
+
+#begin Level Play Screen/Door/Invisible.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Door/Invisible.png
+
+#begin Level Play Screen/Door/Invisible.visuals
+/copy:Level Play Screen/Door/Invisible.visuals
+
+#begin Level Play Screen/Door/Invisible.xml
+/copy:Level Play Screen/Door/Invisible.xml
+
+#begin Level Play Screen/Door/InvisibleWarp_Locked.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Door/InvisibleWarp_Locked.png
+
+#begin Level Play Screen/Door/InvisibleWarp_Locked.visuals
+/copy:Level Play Screen/Door/InvisibleWarp_Locked.visuals
+
+#begin Level Play Screen/Door/InvisibleWarp_Locked.xml
+/copy:Level Play Screen/Door/InvisibleWarp_Locked.xml
+
+#begin Level Play Screen/Door/Key_Blue.visuals
+/copy:Level Play Screen/Door/Key_Blue.visuals
+
+#begin Level Play Screen/Door/Key_Blue.xml
+/copy:Level Play Screen/Door/Key_Blue.xml
+
+#begin Level Play Screen/Door/Key_Green.visuals
+/copy:Level Play Screen/Door/Key_Green.visuals
+
+#begin Level Play Screen/Door/Key_Green.xml
+/copy:Level Play Screen/Door/Key_Green.xml
+
+#begin Level Play Screen/Door/Key_Red.visuals
+/copy:Level Play Screen/Door/Key_Red.visuals
+
+#begin Level Play Screen/Door/Key_Red.xml
+/copy:Level Play Screen/Door/Key_Red.xml
+
+#begin Level Play Screen/Door/Key_Silver.visuals
+/copy:Level Play Screen/Door/Key_Silver.visuals
+
+#begin Level Play Screen/Door/Key_Silver.xml
+/copy:Level Play Screen/Door/Key_Silver.xml
+
+#begin Level Play Screen/Door/Key_Yellow.visuals
+/copy:Level Play Screen/Door/Key_Yellow.visuals
+
+#begin Level Play Screen/Door/Key_Yellow.xml
+/copy:Level Play Screen/Door/Key_Yellow.xml
+
+#begin Level Play Screen/Door/Plain_Locked.visuals
+/copy:Level Play Screen/Door/Plain_Locked.visuals
+
+#begin Level Play Screen/Door/Plain_Locked.xml
+/copy:Level Play Screen/Door/Plain_Locked.xml
+
+#begin Level Play Screen/Door/Plain.visuals
+/copy:Level Play Screen/Door/Plain.visuals
+
+#begin Level Play Screen/Door/Plain.xml
+/copy:Level Play Screen/Door/Plain.xml
+
+#begin Level Play Screen/Enemy/Basket_Fast_Left.visuals
+/copy:Level Play Screen/Enemy/Basket_Fast_Left.visuals
+
+#begin Level Play Screen/Enemy/Basket_Fast_Left.xml
+/copy:Level Play Screen/Enemy/Basket_Fast_Left.xml
+
+#begin Level Play Screen/Enemy/Basket_Fast_Right.visuals
+/copy:Level Play Screen/Enemy/Basket_Fast_Right.visuals
+
+#begin Level Play Screen/Enemy/Basket_Fast_Right.xml
+/copy:Level Play Screen/Enemy/Basket_Fast_Right.xml
+
+#begin Level Play Screen/Enemy/Basket_Fast.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Enemy/Basket_Fast.png
+
+#begin Level Play Screen/Enemy/Copier.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Enemy/Copier.png
+
+#begin Level Play Screen/Enemy/Copier.visuals
+/copy:Level Play Screen/Enemy/Copier.visuals
+
+#begin Level Play Screen/Enemy/Copier.xml
+/copy:Level Play Screen/Enemy/Copier.xml
+
+#begin Level Play Screen/Enemy/Fast_Left.visuals
+/copy:Level Play Screen/Enemy/Fast_Left.visuals
+
+#begin Level Play Screen/Enemy/Fast_Left.xml
+/copy:Level Play Screen/Enemy/Fast_Left.xml
+
+#begin Level Play Screen/Enemy/Fast_Right.visuals
+/copy:Level Play Screen/Enemy/Fast_Right.visuals
+
+#begin Level Play Screen/Enemy/Fast_Right.xml
+/copy:Level Play Screen/Enemy/Fast_Right.xml
+
+#begin Level Play Screen/Enemy/Fast.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Enemy/Fast.png
+
+#begin Level Play Screen/Enemy/FastSpike_Left.visuals
+/copy:Level Play Screen/Enemy/FastSpike_Left.visuals
+
+#begin Level Play Screen/Enemy/FastSpike_Left.xml
+/copy:Level Play Screen/Enemy/FastSpike_Left.xml
+
+#begin Level Play Screen/Enemy/FastSpike_Right.visuals
+/copy:Level Play Screen/Enemy/FastSpike_Right.visuals
+
+#begin Level Play Screen/Enemy/FastSpike_Right.xml
+/copy:Level Play Screen/Enemy/FastSpike_Right.xml
+
+#begin Level Play Screen/Enemy/FastSpike.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Enemy/FastSpike.png
+
+#begin Level Play Screen/Enemy/Follower.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Enemy/Follower.png
+
+#begin Level Play Screen/Enemy/Follower.visuals
+/copy:Level Play Screen/Enemy/Follower.visuals
+
+#begin Level Play Screen/Enemy/Follower.xml
+/copy:Level Play Screen/Enemy/Follower.xml
+
+#begin Level Play Screen/Enemy/FollowerSpike.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Enemy/FollowerSpike.png
+
+#begin Level Play Screen/Enemy/FollowerSpike.visuals
+/copy:Level Play Screen/Enemy/FollowerSpike.visuals
+
+#begin Level Play Screen/Enemy/FollowerSpike.xml
+/copy:Level Play Screen/Enemy/FollowerSpike.xml
+
+#begin Level Play Screen/Enemy/JumpCopier_Left.visuals
+/copy:Level Play Screen/Enemy/JumpCopier_Left.visuals
+
+#begin Level Play Screen/Enemy/JumpCopier_Left.xml
+/copy:Level Play Screen/Enemy/JumpCopier_Left.xml
+
+#begin Level Play Screen/Enemy/JumpCopier_Right.visuals
+/copy:Level Play Screen/Enemy/JumpCopier_Right.visuals
+
+#begin Level Play Screen/Enemy/JumpCopier_Right.xml
+/copy:Level Play Screen/Enemy/JumpCopier_Right.xml
+
+#begin Level Play Screen/Enemy/JumpCopier.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Enemy/JumpCopier.png
+
+#begin Level Play Screen/Enemy/Jumper_Left.visuals
+/copy:Level Play Screen/Enemy/Jumper_Left.visuals
+
+#begin Level Play Screen/Enemy/Jumper_Left.xml
+/copy:Level Play Screen/Enemy/Jumper_Left.xml
+
+#begin Level Play Screen/Enemy/Jumper_Right.visuals
+/copy:Level Play Screen/Enemy/Jumper_Right.visuals
+
+#begin Level Play Screen/Enemy/Jumper_Right.xml
+/copy:Level Play Screen/Enemy/Jumper_Right.xml
+
+#begin Level Play Screen/Enemy/Jumper.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Enemy/Jumper.png
+
+#begin Level Play Screen/Enemy/JumperSpike_Left.visuals
+/copy:Level Play Screen/Enemy/JumperSpike_Left.visuals
+
+#begin Level Play Screen/Enemy/JumperSpike_Left.xml
+/copy:Level Play Screen/Enemy/JumperSpike_Left.xml
+
+#begin Level Play Screen/Enemy/JumperSpike_Right.visuals
+/copy:Level Play Screen/Enemy/JumperSpike_Right.visuals
+
+#begin Level Play Screen/Enemy/JumperSpike_Right.xml
+/copy:Level Play Screen/Enemy/JumperSpike_Right.xml
+
+#begin Level Play Screen/Enemy/JumperSpike.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Enemy/JumperSpike.png
+
+#begin Level Play Screen/Enemy/Slow_Left.visuals
+/copy:Level Play Screen/Enemy/Slow_Left.visuals
+
+#begin Level Play Screen/Enemy/Slow_Left.xml
+/copy:Level Play Screen/Enemy/Slow_Left.xml
+
+#begin Level Play Screen/Enemy/Slow_Right.visuals
+/copy:Level Play Screen/Enemy/Slow_Right.visuals
+
+#begin Level Play Screen/Enemy/Slow_Right.xml
+/copy:Level Play Screen/Enemy/Slow_Right.xml
+
+#begin Level Play Screen/Enemy/Slow.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Enemy/Slow.png
+
+#begin Level Play Screen/Enemy/SlowShooter_Left.visuals
+/copy:Level Play Screen/Enemy/SlowShooter_Left.visuals
+
+#begin Level Play Screen/Enemy/SlowShooter_Left.xml
+/copy:Level Play Screen/Enemy/SlowShooter_Left.xml
+
+#begin Level Play Screen/Enemy/SlowShooter_Right.visuals
+/copy:Level Play Screen/Enemy/SlowShooter_Right.visuals
+
+#begin Level Play Screen/Enemy/SlowShooter_Right.xml
+/copy:Level Play Screen/Enemy/SlowShooter_Right.xml
+
+#begin Level Play Screen/Enemy/SlowShooter.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Enemy/SlowShooter.png
+
+#begin Level Play Screen/Enemy/SlowSpike_Left.visuals
+/copy:Level Play Screen/Enemy/SlowSpike_Left.visuals
+
+#begin Level Play Screen/Enemy/SlowSpike_Left.xml
+/copy:Level Play Screen/Enemy/SlowSpike_Left.xml
+
+#begin Level Play Screen/Enemy/SlowSpike_Right.visuals
+/copy:Level Play Screen/Enemy/SlowSpike_Right.visuals
+
+#begin Level Play Screen/Enemy/SlowSpike_Right.xml
+/copy:Level Play Screen/Enemy/SlowSpike_Right.xml
+
+#begin Level Play Screen/Enemy/SlowSpike.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Enemy/SlowSpike.png
+
+#begin Level Play Screen/Enemy/SolidTileShooter_Down.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Enemy/SolidTileShooter_Down.png
+
+#begin Level Play Screen/Enemy/SolidTileShooter_Down.visuals
+/copy:Level Play Screen/Enemy/SolidTileShooter_Down.visuals
+
+#begin Level Play Screen/Enemy/SolidTileShooter_Down.xml
+/copy:Level Play Screen/Enemy/SolidTileShooter_Down.xml
+
+#begin Level Play Screen/Enemy/SolidTileShooter_Left.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Enemy/SolidTileShooter_Left.png
+
+#begin Level Play Screen/Enemy/SolidTileShooter_Left.visuals
+/copy:Level Play Screen/Enemy/SolidTileShooter_Left.visuals
+
+#begin Level Play Screen/Enemy/SolidTileShooter_Left.xml
+/copy:Level Play Screen/Enemy/SolidTileShooter_Left.xml
+
+#begin Level Play Screen/Enemy/SolidTileShooter_Right.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Enemy/SolidTileShooter_Right.png
+
+#begin Level Play Screen/Enemy/SolidTileShooter_Right.visuals
+/copy:Level Play Screen/Enemy/SolidTileShooter_Right.visuals
+
+#begin Level Play Screen/Enemy/SolidTileShooter_Right.xml
+/copy:Level Play Screen/Enemy/SolidTileShooter_Right.xml
+
+#begin Level Play Screen/Enemy/SolidTileShooter_Up.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Enemy/SolidTileShooter_Up.png
+
+#begin Level Play Screen/Enemy/SolidTileShooter_Up.visuals
+/copy:Level Play Screen/Enemy/SolidTileShooter_Up.visuals
+
+#begin Level Play Screen/Enemy/SolidTileShooter_Up.xml
+/copy:Level Play Screen/Enemy/SolidTileShooter_Up.xml
+
+#begin Level Play Screen/Enemy/Tall_Left.visuals
+/copy:Level Play Screen/Enemy/Tall_Left.visuals
+
+#begin Level Play Screen/Enemy/Tall_Left.xml
+/copy:Level Play Screen/Enemy/Tall_Left.xml
+
+#begin Level Play Screen/Enemy/Tall_Right.visuals
+/copy:Level Play Screen/Enemy/Tall_Right.visuals
+
+#begin Level Play Screen/Enemy/Tall_Right.xml
+/copy:Level Play Screen/Enemy/Tall_Right.xml
+
+#begin Level Play Screen/Enemy/Tall.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Enemy/Tall.png
+
+#begin Level Play Screen/Enemy/TallRock_Left.visuals
+/copy:Level Play Screen/Enemy/TallRock_Left.visuals
+
+#begin Level Play Screen/Enemy/TallRock_Left.xml
+/copy:Level Play Screen/Enemy/TallRock_Left.xml
+
+#begin Level Play Screen/Enemy/TallRock_Right.visuals
+/copy:Level Play Screen/Enemy/TallRock_Right.visuals
+
+#begin Level Play Screen/Enemy/TallRock_Right.xml
+/copy:Level Play Screen/Enemy/TallRock_Right.xml
+
+#begin Level Play Screen/Enemy/TallRock.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Enemy/TallRock.png
+
+#begin Level Play Screen/Enemy/Zombie_Left.visuals
+/copy:Level Play Screen/Enemy/Zombie_Left.visuals
+
+#begin Level Play Screen/Enemy/Zombie_Left.xml
+/copy:Level Play Screen/Enemy/Zombie_Left.xml
+
+#begin Level Play Screen/Enemy/Zombie_Right.visuals
+/copy:Level Play Screen/Enemy/Zombie_Right.visuals
+
+#begin Level Play Screen/Enemy/Zombie_Right.xml
+/copy:Level Play Screen/Enemy/Zombie_Right.xml
+
+#begin Level Play Screen/Enemy/Zombie.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Enemy/Zombie.png
+
+#begin Level Play Screen/MusicPoint/March.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/MusicPoint/March.png
+
+#begin Level Play Screen/MusicPoint/March.visuals
+/copy:Level Play Screen/MusicPoint/March.visuals
+
+#begin Level Play Screen/MusicPoint/March.xml
+/copy:Level Play Screen/MusicPoint/March.xml
+
+#begin Level Play Screen/MusicPoint/Sunset.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/MusicPoint/Sunset.png
+
+#begin Level Play Screen/MusicPoint/Sunset.visuals
+/copy:Level Play Screen/MusicPoint/Sunset.visuals
+
+#begin Level Play Screen/MusicPoint/Sunset.xml
+/copy:Level Play Screen/MusicPoint/Sunset.xml
+
+#begin Level Play Screen/Obstacle/Fireball.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Obstacle/Fireball.png
+
+#begin Level Play Screen/Obstacle/Fireball.visuals
+/copy:Level Play Screen/Obstacle/Fireball.visuals
+
+#begin Level Play Screen/Obstacle/Fireball.xml
+/copy:Level Play Screen/Obstacle/Fireball.xml
+
+#begin Level Play Screen/Obstacle/Ice_1x1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Obstacle/Ice_1x1.png
+
+#begin Level Play Screen/Obstacle/Ice_1x1.visuals
+/copy:Level Play Screen/Obstacle/Ice_1x1.visuals
+
+#begin Level Play Screen/Obstacle/Ice_1x1.xml
+/copy:Level Play Screen/Obstacle/Ice_1x1.xml
+
+#begin Level Play Screen/Obstacle/Ice_2x2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Obstacle/Ice_2x2.png
+
+#begin Level Play Screen/Obstacle/Ice_2x2.visuals
+/copy:Level Play Screen/Obstacle/Ice_2x2.visuals
+
+#begin Level Play Screen/Obstacle/Ice_2x2.xml
+/copy:Level Play Screen/Obstacle/Ice_2x2.xml
+
+#begin Level Play Screen/Obstacle/Ice_3x3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Obstacle/Ice_3x3.png
+
+#begin Level Play Screen/Obstacle/Ice_3x3.visuals
+/copy:Level Play Screen/Obstacle/Ice_3x3.visuals
+
+#begin Level Play Screen/Obstacle/Ice_3x3.xml
+/copy:Level Play Screen/Obstacle/Ice_3x3.xml
+
+#begin Level Play Screen/Obstacle/Ice_5x1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Obstacle/Ice_5x1.png
+
+#begin Level Play Screen/Obstacle/Ice_5x1.visuals
+/copy:Level Play Screen/Obstacle/Ice_5x1.visuals
+
+#begin Level Play Screen/Obstacle/Ice_5x1.xml
+/copy:Level Play Screen/Obstacle/Ice_5x1.xml
+
+#begin Level Play Screen/Obstacle/Rock_1x1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Obstacle/Rock_1x1.png
+
+#begin Level Play Screen/Obstacle/Rock_1x1.visuals
+/copy:Level Play Screen/Obstacle/Rock_1x1.visuals
+
+#begin Level Play Screen/Obstacle/Rock_1x1.xml
+/copy:Level Play Screen/Obstacle/Rock_1x1.xml
+
+#begin Level Play Screen/Obstacle/Rock_1x5.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Obstacle/Rock_1x5.png
+
+#begin Level Play Screen/Obstacle/Rock_1x5.visuals
+/copy:Level Play Screen/Obstacle/Rock_1x5.visuals
+
+#begin Level Play Screen/Obstacle/Rock_1x5.xml
+/copy:Level Play Screen/Obstacle/Rock_1x5.xml
+
+#begin Level Play Screen/Obstacle/Rock_2x2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Obstacle/Rock_2x2.png
+
+#begin Level Play Screen/Obstacle/Rock_2x2.visuals
+/copy:Level Play Screen/Obstacle/Rock_2x2.visuals
+
+#begin Level Play Screen/Obstacle/Rock_2x2.xml
+/copy:Level Play Screen/Obstacle/Rock_2x2.xml
+
+#begin Level Play Screen/Obstacle/Spike_1x1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Obstacle/Spike_1x1.png
+
+#begin Level Play Screen/Obstacle/Spike_1x1.visuals
+/copy:Level Play Screen/Obstacle/Spike_1x1.visuals
+
+#begin Level Play Screen/Obstacle/Spike_1x1.xml
+/copy:Level Play Screen/Obstacle/Spike_1x1.xml
+
+#begin Level Play Screen/Obstacle/Spike_2x2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Obstacle/Spike_2x2.png
+
+#begin Level Play Screen/Obstacle/Spike_2x2.visuals
+/copy:Level Play Screen/Obstacle/Spike_2x2.visuals
+
+#begin Level Play Screen/Obstacle/Spike_2x2.xml
+/copy:Level Play Screen/Obstacle/Spike_2x2.xml
+
+#begin Level Play Screen/Obstacle/Spike_Horizontal_3x1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Obstacle/Spike_Horizontal_3x1.png
+
+#begin Level Play Screen/Obstacle/Spike_Horizontal_3x1.visuals
+/copy:Level Play Screen/Obstacle/Spike_Horizontal_3x1.visuals
+
+#begin Level Play Screen/Obstacle/Spike_Horizontal_3x1.xml
+/copy:Level Play Screen/Obstacle/Spike_Horizontal_3x1.xml
+
+#begin Level Play Screen/Obstacle/Spike_Vertical_1x3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Obstacle/Spike_Vertical_1x3.png
+
+#begin Level Play Screen/Obstacle/Spike_Vertical_1x3.visuals
+/copy:Level Play Screen/Obstacle/Spike_Vertical_1x3.visuals
+
+#begin Level Play Screen/Obstacle/Spike_Vertical_1x3.xml
+/copy:Level Play Screen/Obstacle/Spike_Vertical_1x3.xml
+
+#begin Level Play Screen/Obstacle/Truss.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Obstacle/Truss.png
+
+#begin Level Play Screen/Obstacle/Truss.visuals
+/copy:Level Play Screen/Obstacle/Truss.visuals
+
+#begin Level Play Screen/Obstacle/Truss.xml
+/copy:Level Play Screen/Obstacle/Truss.xml
+
+#begin Level Play Screen/Projectile/Fire.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Projectile/Fire.png
+
+#begin Level Play Screen/Projectile/Fire.visuals
+/copy:Level Play Screen/Projectile/Fire.visuals
+
+#begin Level Play Screen/Projectile/Fire.xml
+/copy:Level Play Screen/Projectile/Fire.xml
+
+#begin Level Play Screen/Room/ConveyorLand_1.xml
+/copy:Level Play Screen/Room/ConveyorLand_1.xml
+
+#begin Level Play Screen/Room/ConveyorLand_10.xml
+/copy:Level Play Screen/Room/ConveyorLand_10.xml
+
+#begin Level Play Screen/Room/ConveyorLand_11.xml
+/copy:Level Play Screen/Room/ConveyorLand_11.xml
+
+#begin Level Play Screen/Room/ConveyorLand_12.xml
+/copy:Level Play Screen/Room/ConveyorLand_12.xml
+
+#begin Level Play Screen/Room/ConveyorLand_13.xml
+/copy:Level Play Screen/Room/ConveyorLand_13.xml
+
+#begin Level Play Screen/Room/ConveyorLand_14.xml
+/copy:Level Play Screen/Room/ConveyorLand_14.xml
+
+#begin Level Play Screen/Room/ConveyorLand_15.xml
+/copy:Level Play Screen/Room/ConveyorLand_15.xml
+
+#begin Level Play Screen/Room/ConveyorLand_16.xml
+/copy:Level Play Screen/Room/ConveyorLand_16.xml
+
+#begin Level Play Screen/Room/ConveyorLand_17.xml
+/copy:Level Play Screen/Room/ConveyorLand_17.xml
+
+#begin Level Play Screen/Room/ConveyorLand_2.xml
+/copy:Level Play Screen/Room/ConveyorLand_2.xml
+
+#begin Level Play Screen/Room/ConveyorLand_3.xml
+/copy:Level Play Screen/Room/ConveyorLand_3.xml
+
+#begin Level Play Screen/Room/ConveyorLand_4.xml
+/copy:Level Play Screen/Room/ConveyorLand_4.xml
+
+#begin Level Play Screen/Room/ConveyorLand_5.xml
+/copy:Level Play Screen/Room/ConveyorLand_5.xml
+
+#begin Level Play Screen/Room/ConveyorLand_6.xml
+/copy:Level Play Screen/Room/ConveyorLand_6.xml
+
+#begin Level Play Screen/Room/ConveyorLand_7.xml
+/copy:Level Play Screen/Room/ConveyorLand_7.xml
+
+#begin Level Play Screen/Room/ConveyorLand_8.xml
+/copy:Level Play Screen/Room/ConveyorLand_8.xml
+
+#begin Level Play Screen/Room/ConveyorLand_9.xml
+/copy:Level Play Screen/Room/ConveyorLand_9.xml
+
+#begin Level Play Screen/Room/DevLand_1.xml
+/copy:Level Play Screen/Room/DevLand_1.xml
+
+#begin Level Play Screen/Room/DevLand_10.xml
+/copy:Level Play Screen/Room/DevLand_10.xml
+
+#begin Level Play Screen/Room/DevLand_11.xml
+/copy:Level Play Screen/Room/DevLand_11.xml
+
+#begin Level Play Screen/Room/DevLand_12.xml
+/copy:Level Play Screen/Room/DevLand_12.xml
+
+#begin Level Play Screen/Room/DevLand_13.xml
+/copy:Level Play Screen/Room/DevLand_13.xml
+
+#begin Level Play Screen/Room/DevLand_14.xml
+/copy:Level Play Screen/Room/DevLand_14.xml
+
+#begin Level Play Screen/Room/DevLand_15.xml
+/copy:Level Play Screen/Room/DevLand_15.xml
+
+#begin Level Play Screen/Room/DevLand_16.xml
+/copy:Level Play Screen/Room/DevLand_16.xml
+
+#begin Level Play Screen/Room/DevLand_17.xml
+/copy:Level Play Screen/Room/DevLand_17.xml
+
+#begin Level Play Screen/Room/DevLand_18.xml
+/copy:Level Play Screen/Room/DevLand_18.xml
+
+#begin Level Play Screen/Room/DevLand_19.xml
+/copy:Level Play Screen/Room/DevLand_19.xml
+
+#begin Level Play Screen/Room/DevLand_2.xml
+/copy:Level Play Screen/Room/DevLand_2.xml
+
+#begin Level Play Screen/Room/DevLand_20.xml
+/copy:Level Play Screen/Room/DevLand_20.xml
+
+#begin Level Play Screen/Room/DevLand_21.xml
+/copy:Level Play Screen/Room/DevLand_21.xml
+
+#begin Level Play Screen/Room/DevLand_22.xml
+/copy:Level Play Screen/Room/DevLand_22.xml
+
+#begin Level Play Screen/Room/DevLand_23.xml
+/copy:Level Play Screen/Room/DevLand_23.xml
+
+#begin Level Play Screen/Room/DevLand_24.xml
+/copy:Level Play Screen/Room/DevLand_24.xml
+
+#begin Level Play Screen/Room/DevLand_25.xml
+/copy:Level Play Screen/Room/DevLand_25.xml
+
+#begin Level Play Screen/Room/DevLand_26.xml
+/copy:Level Play Screen/Room/DevLand_26.xml
+
+#begin Level Play Screen/Room/DevLand_27.xml
+/copy:Level Play Screen/Room/DevLand_27.xml
+
+#begin Level Play Screen/Room/DevLand_28.xml
+/copy:Level Play Screen/Room/DevLand_28.xml
+
+#begin Level Play Screen/Room/DevLand_29.xml
+/copy:Level Play Screen/Room/DevLand_29.xml
+
+#begin Level Play Screen/Room/DevLand_3.xml
+/copy:Level Play Screen/Room/DevLand_3.xml
+
+#begin Level Play Screen/Room/DevLand_30.xml
+/copy:Level Play Screen/Room/DevLand_30.xml
+
+#begin Level Play Screen/Room/DevLand_31.xml
+/copy:Level Play Screen/Room/DevLand_31.xml
+
+#begin Level Play Screen/Room/DevLand_32.xml
+/copy:Level Play Screen/Room/DevLand_32.xml
+
+#begin Level Play Screen/Room/DevLand_4.xml
+/copy:Level Play Screen/Room/DevLand_4.xml
+
+#begin Level Play Screen/Room/DevLand_5.xml
+/copy:Level Play Screen/Room/DevLand_5.xml
+
+#begin Level Play Screen/Room/DevLand_6.xml
+/copy:Level Play Screen/Room/DevLand_6.xml
+
+#begin Level Play Screen/Room/DevLand_7.xml
+/copy:Level Play Screen/Room/DevLand_7.xml
+
+#begin Level Play Screen/Room/DevLand_8.xml
+/copy:Level Play Screen/Room/DevLand_8.xml
+
+#begin Level Play Screen/Room/DevLand_9.xml
+/copy:Level Play Screen/Room/DevLand_9.xml
+
+#begin Level Play Screen/Room/EndLand_1.xml
+/copy:Level Play Screen/Room/EndLand_1.xml
+
+#begin Level Play Screen/Room/FireLand_1.xml
+/copy:Level Play Screen/Room/FireLand_1.xml
+
+#begin Level Play Screen/Room/FireLand_10.xml
+/copy:Level Play Screen/Room/FireLand_10.xml
+
+#begin Level Play Screen/Room/FireLand_11.xml
+/copy:Level Play Screen/Room/FireLand_11.xml
+
+#begin Level Play Screen/Room/FireLand_12.xml
+/copy:Level Play Screen/Room/FireLand_12.xml
+
+#begin Level Play Screen/Room/FireLand_13.xml
+/copy:Level Play Screen/Room/FireLand_13.xml
+
+#begin Level Play Screen/Room/FireLand_14.xml
+/copy:Level Play Screen/Room/FireLand_14.xml
+
+#begin Level Play Screen/Room/FireLand_15.xml
+/copy:Level Play Screen/Room/FireLand_15.xml
+
+#begin Level Play Screen/Room/FireLand_16.xml
+/copy:Level Play Screen/Room/FireLand_16.xml
+
+#begin Level Play Screen/Room/FireLand_17.xml
+/copy:Level Play Screen/Room/FireLand_17.xml
+
+#begin Level Play Screen/Room/FireLand_2.xml
+/copy:Level Play Screen/Room/FireLand_2.xml
+
+#begin Level Play Screen/Room/FireLand_3.xml
+/copy:Level Play Screen/Room/FireLand_3.xml
+
+#begin Level Play Screen/Room/FireLand_4.xml
+/copy:Level Play Screen/Room/FireLand_4.xml
+
+#begin Level Play Screen/Room/FireLand_5.xml
+/copy:Level Play Screen/Room/FireLand_5.xml
+
+#begin Level Play Screen/Room/FireLand_6.xml
+/copy:Level Play Screen/Room/FireLand_6.xml
+
+#begin Level Play Screen/Room/FireLand_7.xml
+/copy:Level Play Screen/Room/FireLand_7.xml
+
+#begin Level Play Screen/Room/FireLand_8.xml
+/copy:Level Play Screen/Room/FireLand_8.xml
+
+#begin Level Play Screen/Room/FireLand_9.xml
+/copy:Level Play Screen/Room/FireLand_9.xml
+
+#begin Level Play Screen/Room/SpikeLand_1.xml
+/copy:Level Play Screen/Room/SpikeLand_1.xml
+
+#begin Level Play Screen/Room/SpikeLand_10.xml
+/copy:Level Play Screen/Room/SpikeLand_10.xml
+
+#begin Level Play Screen/Room/SpikeLand_11.xml
+/copy:Level Play Screen/Room/SpikeLand_11.xml
+
+#begin Level Play Screen/Room/SpikeLand_12.xml
+/copy:Level Play Screen/Room/SpikeLand_12.xml
+
+#begin Level Play Screen/Room/SpikeLand_13.xml
+/copy:Level Play Screen/Room/SpikeLand_13.xml
+
+#begin Level Play Screen/Room/SpikeLand_14.xml
+/copy:Level Play Screen/Room/SpikeLand_14.xml
+
+#begin Level Play Screen/Room/SpikeLand_2.xml
+/copy:Level Play Screen/Room/SpikeLand_2.xml
+
+#begin Level Play Screen/Room/SpikeLand_3.xml
+/copy:Level Play Screen/Room/SpikeLand_3.xml
+
+#begin Level Play Screen/Room/SpikeLand_4.xml
+/copy:Level Play Screen/Room/SpikeLand_4.xml
+
+#begin Level Play Screen/Room/SpikeLand_5.xml
+/copy:Level Play Screen/Room/SpikeLand_5.xml
+
+#begin Level Play Screen/Room/SpikeLand_6.xml
+/copy:Level Play Screen/Room/SpikeLand_6.xml
+
+#begin Level Play Screen/Room/SpikeLand_7.xml
+/copy:Level Play Screen/Room/SpikeLand_7.xml
+
+#begin Level Play Screen/Room/SpikeLand_8.xml
+/copy:Level Play Screen/Room/SpikeLand_8.xml
+
+#begin Level Play Screen/Room/SpikeLand_9.xml
+/copy:Level Play Screen/Room/SpikeLand_9.xml
+
+#begin Level Play Screen/SpawnPoint/SpawnPoint.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/SpawnPoint/SpawnPoint.png
+
+#begin Level Play Screen/SpawnPoint/SpawnPoint.visuals
+/copy:Level Play Screen/SpawnPoint/SpawnPoint.visuals
+
+#begin Level Play Screen/SpawnPoint/SpawnPoint.xml
+/copy:Level Play Screen/SpawnPoint/SpawnPoint.xml
+
+#begin Level Play Screen/Speaker/AutoSpeak.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Speaker/AutoSpeak.png
+
+#begin Level Play Screen/Speaker/AutoSpeak.visuals
+/copy:Level Play Screen/Speaker/AutoSpeak.visuals
+
+#begin Level Play Screen/Speaker/AutoSpeak.xml
+/copy:Level Play Screen/Speaker/AutoSpeak.xml
+
+#begin Level Play Screen/Speaker/Debstar.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Speaker/Debstar.png
+
+#begin Level Play Screen/Speaker/Debstar.visuals
+/copy:Level Play Screen/Speaker/Debstar.visuals
+
+#begin Level Play Screen/Speaker/Debstar.xml
+/copy:Level Play Screen/Speaker/Debstar.xml
+
+#begin Level Play Screen/Speaker/Developer.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Speaker/Developer.png
+
+#begin Level Play Screen/Speaker/Developer.visuals
+/copy:Level Play Screen/Speaker/Developer.visuals
+
+#begin Level Play Screen/Speaker/Developer.xml
+/copy:Level Play Screen/Speaker/Developer.xml
+
+#begin Level Play Screen/Speaker/SignPost.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Speaker/SignPost.png
+
+#begin Level Play Screen/Speaker/SignPost.visuals
+/copy:Level Play Screen/Speaker/SignPost.visuals
+
+#begin Level Play Screen/Speaker/SignPost.xml
+/copy:Level Play Screen/Speaker/SignPost.xml
+
+#begin Level Play Screen/Switch/Lever.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Switch/Lever.png
+
+#begin Level Play Screen/Switch/Lever.visuals
+/copy:Level Play Screen/Switch/Lever.visuals
+
+#begin Level Play Screen/Switch/Lever.xml
+/copy:Level Play Screen/Switch/Lever.xml
+
+#begin Level Play Screen/Tile/Background/Layer 1/ConveyorLand.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/Background/Layer 1/ConveyorLand.png
+
+#begin Level Play Screen/Tile/Background/Layer 1/DevLand.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/Background/Layer 1/DevLand.png
+
+#begin Level Play Screen/Tile/Background/Layer 1/EndLand.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/Background/Layer 1/EndLand.png
+
+#begin Level Play Screen/Tile/Background/Layer 1/FireLand.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/Background/Layer 1/FireLand.png
+
+#begin Level Play Screen/Tile/Background/Layer 1/SpikeLand.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/Background/Layer 1/SpikeLand.png
+
+#begin Level Play Screen/Tile/Background/Layer 2/In.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/Background/Layer 2/In.png
+
+#begin Level Play Screen/Tile/Background/Layer 2/OutHorizontal.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/Background/Layer 2/OutHorizontal.png
+
+#begin Level Play Screen/Tile/Background/Layer 2/OutVertical.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/Background/Layer 2/OutVertical.png
+
+#begin Level Play Screen/Tile/Background/Layer 2/WebSite.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/Background/Layer 2/WebSite.png
+
+#begin Level Play Screen/Tile/Black.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/Black.png
+
+#begin Level Play Screen/Tile/Black.visuals
+/copy:Level Play Screen/Tile/Black.visuals
+
+#begin Level Play Screen/Tile/Black.xml
+/copy:Level Play Screen/Tile/Black.xml
+
+#begin Level Play Screen/Tile/ConveyorBelt_Left.visuals
+/copy:Level Play Screen/Tile/ConveyorBelt_Left.visuals
+
+#begin Level Play Screen/Tile/ConveyorBelt_Left.xml
+/copy:Level Play Screen/Tile/ConveyorBelt_Left.xml
+
+#begin Level Play Screen/Tile/ConveyorBelt_Right.visuals
+/copy:Level Play Screen/Tile/ConveyorBelt_Right.visuals
+
+#begin Level Play Screen/Tile/ConveyorBelt_Right.xml
+/copy:Level Play Screen/Tile/ConveyorBelt_Right.xml
+
+#begin Level Play Screen/Tile/ConveyorBelt.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/ConveyorBelt.png
+
+#begin Level Play Screen/Tile/Fire.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/Fire.png
+
+#begin Level Play Screen/Tile/Fire.visuals
+/copy:Level Play Screen/Tile/Fire.visuals
+
+#begin Level Play Screen/Tile/Fire.xml
+/copy:Level Play Screen/Tile/Fire.xml
+
+#begin Level Play Screen/Tile/Goop.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/Goop.png
+
+#begin Level Play Screen/Tile/Goop.visuals
+/copy:Level Play Screen/Tile/Goop.visuals
+
+#begin Level Play Screen/Tile/Goop.xml
+/copy:Level Play Screen/Tile/Goop.xml
+
+#begin Level Play Screen/Tile/Grass.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/Grass.png
+
+#begin Level Play Screen/Tile/Grass.visuals
+/copy:Level Play Screen/Tile/Grass.visuals
+
+#begin Level Play Screen/Tile/Grass.xml
+/copy:Level Play Screen/Tile/Grass.xml
+
+#begin Level Play Screen/Tile/Ice.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/Ice.png
+
+#begin Level Play Screen/Tile/Ice.visuals
+/copy:Level Play Screen/Tile/Ice.visuals
+
+#begin Level Play Screen/Tile/Ice.xml
+/copy:Level Play Screen/Tile/Ice.xml
+
+#begin Level Play Screen/Tile/Invisible.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/Invisible.png
+
+#begin Level Play Screen/Tile/Invisible.visuals
+/copy:Level Play Screen/Tile/Invisible.visuals
+
+#begin Level Play Screen/Tile/Invisible.xml
+/copy:Level Play Screen/Tile/Invisible.xml
+
+#begin Level Play Screen/Tile/Rock.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/Rock.png
+
+#begin Level Play Screen/Tile/Rock.visuals
+/copy:Level Play Screen/Tile/Rock.visuals
+
+#begin Level Play Screen/Tile/Rock.xml
+/copy:Level Play Screen/Tile/Rock.xml
+
+#begin Level Play Screen/Tile/RockShooter_Down.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/RockShooter_Down.png
+
+#begin Level Play Screen/Tile/RockShooter_Down.visuals
+/copy:Level Play Screen/Tile/RockShooter_Down.visuals
+
+#begin Level Play Screen/Tile/RockShooter_Down.xml
+/copy:Level Play Screen/Tile/RockShooter_Down.xml
+
+#begin Level Play Screen/Tile/RockShooter_Left.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/RockShooter_Left.png
+
+#begin Level Play Screen/Tile/RockShooter_Left.visuals
+/copy:Level Play Screen/Tile/RockShooter_Left.visuals
+
+#begin Level Play Screen/Tile/RockShooter_Left.xml
+/copy:Level Play Screen/Tile/RockShooter_Left.xml
+
+#begin Level Play Screen/Tile/RockShooter_Right.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/RockShooter_Right.png
+
+#begin Level Play Screen/Tile/RockShooter_Right.visuals
+/copy:Level Play Screen/Tile/RockShooter_Right.visuals
+
+#begin Level Play Screen/Tile/RockShooter_Right.xml
+/copy:Level Play Screen/Tile/RockShooter_Right.xml
+
+#begin Level Play Screen/Tile/Spike_Horizontal.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/Spike_Horizontal.png
+
+#begin Level Play Screen/Tile/Spike_Horizontal.visuals
+/copy:Level Play Screen/Tile/Spike_Horizontal.visuals
+
+#begin Level Play Screen/Tile/Spike_Horizontal.xml
+/copy:Level Play Screen/Tile/Spike_Horizontal.xml
+
+#begin Level Play Screen/Tile/Spike.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/Spike.png
+
+#begin Level Play Screen/Tile/Spike.visuals
+/copy:Level Play Screen/Tile/Spike.visuals
+
+#begin Level Play Screen/Tile/Spike.xml
+/copy:Level Play Screen/Tile/Spike.xml
+
+#begin Level Play Screen/Tile/Wind_Up.visuals
+/copy:Level Play Screen/Tile/Wind_Up.visuals
+
+#begin Level Play Screen/Tile/Wind_Up.xml
+/copy:Level Play Screen/Tile/Wind_Up.xml
+
+#begin Level Play Screen/Tile/Wind_Vertical.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/Wind_Vertical.png
+
+#begin Level Play Screen/Tile/WoodLog.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Level Play Screen/Tile/WoodLog.png
+
+#begin Level Play Screen/Tile/WoodLog.visuals
+/copy:Level Play Screen/Tile/WoodLog.visuals
+
+#begin Level Play Screen/Tile/WoodLog.xml
+/copy:Level Play Screen/Tile/WoodLog.xml
+
+#begin Level Play Screen/TileSet/Default.xml
+/copy:Level Play Screen/TileSet/Default.xml
+
+#begin Levels/ConveyorLand.xml
+/copy:Levels/ConveyorLand.xml
+
+#begin Levels/DevLand.xml
+/copy:Levels/DevLand.xml
+
+#begin Levels/EndLand.xml
+/copy:Levels/EndLand.xml
+
+#begin Levels/FireLand.xml
+/copy:Levels/FireLand.xml
+
+#begin Levels/SpikeLand.xml
+/copy:Levels/SpikeLand.xml
+
+#begin Loading Screen/Font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Loading Screen/Font.spritefont
+
+#begin Menu Screen/Controls Screen/Background_Phone.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu Screen/Controls Screen/Background_Phone.png
+
+#begin Menu Screen/Controls Screen/Background.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu Screen/Controls Screen/Background.png
+
+#begin Menu Screen/Controls Screen/ButtonFont.tga
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter= 
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color
+/build:Menu Screen/Controls Screen/ButtonFont.tga
+
+#begin Menu Screen/Controls Screen/ButtonTextFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Menu Screen/Controls Screen/ButtonTextFont.spritefont
+
+#begin Menu Screen/Controls Screen/NormalFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Menu Screen/Controls Screen/NormalFont.spritefont
+
+#begin Menu Screen/Menu Background Screen/Background.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu Screen/Menu Background Screen/Background.png
+
+#begin Menu Screen/Menu Background Screen/Title.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu Screen/Menu Background Screen/Title.png
+
+#begin Menu Screen/MenuBackground_Finish.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu Screen/MenuBackground_Finish.png
+
+#begin Menu Screen/MenuBackground_Item.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu Screen/MenuBackground_Item.png
+
+#begin Menu Screen/MenuBackground_ItemSelected.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu Screen/MenuBackground_ItemSelected.png
+
+#begin Menu Screen/MenuBackground_Start.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu Screen/MenuBackground_Start.png
+
+#begin Menu Screen/OptionFont_Phone.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Menu Screen/OptionFont_Phone.spritefont
+
+#begin Menu Screen/OptionFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Menu Screen/OptionFont.spritefont
+
+#begin Menu Screen/Other Games Screen/Background.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu Screen/Other Games Screen/Background.png
+
+#begin Menu Screen/Other Games Screen/ButtonFont.tga
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu Screen/Other Games Screen/ButtonFont.tga
+
+#begin Menu Screen/Other Games Screen/ButtonTextFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Menu Screen/Other Games Screen/ButtonTextFont.spritefont
+
+#begin Menu Screen/Start Screen/Message_Phone.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu Screen/Start Screen/Message_Phone.png
+
+#begin Menu Screen/Start Screen/Message.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Menu Screen/Start Screen/Message.png
+
+#begin Message Box Screen/ButtonFont.tga
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter= 
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Color
+/build:Message Box Screen/ButtonFont.tga
+
+#begin Message Box Screen/ButtonTextFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Message Box Screen/ButtonTextFont.spritefont
+
+#begin Message Box Screen/MessageFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Message Box Screen/MessageFont.spritefont
+
+#begin Message Box Screen/TitleFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Message Box Screen/TitleFont.spritefont
+
+#begin Play Conversation Screen/Background.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Play Conversation Screen/Background.png
+
+#begin Play Conversation Screen/Button_Phone.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Play Conversation Screen/Button_Phone.png
+
+#begin Play Conversation Screen/Button.tga
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Play Conversation Screen/Button.tga
+
+#begin Play Conversation Screen/Dialog.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Play Conversation Screen/Dialog.spritefont
+
+#begin Sales Screen/Background.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sales Screen/Background.png
+
+#begin Save Screen/Font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Save Screen/Font.spritefont
+
+#begin Splash Screen/Background.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Splash Screen/Background.png
+
+#begin Splash Screen/Background2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Splash Screen/Background2.png
+
+#begin Splash Screen/Producer.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Splash Screen/Producer.spritefont
+

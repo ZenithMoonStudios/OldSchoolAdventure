@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ProjectileTemplate RenderMode="Movement" Offense="2" Defense="1">
+	<Size Width="14" Height="14" />
+	<Left IsSolid="false" />
+	<Top IsSolid="false" />
+	<Right IsSolid="false" />
+	<Bottom IsSolid="false" />
+	<MovementProvider Name="Linear" DeathDuration="15" />
+</ProjectileTemplate>

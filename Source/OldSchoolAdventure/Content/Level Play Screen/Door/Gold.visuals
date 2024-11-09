@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Visuals>
+	<Sprites>
+		<Sprite Name="Closed"><TextureRegion Left="0" Top="0" Width="90" Height="90" /></Sprite>
+		<Sprite Name="Open"><TextureRegion Left="90" Top="0" Width="90" Height="90" /></Sprite>
+	</Sprites>
+	<Animations>
+		<Animation Name="Default" Sprite="Closed"><DisplayOffset Width="-20" Height="-20" /></Animation>
+		<Animation Name="Closed" Sprite="Closed"><DisplayOffset Width="-20" Height="-20" /></Animation>
+		<Animation Name="Open" Sprite="Open"><DisplayOffset Width="-20" Height="-20" /></Animation>
+	</Animations>
+</Visuals>

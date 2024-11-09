@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Destiny.AudioConfiguration">
+	<Item>
+	  <FileName>Audio\Sound Files\CoinCollect1</FileName>
+	  <Cuename>CoinCollect1</Cuename>
+	  <RequiresInstance>0</RequiresInstance>
+	  <AutoStart>0</AutoStart>
+	  <isLooped>0</isLooped>
+	</Item>
+	<Item>
+	  <FileName>Audio\Sound Files\DoorClose1</FileName>
+	  <Cuename>DoorClose</Cuename>
+	  <RequiresInstance>0</RequiresInstance>
+	  <AutoStart>0</AutoStart>
+	  <isLooped>0</isLooped>
+	</Item>
+	<Item>
+	  <FileName>Audio\Sound Files\DoorOpen1</FileName>
+	  <Cuename>DoorOpen</Cuename>
+	  <RequiresInstance>0</RequiresInstance>
+	  <AutoStart>0</AutoStart>
+	  <isLooped>0</isLooped>
+	</Item>
+	<Item>
+	  <FileName>Audio\Sound Files\DoorUnlock1</FileName>
+	  <Cuename>DoorUnlock</Cuename>
+	  <RequiresInstance>0</RequiresInstance>
+	  <AutoStart>0</AutoStart>
+	  <isLooped>0</isLooped>
+	</Item>
+	<Item>
+	  <FileName>Audio\Sound Files\KeyCollect1</FileName>
+	  <Cuename>KeyCollect</Cuename>
+	  <RequiresInstance>0</RequiresInstance>
+	  <AutoStart>0</AutoStart>
+	  <isLooped>0</isLooped>
+	</Item>
+	<Item>
+	  <FileName>Audio\Sound Files\Lever1</FileName>
+	  <Cuename>Lever</Cuename>
+	  <RequiresInstance>0</RequiresInstance>
+	  <AutoStart>0</AutoStart>
+	  <isLooped>0</isLooped>
+	</Item>
+	<Item>
+	  <FileName>Audio\Sound Files\MainCharacterDie1</FileName>
+	  <Cuename>MainCharacterDie</Cuename>
+	  <RequiresInstance>0</RequiresInstance>
+	  <AutoStart>0</AutoStart>
+	  <isLooped>0</isLooped>
+	</Item>
+	<Item>
+	  <FileName>Audio\Sound Files\MainCharacterJump1</FileName>
+	  <Cuename>MainCharacterJump</Cuename>
+	  <RequiresInstance>0</RequiresInstance>
+	  <AutoStart>0</AutoStart>
+	  <isLooped>0</isLooped>
+	</Item>
+	<Item>
+	  <FileName>Audio\Sound Files\MenuBack1</FileName>
+	  <Cuename>MenuBack</Cuename>
+	  <RequiresInstance>0</RequiresInstance>
+	  <AutoStart>0</AutoStart>
+	  <isLooped>0</isLooped>
+	</Item>
+	<Item>
+	  <FileName>Audio\Sound Files\MenuChange1</FileName>
+	  <Cuename>MenuChange</Cuename>
+	  <RequiresInstance>0</RequiresInstance>
+	  <AutoStart>0</AutoStart>
+	  <isLooped>0</isLooped>
+	</Item>
+	<Item>
+	  <FileName>Audio\Sound Files\MenuSelect1</FileName>
+	  <Cuename>MenuSelect</Cuename>
+	  <RequiresInstance>0</RequiresInstance>
+	  <AutoStart>0</AutoStart>
+	  <isLooped>0</isLooped>
+	</Item>
+    <Item>
+	  <FileName>Audio\Music\BasicMarch</FileName>
+	  <Cuename>BasicMarch</Cuename>
+	  <RequiresInstance>1</RequiresInstance>
+	  <AutoStart>0</AutoStart>
+	  <isLooped>1</isLooped>
+	</Item>
+	<Item>
+	  <FileName>Audio\Music\EpicSoundtrack</FileName>
+	  <Cuename>EpicSoundtrack</Cuename>
+	  <RequiresInstance>1</RequiresInstance>
+	  <AutoStart>1</AutoStart>
+	  <isLooped>1</isLooped>
+	</Item>
+  </Asset>
+</XnaContent>

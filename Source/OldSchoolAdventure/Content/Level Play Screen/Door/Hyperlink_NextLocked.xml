@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DoorTemplate VerticalAlignment="Bottom" RenderMode="Collision">
+	<Size Width="75" Height="21" />
+	<Lock RequiredItem="NotExists" />
+	<MovementProvider Name="Directed" />
+</DoorTemplate>

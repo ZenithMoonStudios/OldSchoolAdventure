@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="1280" Height="720" />
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 2/WebSite">
+      <ScrollRate X="1" Y="1" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="40" Height="24" />
+      <Rows>
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000iiiiiiiiiiiiiiiiiiiiiiiiii0000000" />
+        <Row Tiles="0000000i000000000000000000000000i0000000" />
+        <Row Tiles="0000000i000000000000000000000000i0000000" />
+        <Row Tiles="0000000i000000000000000000000000i0000000" />
+        <Row Tiles="0000000i00000000000000000000____i0000000" />
+        <Row Tiles="0000000i000000000000000000000000i0000000" />
+        <Row Tiles="0000000i000000000000000000000O00i0000000" />
+        <Row Tiles="0000000i0000000000000OGGGGGGGO00i0000000" />
+        <Row Tiles="0000000i0000000000000OOOOOOOOO00i0000000" />
+        <Row Tiles="0000000i000000000000000000000000i0000000" />
+        <Row Tiles="0000000i000000000000000000000000i0000000" />
+        <Row Tiles="0000000i000000000000000000000000i0000000" />
+        <Row Tiles="0000000iiiiiiiiiiiiiiiiiiiiiiiiii0000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+        <Row Tiles="0000000000000000000000000000000000000000" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Hyperlink_Previous">
+      <GridPosition Left="9.5" Top="20" />
+      <Target Room="Room/DevLand_25" ObjectName="Out" />
+    </Door>
+    <Door Name="Out" Template="Door/Gold">
+      <GridPosition Left="29.5" Top="12" />
+      <Target Room="Room/EndLand_1" ObjectName="In" />
+    </Door>
+  </Doors>
+  <Collectibles />
+  <Obstacles>
+    <Obstacle Name="bfc903d7-ab80-4057-ba70-1cdfae468f23" Template="Enemy/TallRock_Left">
+      <GridPosition Left="19" Top="20" />
+    </Obstacle>
+    <Obstacle Name="01d08536-9ae7-4b0a-b972-bd86965fff9f" Template="Enemy/Zombie_Left">
+      <GridPosition Left="25" Top="20" />
+    </Obstacle>
+    <Obstacle Name="6e827d6c-4178-4486-a0ce-57dba7b3178f" Template="Enemy/Zombie_Left">
+      <GridPosition Left="27" Top="20" />
+    </Obstacle>
+    <Obstacle Name="a0cffd4b-1ebc-4ff0-ae6a-f203764abf20" Template="Enemy/Zombie_Left">
+      <GridPosition Left="23" Top="20" />
+    </Obstacle>
+    <Obstacle Name="4dee130d-d38e-495b-8f91-276af0d8eea3" Template="Enemy/Zombie_Left">
+      <GridPosition Left="21" Top="20" />
+    </Obstacle>
+    <Obstacle Name="91a072b1-699c-49d7-b384-b45660a7c370" Template="Enemy/Zombie_Left">
+      <GridPosition Left="22" Top="15" />
+    </Obstacle>
+    <Obstacle Name="247f717b-f686-4b9d-b738-b5de9e3d33aa" Template="Enemy/Zombie_Left">
+      <GridPosition Left="24" Top="15" />
+    </Obstacle>
+    <Obstacle Name="1f487feb-749d-4766-9ff9-843878aaec71" Template="Enemy/Zombie_Left">
+      <GridPosition Left="26" Top="15" />
+    </Obstacle>
+    <Obstacle Name="074c7e9b-bcce-444b-92bd-63085756570d" Template="Enemy/Zombie_Left">
+      <GridPosition Left="28" Top="15" />
+    </Obstacle>
+  </Obstacles>
+  <Directors />
+  <SpawnPoints />
+  <Speakers />
+  <MusicPoints />
+  <Switches />
+</Room>

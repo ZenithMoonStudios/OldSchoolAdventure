@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ObstacleTemplate Offense="2">
+	<Size Width="26" Height="26" />
+	<Left IsSolid="false" />
+	<Top IsSolid="false" />
+	<Right IsSolid="false" />
+	<Bottom IsSolid="false" />
+	<MovementProvider Name="Directed" />
+</ObstacleTemplate>

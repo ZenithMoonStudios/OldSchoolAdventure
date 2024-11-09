@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="1280" Height="720" />
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 1/DevLand" />
+    <Background Path="Tile/Background/Layer 2/In">
+      <ScrollRate X="0.5" Y="0.5" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="40" Height="24" />
+      <Rows>
+        <Row Tiles="xxxxxxxxxxxxxxOOOOxxxxxxxxxxxxxxOOxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxOOOOOOOOOOOxxxxxxOOOOOOOxxxxx" />
+        <Row Tiles="xxxxxxxOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOxxx" />
+        <Row Tiles="xxxxxOOOOOOOOO000000000000000000000OOOxx" />
+        <Row Tiles="xxxxxOOOOO0000000000000000000000000OOOxx" />
+        <Row Tiles="xxxOOOO0000000000000000000000000000OOOxx" />
+        <Row Tiles="xxxOOO0000000000000000000000000OOOOOOOxx" />
+        <Row Tiles="xxxOO000000000000000000000000000XXXOOOxx" />
+        <Row Tiles="xxxxO000000000000000000000OO0000XXXOOOxx" />
+        <Row Tiles="xxxxO0000000000000000O000000000XXXXOOxxx" />
+        <Row Tiles="xxxxO0000000000000000O00000000XXXXXOOxxx" />
+        <Row Tiles="xxxxO0000000000000000O0000000XXXXXOOOxxx" />
+        <Row Tiles="xxxOO0000X^^^^^^^^^^XOX^^^^^XXXXXXOOOxxx" />
+        <Row Tiles="xxxOO0000X^^^^^^^^^^XXX^^^^^XXXXXXOOxxxx" />
+        <Row Tiles="xxxOO0000XX^^^^^^^^^XXX^^^^^XXXXXXOOxxxx" />
+        <Row Tiles="xxOOO0000XXX^^^^^^^^XXX^^^^^XXXXXXOxxxxx" />
+        <Row Tiles="xxOOO0000XXXX^^^^^^^XXX^^^^^XXXXXXOxxxxx" />
+        <Row Tiles="xxOOOOOOOXXXXX^^^^^^^^^^^^^^XXXXXXOxxxxx" />
+        <Row Tiles="xxxOOOOOOXXXXXX^^^^^^^^^^^^^XXXXXXOxxxxx" />
+        <Row Tiles="xxxxxxOOOXXXXXXX^^^^^^^^^^^XXXXXXXOOxxxx" />
+        <Row Tiles="xxxxxxxOOXXXXXXXXX^^^^^^^XXXXXXXXXOOxxxx" />
+        <Row Tiles="xxxxxxxOOXXXXXXXXXXXXXXXXXXXXXXXXXOOOxxx" />
+        <Row Tiles="xxxxxxxOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOxxx" />
+        <Row Tiles="xxxxxxxxxOOOOxxxxxxxxxxxxxxxxxOOOOOxxxxx" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Plain">
+      <GridPosition Left="6.5" Top="16" />
+      <Target Room="Room/DevLand_1" ObjectName="Out" />
+    </Door>
+    <Door Name="Out" Template="Door/Plain">
+      <GridPosition Left="32.5" Top="5" />
+      <Target Room="Room/DevLand_3" ObjectName="In" />
+    </Door>
+  </Doors>
+  <Collectibles>
+  </Collectibles>
+  <Speakers>
+    <Speaker Name="131ad858-90ed-4fdd-9cb9-7148ec67d879" Template="Speaker/AutoSpeak">
+      <GridPosition Left="6.5" Top="16" />
+      <Conversations>
+        <Conversation>
+          <Conditions>
+            <Condition Has="False" Item="Room/DevLand_2/AutoSpeak" Quantity="1" />
+          </Conditions>
+          <Sentences>
+            <Sentence Speaker="Speaker/Developer">&gt;&gt;&gt; LOGIN developer\n&gt;&gt;&gt; PASSWORD: **********</Sentence>
+          </Sentences>
+          <Transactions>
+            <Transaction Type="Add" Item="Room/DevLand_2/AutoSpeak" Quantity="1" />
+          </Transactions>
+        </Conversation>
+      </Conversations>
+    </Speaker>
+  </Speakers>
+  <MusicPoints />
+  <Switches />
+  <Obstacles />
+  <Directors />
+  <SpawnPoints />
+</Room>

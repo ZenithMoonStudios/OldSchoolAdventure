@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="2560" Height="720" />
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 1/DevLand" />
+    <Background Path="Tile/Background/Layer 2/OutHorizontal">
+      <ScrollRate X="0.5" Y="0.5" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="80" Height="24" />
+      <Rows>
+        <Row Tiles="xxxxxOOOOOxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxOOOOOOOOxxxxx" />
+        <Row Tiles="xxxxOOOOOOOOOOOOxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxOOOOOOOOOOOOOOOOxxx" />
+        <Row Tiles="xxOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOxx" />
+        <Row Tiles="xxOOO0000000000000000000000000000000000000000000000000000000000000000000000OOOxx" />
+        <Row Tiles="xxOOO0000000000000000000000000000000000000000000000000000000000000000000000OOOxx" />
+        <Row Tiles="xxxOO0000000000000000000000000000000000000000000000000000000000000000000000OOxxx" />
+        <Row Tiles="xxxOO000000000000^^00000000000000000000000000000000000000000000000000000000OOxxx" />
+        <Row Tiles="xxxOO0000000000000000000000000000000000000000000000000000000000000000000000Oxxxx" />
+        <Row Tiles="xxxOO000000000^^00000000000000000000000000000000000000000000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO0000000000000000000_______________________________________________0000Oxxxx" />
+        <Row Tiles="xxxxO000000^^00000000000000000000000000000000000000000000000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO0000000000000000000000000000000000000000000000000000000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO000^^00000000000000000000000000000000000000000000000000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO0000000000000000000_______________________________________________0000OOxxx" />
+        <Row Tiles="xxxxO0000000000000000000000000000000000000000000000000000000000000000000000OOxxx" />
+        <Row Tiles="xxxxO0000000000000000000000000000000000000000000000000000000000000000000000OOOxx" />
+        <Row Tiles="xxxOO0000000000000000000000000000000000000000000000000000000000000000000000OOOxx" />
+        <Row Tiles="xxxOO0000000000000000000_______________________________________________0000OOOxx" />
+        <Row Tiles="xxxOO0000000000000000000000000000000000000000000000000000000000000000000000OOOOx" />
+        <Row Tiles="xxOOO0000000000000000000000000000000000000000000000000000000000000000000000OOOOx" />
+        <Row Tiles="xxOOO0000000000000000000000000000000000000000000000000000000000000000000000OOOOx" />
+        <Row Tiles="xxOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOxx" />
+        <Row Tiles="xxxOOOOOOOOOOOOOxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxOOOOOOOOOOOOOOOxxx" />
+        <Row Tiles="xxxxOOOOxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxOOOOxxxxx" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Plain">
+      <GridPosition Left="6.5" Top="20" />
+      <Target Room="Room/DevLand_4" ObjectName="Out" />
+    </Door>
+    <Door Name="Out" Template="Door/Plain">
+      <GridPosition Left="72.5" Top="20" />
+      <Target Room="Room/DevLand_6" ObjectName="In" />
+    </Door>
+  </Doors>
+  <Collectibles>
+    <Collectible Name="9ceb1307-14af-496a-9197-34d4b3f4b506" Template="Collectible/Invisible_Normal">
+      <GridPosition Left="6.5" Top="19.5" />
+    </Collectible>
+  </Collectibles>
+  <Speakers>
+    <Speaker Name="131ad858-90ed-4fdd-9cb9-7148ec67d879" Template="Speaker/AutoSpeak">
+      <GridPosition Left="6.5" Top="20" />
+      <Conversations>
+        <Conversation>
+          <Conditions>
+            <Condition Has="False" Item="Room/DevLand_5/AutoSpeak" Quantity="1" />
+          </Conditions>
+          <Sentences>
+            <Sentence Speaker="Speaker/Developer">I'm going to let you in on a secret.</Sentence>
+            <Sentence Speaker="Speaker/Developer">When I made this game... I put zombies in it!</Sentence>
+            <Sentence Speaker="Speaker/Developer">&gt;&gt;&gt; LOAD ZOMBIES</Sentence>
+          </Sentences>
+          <Transactions>
+            <Transaction Type="Add" Item="Room/DevLand_5/AutoSpeak" Quantity="1" />
+          </Transactions>
+        </Conversation>
+      </Conversations>
+    </Speaker>
+  </Speakers>
+  <Obstacles>
+    <Obstacle Name="8c8b1ba3-12fa-41b4-8b93-66d929a7e26c" Template="Enemy/Zombie_Left">
+      <GridPosition Left="41" Top="20" />
+    </Obstacle>
+    <Obstacle Name="016da912-9e82-4e82-ab2c-0888b5e327b2" Template="Enemy/Zombie_Left">
+      <GridPosition Left="42" Top="8" />
+    </Obstacle>
+    <Obstacle Name="3b678de1-3289-4231-9f23-af9788d3093d" Template="Enemy/Zombie_Left">
+      <GridPosition Left="43" Top="12" />
+    </Obstacle>
+    <Obstacle Name="e9b1ebbc-ec56-45e6-aa0e-8c9d9f791b0f" Template="Enemy/Zombie_Left">
+      <GridPosition Left="44" Top="20" />
+    </Obstacle>
+    <Obstacle Name="0ca3ba0f-02b3-49a9-abfb-8546d22e658c" Template="Enemy/Zombie_Left">
+      <GridPosition Left="45" Top="12" />
+    </Obstacle>
+    <Obstacle Name="7a0ef837-ebd7-4727-a501-eda8635a48d7" Template="Enemy/Zombie_Left">
+      <GridPosition Left="46" Top="16" />
+    </Obstacle>
+    <Obstacle Name="b71f2c86-844f-46c1-a72e-596ed58fc59d" Template="Enemy/Zombie_Left">
+      <GridPosition Left="47" Top="8" />
+    </Obstacle>
+    <Obstacle Name="5167b5b4-c446-468c-a58f-d5e5cbe9a618" Template="Enemy/Zombie_Left">
+      <GridPosition Left="48" Top="20" />
+    </Obstacle>
+    <Obstacle Name="f09ba18f-2436-495d-b93d-5d1c10469c55" Template="Enemy/Zombie_Left">
+      <GridPosition Left="49" Top="12" />
+    </Obstacle>
+    <Obstacle Name="039cdbad-a313-44da-abe6-4bff72eda119" Template="Enemy/Zombie_Left">
+      <GridPosition Left="50" Top="8" />
+    </Obstacle>
+    <Obstacle Name="555fa3a9-9ece-4257-a203-f2facf18fe53" Template="Enemy/Zombie_Left">
+      <GridPosition Left="51" Top="16" />
+    </Obstacle>
+    <Obstacle Name="d72090ba-a18b-40ab-b6cc-0bffb723664b" Template="Enemy/Zombie_Left">
+      <GridPosition Left="52" Top="8" />
+    </Obstacle>
+    <Obstacle Name="9efd191c-87e7-4807-a605-61c9d60f529e" Template="Enemy/Zombie_Left">
+      <GridPosition Left="53" Top="16" />
+    </Obstacle>
+    <Obstacle Name="59716c32-787e-4f43-9211-e21c2142e9c6" Template="Enemy/Zombie_Left">
+      <GridPosition Left="54" Top="20" />
+    </Obstacle>
+    <Obstacle Name="17f3979a-2b26-45b9-a149-a8fcfa1ffb2d" Template="Enemy/Zombie_Left">
+      <GridPosition Left="55" Top="12" />
+    </Obstacle>
+    <Obstacle Name="6334bdcc-d487-481a-80af-994f29070402" Template="Enemy/Zombie_Left">
+      <GridPosition Left="56" Top="8" />
+    </Obstacle>
+    <Obstacle Name="760c145e-cfdd-441b-aaf6-de59df2713cf" Template="Enemy/Zombie_Left">
+      <GridPosition Left="57" Top="20" />
+    </Obstacle>
+  </Obstacles>
+  <Directors />
+  <SpawnPoints />
+  <MusicPoints>
+    <MusicPoint Name="e1bdb852-962e-4ed0-8259-872b97fd6d3e" Template="MusicPoint/Sunset">
+      <GridPosition Left="6.5" Top="19" />
+    </MusicPoint>
+  </MusicPoints>
+  <Switches />
+</Room>

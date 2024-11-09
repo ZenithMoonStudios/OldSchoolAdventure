@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DoorTemplate VerticalAlignment="Bottom">
+	<Size Width="96" Height="90" />
+	<Lock RequiredItem="NotExists" />
+</DoorTemplate>

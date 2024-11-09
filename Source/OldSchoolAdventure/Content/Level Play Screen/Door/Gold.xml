@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DoorTemplate VerticalAlignment="Bottom" RenderMode="Collision">
+	<Size Width="50" Height="55" />
+	<MovementProvider Name="Directed" />
+	<Audio>
+		<Cue Name="DoorOpen" Event="OnOpen" />
+		<Cue Name="DoorClose" Event="OnClose" />
+	</Audio>
+</DoorTemplate>

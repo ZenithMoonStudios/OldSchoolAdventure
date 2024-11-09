@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Level>
+	<Introduction Background="DevLand">
+		<Page>
+			<Line>With the radiant heat of molten lava behind</Line>
+			<Line>him, Chris Unarmed finds himself at the</Line>
+			<Line>entrance to Mango's lair.</Line>
+			<Line />
+			<Line>Still haunted by his recent defeat at the</Line>
+      <Line>hands of Mango, he hesitates for a moment</Line>
+			<Line>before entering Mango's lair.</Line>
+		</Page>
+	</Introduction>
+	<Rooms>
+		<Room Path="Room/DevLand_1" />
+		<Room Path="Room/DevLand_2" />
+		<Room Path="Room/DevLand_3" />
+		<Room Path="Room/DevLand_4" />
+		<Room Path="Room/DevLand_5" />
+		<Room Path="Room/DevLand_6" />
+		<Room Path="Room/DevLand_7" />
+		<Room Path="Room/DevLand_8" />
+		<Room Path="Room/DevLand_9" />
+		<Room Path="Room/DevLand_10" />
+		<Room Path="Room/DevLand_11" />
+		<Room Path="Room/DevLand_12" />
+		<Room Path="Room/DevLand_13" />
+		<Room Path="Room/DevLand_14" />
+		<Room Path="Room/DevLand_15" />
+		<Room Path="Room/DevLand_16" />
+		<Room Path="Room/DevLand_17" />
+		<Room Path="Room/DevLand_18" />
+		<Room Path="Room/DevLand_19" />
+		<Room Path="Room/DevLand_20" />
+		<Room Path="Room/DevLand_21" />
+		<Room Path="Room/DevLand_22" />
+		<Room Path="Room/DevLand_23" />
+		<Room Path="Room/DevLand_24" />
+		<Room Path="Room/DevLand_25" />
+		<Room Path="Room/DevLand_26" />
+    <Room Path="Room/DevLand_27" />
+    <Room Path="Room/DevLand_28" />
+    <Room Path="Room/DevLand_29" />
+    <Room Path="Room/DevLand_30" />
+    <Room Path="Room/DevLand_31" />
+    <Room Path="Room/DevLand_32" />
+  </Rooms>
+	<StartDoor Room="Room/DevLand_1" ObjectName="In" />
+	<EndDoor Room="Room/EndLand_1" ObjectName="In" />
+</Level>

@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="1280" Height="7200" />
+  <Lighting Axis="Y">
+    <Start GridPosition="188">
+      <Color Red="0" Green="0" Blue="0" Alpha="255" />
+    </Start>
+    <Finish GridPosition="204">
+      <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </Finish>
+  </Lighting>
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 1/SpikeLand" />
+    <Background Path="Tile/Background/Layer 2/OutVertical">
+      <ScrollRate X="0.5" Y="0.5" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="40" Height="240" />
+      <Rows>
+        <Row Tiles="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxXXXXXXXXxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxX000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxX000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxX000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxO000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxOOO000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxOOOOOO00000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxOOOO0000000000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxOOO0000000000000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxO000000000000000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxO000000000000000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxO000000000000000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxOOOOOOOOOOOOO000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxX000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxX000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxX000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxX000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxX000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxX000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxX000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxX000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxXX000000XXxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxX00000000Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxX00000000Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxXX00000000XXxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxX0000000000Xxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxX0000000000Xxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxXX0000000000XXxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxX000000000000Xxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxX000000000000Xxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxXX000000000000XXxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX00000000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxXX000000000000XXxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxX000000000000Xxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxX000000000000Xxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxXX0000000000XXxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxX0000000000Xxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxX0000000000Xxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxXX00000000XXxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxX00000000Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxX00000000Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxX00000000Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxX00000000Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxXX00000000Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxX000000000Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxX000000000Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxXX000000000Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxX000000000XXxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxX000000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxXX000000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX000000000XXxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX000000000Xxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxXX000000000Xxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxX000000000XXxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxX000000000Xxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxXX000000000Xxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxX000000000XXxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxX000000000Xxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxXX000000000Xxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxX000000000XXxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxX000000000Xxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxXX000000000Xxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxX000000000XXxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxX000000000Xxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxXX000000000Xxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxX000000000XXxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxX000000000Xxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxXX000000000Xxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxX000000000XXxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxX000000000Xxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxXX000000000Xxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxX000000000XXxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxX000000000Xxxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxXX000000000Xxxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxX0000000000XXXXXXXXXXxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxX0000000000000000000Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxX0000000000000000000Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxX00000000XXXXXXXXX00Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxX00000000XxxxxxxxX00Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxX00000000XxxxxxxxX00Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxX00000000XxxxxxxxX00Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxX00000000XxxxxxxxX00Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxX00000000XXXXXXXXX00Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxX0000000000000000000Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxX0000000000000000000Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxX0000000000XXXXXXXXXXxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxXX000000000Xxxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxX000000000Xxxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxX000000000XXxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxXX000000000Xxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxX000000000Xxxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxX000000000XXxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxXX000000000Xxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxX000000000Xxxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxX000000000XXxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxXX000000000Xxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxX000000000Xxxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxX000000000XXxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxXX000000000Xxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxX000000000Xxxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxX000000000XXxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxXX000000000Xxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxX000000000Xxxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxX000000000XXxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxXX000000000Xxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxX000000000Xxxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxX000000000XXxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxXX000000000Xxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX000000000Xxxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxX000000000XXxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxXX000000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxX000000000Xxxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxX000000000XXxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxXX000000000Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxX000000000Xxxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxX000000000XXxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxXX000000000Xxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxX000000000Xxxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxX000000000XXxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxXX000000000Xxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxX000000000Xxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxX000000000XXxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxXX000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxX000000000Xxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxX000000000XXxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxXX000000000Xxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxxX000000000Xxxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxxX000000000XXxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxxXX000000000Xxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxxxX000000000Xxxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxxxX000000000XXxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxxxXX000000000Xxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxxxxX000000000Xxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxxxxX000000000XXxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxxxxXX000000000Xxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxxxxxX000000000Xxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxxxxOX000000000XXxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxxxxOXX000000000Xxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxxxxOOX000000000Xxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxxxxxOX000000000XXxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxxxxxOXX000000000Xxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxxxxxxxxxxxOOX000000000Xxxxxxx" />
+        <Row Tiles="xxxxxxxOOOOOOOOxxxxxxOOX000000000XXxxxxx" />
+        <Row Tiles="xxxxxOOOOOOOOOOOOOOxxOOXX000000000XOxxxx" />
+        <Row Tiles="xxxxOOOOOOOOOOOOOOOOOOOOX000000000XOxxxx" />
+        <Row Tiles="xxxxOXXXXXXXXXXXXOOOOOOOX000000000XOOxxx" />
+        <Row Tiles="xxxxO00000000000XXXXXOOOXX0000000XXOOxxx" />
+        <Row Tiles="xxxxO000000000000000XXOOOX0000000XOOOxxx" />
+        <Row Tiles="xxxxO0000000000000000XOOOX0000000XOOOxxx" />
+        <Row Tiles="xxxOO0000000000000000XXOOXX00000XXOOOxxx" />
+        <Row Tiles="xxxOO00000000000000000XOOOX00000XOOOOxxx" />
+        <Row Tiles="xxxOO00000000000000000XOOOX00000XOOOxxxx" />
+        <Row Tiles="xxxOO00000000000000000XXOOX0000XXOOOxxxx" />
+        <Row Tiles="xxxOO000000000000000000XOOX0000XOOOOxxxx" />
+        <Row Tiles="xxxOO000000000000000000XOOX0000XOOOOxxxx" />
+        <Row Tiles="xxxOO000000000000000000XOOX0000XOOOOxxxx" />
+        <Row Tiles="xxxOO000000000000000000XOOX0000XOOOOxxxx" />
+        <Row Tiles="xxxOO0000000WWWWW______XXXX0000XOOOOOxxx" />
+        <Row Tiles="xxxOO0000000000000^^^^0000000000OOOOOxxx" />
+        <Row Tiles="xxOOO0000000000000^^^^00000000000OOOOxxx" />
+        <Row Tiles="xxOOO0000000000000^^^^0000000000000OOxxx" />
+        <Row Tiles="xxOOO0000000000000^^^^0000000000000OOxxx" />
+        <Row Tiles="xxOOO000000000000000000000000000000OOOxx" />
+        <Row Tiles="xxOOO000000000000000000000000000000OOOxx" />
+        <Row Tiles="xOOOO000000000000000000000000000000OOOxx" />
+        <Row Tiles="xOOOOWWWWWWWW______________WWWWWWWWOOOxx" />
+        <Row Tiles="xOOOWWWWWWW0000000^^^^0000000WWWWWWWOOxx" />
+        <Row Tiles="xOOOWWWW0000000000^^^^0000000000WWWWOOOx" />
+        <Row Tiles="xOOOWW000000000000^^^^000000000000WWOOOx" />
+        <Row Tiles="xOOOWW000000000000^^^^000000000000WWOOOx" />
+        <Row Tiles="xOOOW0000000000000^^^^0000000000000WOOOx" />
+        <Row Tiles="xOOOW0000000000000^^^^0000000000000WOOOx" />
+        <Row Tiles="xxOOO0000000000000^^^^0000000000000OOOxx" />
+        <Row Tiles="xxOOO0000000000000^^^^0000000000000OOOxx" />
+        <Row Tiles="xxOOO0000000000000^^^^0000000000000OOxxx" />
+        <Row Tiles="xxxOO0000000000000^^^^0000000000000OOxxx" />
+        <Row Tiles="xxxOO0000000000000^^^^0000000000000OOxxx" />
+        <Row Tiles="xxxOO0000000000000^^^^0000000000000OOxxx" />
+        <Row Tiles="xxOOO0000000000000^^^^0000000000000OOxxx" />
+        <Row Tiles="xxOOO0000000000000^^^^0000000000000OOOxx" />
+        <Row Tiles="xxOOOWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWOOOOx" />
+        <Row Tiles="xxOOWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWOOOO" />
+        <Row Tiles="xxOOWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWOOOO" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Invisible">
+      <GridPosition Left="6" Top="13" />
+      <Target Room="" ObjectName="" />
+    </Door>
+    <Door Name="Out" Template="Door/Plain">
+      <GridPosition Left="13.5" Top="213" />
+      <Target Room="Room/SpikeLand_2" ObjectName="In" />
+    </Door>
+    <Door Name="Out_Gold" Template="Door/Key_Yellow">
+      <GridPosition Left="32.5" Top="221" />
+      <Target Room="Room/SpikeLand_6" ObjectName="In" />
+    </Door>
+    <Door Name="Out_Bottom" Template="Door/Plain">
+      <GridPosition Left="6.5" Top="236" />
+      <Target Room="Room/SpikeLand_5" ObjectName="Out" />
+    </Door>
+    <Door Name="Out_Top" Template="Door/Plain">
+      <GridPosition Left="19.5" Top="5" />
+      <Target Room="Room/SpikeLand_14" ObjectName="In" />
+    </Door>
+  </Doors>
+  <Collectibles>
+    <Collectible Name="6476b770-9d87-401c-988f-3c62de95a561" Template="Collectible/Key_Yellow">
+      <GridPosition Left="19.5" Top="224" />
+    </Collectible>
+    <Collectible Name="91711e25-f1f0-48e5-a43f-ef00347576c2" Template="Collectible/Key_Green">
+      <GridPosition Left="22.5" Top="136.5" />
+    </Collectible>
+  </Collectibles>
+  <Directors>
+    <Director Name="6ef833dc-df55-4df8-81a1-69c069ad6ad3" Template="Director/Linear_Right">
+      <GridPosition Left="13.5" Top="46" />
+    </Director>
+    <Director Name="ea2c5da2-fde9-48c3-8705-c2bea9952606" Template="Director/Linear_Left">
+      <GridPosition Left="25.5" Top="62" />
+    </Director>
+    <Director Name="b33bfa17-65ab-48f2-a22a-a4e6ade6200d" Template="Director/Linear_Right">
+      <GridPosition Left="13.5" Top="62" />
+    </Director>
+    <Director Name="de4bb112-2b56-467b-9401-345b783d168a" Template="Director/Linear_Left">
+      <GridPosition Left="25.5" Top="78" />
+    </Director>
+    <Director Name="daa0f868-b5a3-4804-b72e-43cd92e54a1e" Template="Director/Linear_Right">
+      <GridPosition Left="13.5" Top="78" />
+    </Director>
+    <Director Name="4f4b5bda-1b98-4283-b623-86e768cbe562" Template="Director/Linear_Left">
+      <GridPosition Left="25.5" Top="46" />
+    </Director>
+    <Director Name="69da87c5-86c3-4286-b9cd-5aad544832f0" Template="Director/Linear_Right">
+      <GridPosition Left="1" Top="62" />
+    </Director>
+    <Director Name="15f5c302-184c-4576-9218-b3bb180aa1ea" Template="Director/Linear_Left">
+      <GridPosition Left="33.5" Top="46" />
+    </Director>
+    <Director Name="ad8d2001-d79d-4663-b5a3-b637ea1e9ea6" Template="Director/Linear_Right">
+      <GridPosition Left="7" Top="78" />
+    </Director>
+  </Directors>
+  <Obstacles>
+    <Obstacle Name="0a147e12-d5e8-4981-ad2c-9a4b6c606d88" Template="Obstacle/Spike_2x2">
+      <GridPosition Left="2" Top="62" />
+      <Conditions>
+        <Condition Has="False" Item="Collectible/Mode_Easy" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="d8681f2e-bcf4-47f8-bd47-a0ea4754a84c" Template="Obstacle/Spike_2x2">
+      <GridPosition Left="32.5" Top="46" />
+      <Conditions>
+        <Condition Has="False" Item="Collectible/Mode_Easy" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="1b1cd28c-7244-4e73-9c0e-f7ee3a13067a" Template="Obstacle/Spike_2x2">
+      <GridPosition Left="8" Top="78" />
+      <Conditions>
+        <Condition Has="False" Item="Collectible/Mode_Easy" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="0a147e12-d5e8-4981-ad2c-9a4b6c606d81" Template="Obstacle/Rock_2x2">
+      <GridPosition Left="1.5" Top="62" />
+      <Conditions>
+        <Condition Has="True" Item="Collectible/Mode_Easy" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="d8681f2e-bcf4-47f8-bd47-a0ea4754a84b" Template="Obstacle/Rock_2x2">
+      <GridPosition Left="33" Top="46" />
+      <Conditions>
+        <Condition Has="True" Item="Collectible/Mode_Easy" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="1b1cd28c-7244-4e73-9c0e-f7ee3a13067d" Template="Obstacle/Rock_2x2">
+      <GridPosition Left="7.5" Top="78" />
+      <Conditions>
+        <Condition Has="True" Item="Collectible/Mode_Easy" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="ea914379-4eaf-47de-8f62-ff53f1cbdaa6" Template="Obstacle/Spike_2x2">
+      <GridPosition Left="16.5" Top="97.5" />
+    </Obstacle>
+    <Obstacle Name="6d0aaa6e-a199-467e-a9c6-53d2043052b0" Template="Obstacle/Spike_2x2">
+      <GridPosition Left="22.5" Top="97.5" />
+    </Obstacle>
+    <Obstacle Name="8ad2146b-3aa4-4b23-92f7-2e9a9d5262e6" Template="Obstacle/Spike_2x2">
+      <GridPosition Left="11.5" Top="136.5" />
+    </Obstacle>
+    <Obstacle Name="e06af991-9a3b-44af-8403-8bc4f583beae" Template="Obstacle/Spike_2x2">
+      <GridPosition Left="5.5" Top="136.5" />
+    </Obstacle>
+    <Obstacle Name="08023d7e-4cc3-4541-954b-a72f44f5eb35" Template="Enemy/Follower">
+      <GridPosition Left="21" Top="213" />
+      <Conditions>
+        <Condition Has="True" Item="Collectible/Mode_Hard" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="ba73944f-99e5-4949-86c1-4462162a6984" Template="Enemy/Follower">
+      <GridPosition Left="6" Top="221" />
+      <Conditions>
+        <Condition Has="True" Item="Collectible/Mode_Hard" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+  </Obstacles>
+  <SpawnPoints />
+  <MusicPoints>
+    <MusicPoint Name="54d71548-9a95-44be-b20b-2f93a34cca35" Template="MusicPoint/Sunset">
+      <GridPosition Left="6" Top="12" />
+      <Conditions>
+        <Condition Has="False" Item="Collectible/FlyingShoe" Quantity="1" />
+        <Condition Has="False" Item="Collectible/Helmet" Quantity="1" />
+      </Conditions>
+    </MusicPoint>
+    <MusicPoint Name="6ee20e28-cb45-43f3-9733-cfbfb8b57f8d" Template="MusicPoint/March">
+      <GridPosition Left="21" Top="186" />
+      <Conditions>
+        <Condition Has="False" Item="Collectible/FlyingShoe" Quantity="1" />
+        <Condition Has="False" Item="Collectible/Helmet" Quantity="1" />
+      </Conditions>
+    </MusicPoint>
+    <MusicPoint Name="6ab9202e-9783-416d-b57c-3c0e598671a0" Template="MusicPoint/March">
+      <GridPosition Left="27" Top="186" />
+      <Conditions>
+        <Condition Has="False" Item="Collectible/FlyingShoe" Quantity="1" />
+        <Condition Has="False" Item="Collectible/Helmet" Quantity="1" />
+      </Conditions>
+    </MusicPoint>
+    <MusicPoint Name="0e302d5a-1197-4e09-bf50-ece73c2d96bc" Template="MusicPoint/March">
+      <GridPosition Left="24" Top="186" />
+      <Conditions>
+        <Condition Has="False" Item="Collectible/FlyingShoe" Quantity="1" />
+        <Condition Has="False" Item="Collectible/Helmet" Quantity="1" />
+      </Conditions>
+    </MusicPoint>
+  </MusicPoints>
+  <Speakers>
+    <Speaker Name="84b6c27d-5669-48da-a1db-276999148dcf" Template="Speaker/AutoSpeak">
+      <GridPosition Left="6" Top="13" />
+      <Conversations>
+        <Conversation>
+          <Conditions>
+            <Condition Has="False" Item="Room/SpikeLand_1/AutoSpeak1" Quantity="1" />
+          </Conditions>
+          <Sentences>
+            <Sentence Speaker="Character/Chris">Ugghhhh...</Sentence>
+            <Sentence Speaker="Character/Chris">How long have I been unconscious?</Sentence>
+          </Sentences>
+          <Transactions>
+            <Transaction Type="Add" Item="Room/SpikeLand_1/AutoSpeak1" Quantity="1" />
+          </Transactions>
+        </Conversation>
+      </Conversations>
+    </Speaker>
+    <Speaker Name="6b2b08e8-18bf-44ab-922b-4095d6f2624a" Template="Speaker/AutoSpeak">
+      <GridPosition Left="11" Top="13" />
+      <Conversations>
+        <Conversation>
+          <Conditions>
+            <Condition Has="False" Item="Room/SpikeLand_1/AutoSpeak2" Quantity="1" />
+          </Conditions>
+          <Sentences>
+            <Sentence Speaker="Character/Chris">I must find Mango and stop him, before he destroys the world!</Sentence>
+            <Sentence Speaker="Character/Chris">The door above is just out of reach. I'll have to descend into the darkness!</Sentence>
+            <Sentence Speaker="Character/Chris">But first, I should go over to the sign post and tap it to see what it says.</Sentence>
+          </Sentences>
+          <Transactions>
+            <Transaction Type="Add" Item="Room/SpikeLand_1/AutoSpeak2" Quantity="1" />
+          </Transactions>
+        </Conversation>
+      </Conversations>
+    </Speaker>
+    <Speaker Name="d2cef597-01a2-4705-8e7b-fd918f115077" Template="Speaker/SignPost">
+      <GridPosition Left="15" Top="13" />
+      <Conversations>
+        <Conversation>
+          <Conditions />
+          <Sentences>
+            <Sentence Speaker="Speaker/SignPost">DANGER: Spikes below!</Sentence>
+          </Sentences>
+          <Transactions />
+        </Conversation>
+      </Conversations>
+    </Speaker>
+    <Speaker Name="f499d2c0-b2aa-4bf0-81fe-1bc3afb4e6da" Template="Speaker/AutoSpeak">
+      <GridPosition Left="6.5" Top="139" />
+      <Conversations>
+        <Conversation>
+          <Conditions>
+            <Condition Has="False" Item="Room/SpikeLand_1/AutoSpeak3" Quantity="1" />
+          </Conditions>
+          <Sentences>
+            <Sentence Speaker="Character/Chris">That key seems out of reach. If only I had some armor...</Sentence>
+          </Sentences>
+          <Transactions>
+            <Transaction Type="Add" Item="Room/SpikeLand_1/AutoSpeak3" Quantity="1" />
+          </Transactions>
+        </Conversation>
+      </Conversations>
+    </Speaker>
+    <Speaker Name="a596e218-f3ed-4d33-a21f-83df61ec510b" Template="Speaker/AutoSpeak">
+      <GridPosition Left="10.5" Top="139" />
+      <Conversations>
+        <Conversation>
+          <Conditions>
+            <Condition Has="False" Item="Room/SpikeLand_1/AutoSpeak3" Quantity="1" />
+          </Conditions>
+          <Sentences>
+            <Sentence Speaker="Character/Chris">That key seems out of reach. If only I had some armor...</Sentence>
+          </Sentences>
+          <Transactions>
+            <Transaction Type="Add" Item="Room/SpikeLand_1/AutoSpeak3" Quantity="1" />
+          </Transactions>
+        </Conversation>
+      </Conversations>
+    </Speaker>
+  </Speakers>
+  <Switches />
+</Room>

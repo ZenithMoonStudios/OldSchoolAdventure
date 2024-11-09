@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DoorTemplate VerticalAlignment="Bottom" RenderMode="Collision">
+	<Size Width="50" Height="55" />
+	<Lock RequiredItem="Collectible/Key_Silver" />
+	<Audio>
+		<Cue Name="DoorOpen" Event="OnOpen" />
+		<Cue Name="DoorClose" Event="OnClose" />
+		<Cue Name="DoorUnlock" Event="OnUnlock" />
+	</Audio>
+</DoorTemplate>

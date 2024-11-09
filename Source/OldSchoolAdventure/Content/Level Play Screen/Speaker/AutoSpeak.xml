@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SpeakerTemplate VerticalAlignment="Bottom" RequiresInteraction="false">
+	<Size Width="96" Height="90" />
+	<MovementProvider Name="Directed" />
+</SpeakerTemplate>

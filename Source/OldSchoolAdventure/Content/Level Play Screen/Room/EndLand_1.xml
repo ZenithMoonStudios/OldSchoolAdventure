@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="2560" Height="720" />
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 1/EndLand" />
+    <Background Path="Tile/Background/Layer 2/In">
+      <ScrollRate X="0.5" Y="0.5" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="80" Height="24" />
+      <Rows>
+        <Row Tiles="OOOOO000000000000000000000000000000OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
+        <Row Tiles="OOOOO000000000000000000000000000000OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
+        <Row Tiles="OOOOO000000000000000000000000000000OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
+        <Row Tiles="OOOOO000000000000000000000000000000OOOO000000000000000000000000000000000000OOOOO" />
+        <Row Tiles="OOOOO000000000000000000000000000000OOO0000000000000000000000000000000000000OOOOO" />
+        <Row Tiles="OOOOO000000000000000000000000000000OOO0000000000000000000000000000000000000OOOOO" />
+        <Row Tiles="OOOOO0000000000000000000000000000000000000000000000000000000000000000000000OOOOO" />
+        <Row Tiles="OOOOO0000000000000000000000000000000000000000000000000000000000000000000000OOOOO" />
+        <Row Tiles="OOOOO0000000000000000000000000000000000000000000000000000000000000000000000OOOOO" />
+        <Row Tiles="OOOOO0000000000000000000000000000000000000000000000000000000000000000000000OOOOO" />
+        <Row Tiles="OOOOO____OO000000000000000000000000OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
+        <Row Tiles="OOOOO0000OO000000000000000000000000OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
+        <Row Tiles="OOOOO000000000000000000000000000000OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
+        <Row Tiles="OOOOO000000000000000000000000000000OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
+        <Row Tiles="OOOOO000000000000000000000000000000OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
+        <Row Tiles="OOOOOOOOOOO000000000000000000000000OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
+        <Row Tiles="OOOOOOOOOOO000000000000000000000000OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
+        <Row Tiles="OOOOOOOOOOO000000000000000000000000OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
+        <Row Tiles="OOOOOOOOOOO000000000000000000000000OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
+        <Row Tiles="OOOOOOOOOOO000000000000000000000000OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
+        <Row Tiles="OOOOOOOOOOO000000000000000000000000OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
+        <Row Tiles="OOOOOOOOOOOXXXXXXXXXXXXXXXXXXXXXXXXOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
+        <Row Tiles="OOOOOOOOOOOXXXXXXXXXXXXXXXXXXXXXXXXOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
+        <Row Tiles="OOOOOOOOOOOXXXXXXXXXXXXXXXXXXXXXXXXOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Invisible">
+      <GridPosition Left="72.5" Top="9" />
+      <Target Room="" ObjectName="" />
+    </Door>
+    <Door Name="Out" Template="Door/InvisibleWarp_Locked">
+      <GridPosition Left="6" Top="9" />
+      <Target Room="Credits" ObjectName="In" />
+    </Door>
+  </Doors>
+  <Collectibles />
+  <Obstacles>
+    <Obstacle Name="74640bd4-f65e-4eb0-94e4-b6d8138332e0" Template="Obstacle/Truss">
+      <GridPosition Left="32.5" Top="10" />
+      <MovementProvider>
+        <Conditions>
+          <Condition Has="True" Item="Room/EndLand_1/Lever" />
+        </Conditions>
+      </MovementProvider>
+    </Obstacle>
+    <Obstacle Name="fbddcd0c-65e0-47b4-9f04-fd8061ffd3b4" Template="Obstacle/Truss">
+      <GridPosition Left="28.5" Top="10" />
+      <MovementProvider>
+        <Conditions>
+          <Condition Has="True" Item="Room/EndLand_1/Lever" />
+        </Conditions>
+      </MovementProvider>
+    </Obstacle>
+    <Obstacle Name="206f1735-f5c6-45b2-9818-b94ea738f90f" Template="Obstacle/Truss">
+      <GridPosition Left="24.5" Top="10" />
+      <MovementProvider>
+        <Conditions>
+          <Condition Has="True" Item="Room/EndLand_1/Lever" />
+        </Conditions>
+      </MovementProvider>
+    </Obstacle>
+    <Obstacle Name="065a2cca-e13f-495b-848c-523df90ab302" Template="Obstacle/Truss">
+      <GridPosition Left="20.5" Top="10" />
+      <MovementProvider>
+        <Conditions>
+          <Condition Has="True" Item="Room/EndLand_1/Lever" />
+        </Conditions>
+      </MovementProvider>
+    </Obstacle>
+    <Obstacle Name="00c2b3c6-213a-4df8-ab8d-a71de85f39e8" Template="Obstacle/Truss">
+      <GridPosition Left="16.5" Top="10" />
+      <MovementProvider>
+        <Conditions>
+          <Condition Has="True" Item="Room/EndLand_1/Lever" />
+        </Conditions>
+      </MovementProvider>
+    </Obstacle>
+    <Obstacle Name="5298845f-52b3-4476-a9e3-100678b971bf" Template="Obstacle/Truss">
+      <GridPosition Left="12.5" Top="10" />
+      <MovementProvider>
+        <Conditions>
+          <Condition Has="True" Item="Room/EndLand_1/Lever" />
+        </Conditions>
+      </MovementProvider>
+    </Obstacle>
+  </Obstacles>
+  <Directors>
+    <Director Name="26a5f49e-e8b4-479d-a91d-d0620bd921d9" Template="Director/Linear_Down">
+      <GridPosition Left="12.5" Top="9.5" />
+    </Director>
+    <Director Name="6b618070-bf75-4c54-8cc6-133f2296975d" Template="Director/Linear_Down">
+      <GridPosition Left="16.5" Top="9.5" />
+    </Director>
+    <Director Name="f6c57cf3-303a-4ec8-88e9-074aba6cf24d" Template="Director/Linear_Down">
+      <GridPosition Left="20.5" Top="9.5" />
+    </Director>
+    <Director Name="8c981c1b-0b66-4f10-8048-794cbd00a39e" Template="Director/Linear_Down">
+      <GridPosition Left="24.5" Top="9.5" />
+    </Director>
+    <Director Name="9623c39a-5fde-4e64-91aa-df90c1e08d38" Template="Director/Linear_Down">
+      <GridPosition Left="28.5" Top="9.5" />
+    </Director>
+    <Director Name="f3ad84f5-14c2-49b3-8f28-ec02b1167f3f" Template="Director/Linear_Down">
+      <GridPosition Left="32.5" Top="9.5" />
+    </Director>
+    <Director Name="95308bbe-43b3-46ee-abfc-ed8882c44fbb" Template="Director/Stop">
+      <GridPosition Left="12.5" Top="22.5" />
+    </Director>
+    <Director Name="d05b5ae1-12c9-4c19-9a1e-141e6c3f55f1" Template="Director/Stop">
+      <GridPosition Left="16.5" Top="22.5" />
+    </Director>
+    <Director Name="a04fad2a-0d35-4208-bfe5-4f37f4688553" Template="Director/Stop">
+      <GridPosition Left="20.5" Top="22.5" />
+    </Director>
+    <Director Name="2486b237-fd6e-44e9-8292-000757188db6" Template="Director/Stop">
+      <GridPosition Left="24.5" Top="22.5" />
+    </Director>
+    <Director Name="1cbc13de-d0e7-459f-9e27-08093eb962a6" Template="Director/Stop">
+      <GridPosition Left="28.5" Top="22.5" />
+    </Director>
+    <Director Name="101cfe63-11d1-484e-ba5d-68800a3b473e" Template="Director/Stop">
+      <GridPosition Left="32.5" Top="22.5" />
+    </Director>
+  </Directors>
+  <SpawnPoints />
+  <Speakers>
+    <Speaker Name="38e6a5cd-a1d2-443b-96c9-5050b28c2b48" Template="Speaker/Debstar">
+      <GridPosition Left="6" Top="9" />
+      <Conversations>
+        <Conversation>
+          <Conditions>
+            <Condition Has="False" Item="Room/EndLand_1/Debstar" Quantity="1" />
+          </Conditions>
+          <Sentences>
+            <Sentence Speaker="Speaker/Debstar">Chris Unarmed! Did you defeat Mango?</Sentence>
+            <Sentence Speaker="Character/Chris">...</Sentence>
+            <Sentence Speaker="Character/Chris">Let's just say that nobody will have to worry about Mango ever again.</Sentence>
+          </Sentences>
+          <Transactions>
+            <Transaction Type="Add" Item="Room/EndLand_1/Debstar" Quantity="1" />
+            <Transaction Type="Add" Item="Collectible/Key_InvisibleWarp" Quantity="1" />
+          </Transactions>
+        </Conversation>
+      </Conversations>
+    </Speaker>
+    <Speaker Name="a2e29cef-a74c-4da6-970c-47a914e5d750" Template="Speaker/AutoSpeak">
+      <GridPosition Left="72.5" Top="9" />
+      <Conversations>
+        <Conversation>
+          <Conditions>
+            <Condition Has="True" Item="Room/EndLand_1/Lever" Quantity="1" />
+          </Conditions>
+          <Sentences />
+          <Transactions>
+            <Transaction Type="Remove" Item="Room/EndLand_1/Lever" Quantity="1" />
+          </Transactions>
+        </Conversation>
+      </Conversations>
+    </Speaker>
+  </Speakers>
+  <MusicPoints />
+  <Switches>
+    <Switch Name="76e869f8-8227-477b-9032-69635f3b8244" Template="Switch/Lever" SwitchObject="Room/EndLand_1/Lever">
+      <GridPosition Left="9.5" Top="9" />
+    </Switch>
+  </Switches>
+</Room>

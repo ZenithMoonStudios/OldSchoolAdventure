@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="1280" Height="720" />
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 1/SpikeLand" />
+    <Background Path="Tile/Background/Layer 2/OutVertical">
+      <ScrollRate X="0.5" Y="0.5" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="40" Height="24" />
+      <Rows>
+        <Row Tiles="xxxxxxxxxOOOOOOOxxxxxxxxxxxxOOOxxxxxxxxx" />
+        <Row Tiles="xxxxxOOOOOOOOOOOOOxxxxxxxOOOOOOOOOOxxxxx" />
+        <Row Tiles="xxxOOOOOOOOOOOOOOOOxxxxOOOOOOOOOOOOOOxxx" />
+        <Row Tiles="xxOOOOO0000000000OOxxOOOOOOOOOOOOOOOOxxx" />
+        <Row Tiles="xxOOO0000000000000OOOOOO000000000OOOOxxx" />
+        <Row Tiles="xxxOO0000000000000OOOO000000000000OOxxxx" />
+        <Row Tiles="xxxxO00000000000000000000000000000OOxxxx" />
+        <Row Tiles="xxxxO00000000000000000000000000000OOxxxx" />
+        <Row Tiles="xxxxO0000000^^^00000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO0000OO0^^^00000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO0000OO0^^^00000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO0000OO0^^^00000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO0000OO0^^^00000000000000000000Oxxxx" />
+        <Row Tiles="xxxxO0000OO0^^^0000000000^^^0000000Oxxxx" />
+        <Row Tiles="xxxxO0000OO0^^^0000000OO0^^^0000000Oxxxx" />
+        <Row Tiles="xxxOO0000OO0^^^0000000OO0^^^0000000Oxxxx" />
+        <Row Tiles="xxxOO0000OO0^^^0000000OO0^^^0000000Oxxxx" />
+        <Row Tiles="xxxOO0000OO0^^^0000000OO0^^^0000000Oxxxx" />
+        <Row Tiles="xxxOO0000OO0^^^0000000OO0^^^0000000Oxxxx" />
+        <Row Tiles="xxxOO0000OO0^^^0000000OO0^^^0000000Oxxxx" />
+        <Row Tiles="xxOOO0000OO0^^^0000000OO0^^^0000000OOxxx" />
+        <Row Tiles="xxOOOWWWWOOOOWWWWWWWOOOOOOWWWWWWWWWOOxxx" />
+        <Row Tiles="xOOOWWWWOOOOWWWWWWWWWOOOOWWWWWWWWWWWOOxx" />
+        <Row Tiles="OOOOWWWWOOOWWWWWWWWWWWOOWWWWWWWWWWWWOOxx" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Plain">
+      <GridPosition Left="32.5" Top="20" />
+      <Target Room="Room/SpikeLand_2" ObjectName="Out" />
+    </Door>
+    <Door Name="Out" Template="Door/Plain">
+      <GridPosition Left="6.5" Top="20" />
+      <Target Room="Room/SpikeLand_4" ObjectName="In" />
+    </Door>
+  </Doors>
+  <Collectibles>
+  </Collectibles>
+  <Directors />
+  <Obstacles>
+    <Obstacle Name="0aef34a7-e905-4d65-a2aa-7a9b865fb691" Template="Enemy/SlowSpike_Right">
+      <GridPosition Left="22" Top="13" />
+      <Conditions>
+        <Condition Has="True" Item="Collectible/Mode_Hard" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+    <Obstacle Name="81596062-a2fa-4ba1-af2f-39cb43c71833" Template="Enemy/SlowSpike_Left">
+      <GridPosition Left="10" Top="8" />
+      <Conditions>
+        <Condition Has="True" Item="Collectible/Mode_Hard" Quantity="1" />
+      </Conditions>
+    </Obstacle>
+  </Obstacles>
+  <SpawnPoints />
+  <Speakers />
+  <MusicPoints />
+  <Switches />
+</Room>

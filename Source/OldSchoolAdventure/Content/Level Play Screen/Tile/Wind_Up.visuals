@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Visuals>
+	<Sprites Texture="Wind_Vertical">
+		<Sprite Name="1"><TextureRegion Left="0" Top="0" Width="32" Height="30" /></Sprite>
+		<Sprite Name="2"><TextureRegion Left="0" Top="1" Width="32" Height="30" /></Sprite>
+		<Sprite Name="3"><TextureRegion Left="0" Top="2" Width="32" Height="30" /></Sprite>
+		<Sprite Name="4"><TextureRegion Left="0" Top="3" Width="32" Height="30" /></Sprite>
+		<Sprite Name="5"><TextureRegion Left="0" Top="4" Width="32" Height="30" /></Sprite>
+		<Sprite Name="6"><TextureRegion Left="0" Top="5" Width="32" Height="30" /></Sprite>
+		<Sprite Name="7"><TextureRegion Left="0" Top="6" Width="32" Height="30" /></Sprite>
+		<Sprite Name="8"><TextureRegion Left="0" Top="7" Width="32" Height="30" /></Sprite>
+		<Sprite Name="9"><TextureRegion Left="0" Top="8" Width="32" Height="30" /></Sprite>
+		<Sprite Name="10"><TextureRegion Left="0" Top="9" Width="32" Height="30" /></Sprite>
+		<Sprite Name="11"><TextureRegion Left="0" Top="10" Width="32" Height="30" /></Sprite>
+		<Sprite Name="12"><TextureRegion Left="0" Top="11" Width="32" Height="30" /></Sprite>
+		<Sprite Name="13"><TextureRegion Left="0" Top="12" Width="32" Height="30" /></Sprite>
+		<Sprite Name="14"><TextureRegion Left="0" Top="13" Width="32" Height="30" /></Sprite>
+		<Sprite Name="15"><TextureRegion Left="0" Top="14" Width="32" Height="30" /></Sprite>
+		<Sprite Name="16"><TextureRegion Left="0" Top="15" Width="32" Height="30" /></Sprite>
+		<Sprite Name="17"><TextureRegion Left="0" Top="16" Width="32" Height="30" /></Sprite>
+		<Sprite Name="18"><TextureRegion Left="0" Top="17" Width="32" Height="30" /></Sprite>
+		<Sprite Name="19"><TextureRegion Left="0" Top="18" Width="32" Height="30" /></Sprite>
+		<Sprite Name="20"><TextureRegion Left="0" Top="19" Width="32" Height="30" /></Sprite>
+		<Sprite Name="21"><TextureRegion Left="0" Top="20" Width="32" Height="30" /></Sprite>
+		<Sprite Name="22"><TextureRegion Left="0" Top="21" Width="32" Height="30" /></Sprite>
+		<Sprite Name="23"><TextureRegion Left="0" Top="22" Width="32" Height="30" /></Sprite>
+		<Sprite Name="24"><TextureRegion Left="0" Top="23" Width="32" Height="30" /></Sprite>
+		<Sprite Name="25"><TextureRegion Left="0" Top="24" Width="32" Height="30" /></Sprite>
+		<Sprite Name="26"><TextureRegion Left="0" Top="25" Width="32" Height="30" /></Sprite>
+		<Sprite Name="27"><TextureRegion Left="0" Top="26" Width="32" Height="30" /></Sprite>
+		<Sprite Name="28"><TextureRegion Left="0" Top="27" Width="32" Height="30" /></Sprite>
+		<Sprite Name="29"><TextureRegion Left="0" Top="28" Width="32" Height="30" /></Sprite>
+		<Sprite Name="30"><TextureRegion Left="0" Top="29" Width="32" Height="30" /></Sprite>
+	</Sprites>
+	<Animations>
+		<Animation Name="Default">
+			<Frames>
+				<Frame Sprite="1" Duration="1" />
+				<Frame Sprite="2" Duration="1" />
+				<Frame Sprite="3" Duration="1" />
+				<Frame Sprite="4" Duration="1" />
+				<Frame Sprite="5" Duration="1" />
+				<Frame Sprite="6" Duration="1" />
+				<Frame Sprite="7" Duration="1" />
+				<Frame Sprite="8" Duration="1" />
+				<Frame Sprite="9" Duration="1" />
+				<Frame Sprite="10" Duration="1" />
+				<Frame Sprite="11" Duration="1" />
+				<Frame Sprite="12" Duration="1" />
+				<Frame Sprite="13" Duration="1" />
+				<Frame Sprite="14" Duration="1" />
+				<Frame Sprite="15" Duration="1" />
+				<Frame Sprite="16" Duration="1" />
+				<Frame Sprite="17" Duration="1" />
+				<Frame Sprite="18" Duration="1" />
+				<Frame Sprite="19" Duration="1" />
+				<Frame Sprite="20" Duration="1" />
+				<Frame Sprite="21" Duration="1" />
+				<Frame Sprite="22" Duration="1" />
+				<Frame Sprite="23" Duration="1" />
+				<Frame Sprite="24" Duration="1" />
+				<Frame Sprite="25" Duration="1" />
+				<Frame Sprite="26" Duration="1" />
+				<Frame Sprite="27" Duration="1" />
+				<Frame Sprite="28" Duration="1" />
+				<Frame Sprite="29" Duration="1" />
+				<Frame Sprite="30" Duration="1" />
+			</Frames>
+		</Animation>
+	</Animations>
+</Visuals>

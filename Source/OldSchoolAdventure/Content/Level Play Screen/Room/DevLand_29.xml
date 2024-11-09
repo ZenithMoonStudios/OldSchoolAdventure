@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Room>
+  <Size Width="1280" Height="720" />
+  <Lighting Axis="Y">
+    <Start GridPosition="0">
+      <Color Red="255" Green="0" Blue="0" Alpha="255" />
+    </Start>
+    <Finish GridPosition="1">
+      <Color Red="255" Green="0" Blue="0" Alpha="255" />
+    </Finish>
+  </Lighting>
+  <Backgrounds>
+    <Background Path="Tile/Background/Layer 1/DevLand" />
+    <Background Path="Tile/Background/Layer 2/In">
+      <ScrollRate X="0.5" Y="0.5" />
+    </Background>
+  </Backgrounds>
+  <TileGrids>
+    <TileGrid IsActive="true" TileSet="TileSet/Default">
+      <GridSize Width="40" Height="24" />
+      <Rows>
+        <Row Tiles="xxxxxxxxxxxxxxOXXXXXXXXXXOOxxxxxxxxxxxxx" />
+        <Row Tiles="xxxxxOOOxxxxOOOXXXXXXXXXXOOOOOxxxxOOOxxx" />
+        <Row Tiles="xxxOOOOOOOOOOOOXXXXXXXXXXOOOOOOOOOOOOOxx" />
+        <Row Tiles="xxxOO0000000OOOXXXXXXXXXXOO00000000OOOOx" />
+        <Row Tiles="xxOOO000000000OXXXXXXXXXXO000000000OOOOx" />
+        <Row Tiles="xOOOO0000000000XXXXXXXXXXO000000000OOOOx" />
+        <Row Tiles="xOOOO0000000000XXXXXXXXXX0000000000OOOOx" />
+        <Row Tiles="xOOOO0000000000XXXXXXXXXX0000000000OOOOx" />
+        <Row Tiles="xxOOO0000000000XXXXXXXXXX0000000000OOOxx" />
+        <Row Tiles="xxOOO0000000000XXXXXXXXXX0000000000OOxxx" />
+        <Row Tiles="xxxOOOOOO000000XXXXXXXXXX000000OOOOOOxxx" />
+        <Row Tiles="xxxxxOOOO^^^^^^XXXXXXXXXX^^^^^^OOOOOxxxx" />
+        <Row Tiles="xxxxxxOOO^^^^^^XXXXXXXXXX^^^^^^OOOOOxxxx" />
+        <Row Tiles="xxxxxxOOO^^^^^^XXXXXXXXXX^^^^^^OOOOxxxxx" />
+        <Row Tiles="xxxxxxxOO^^^^^^^XXXXXXXX^^^^^^^OOxxxxxxx" />
+        <Row Tiles="xxxxxxxOO^^^^^^^^XXXXXX^^^^^^^^OOxxxxxxx" />
+        <Row Tiles="xxxxxxxOO^^^^^^^^^^^^^^^^^^^^^^OOxxxxxxx" />
+        <Row Tiles="xxxxxxOOO^^^^^^^^^^^^^^^^^^^^^^OOxxxxxxx" />
+        <Row Tiles="xxxxxxOOO^^^^^^^^^^^^^^^^^^^^^^OOxxxxxxx" />
+        <Row Tiles="xxxxxxOOO^^^^^^^^^^^^^^^^^^^^^^OOxxxxxxx" />
+        <Row Tiles="xxxxxxxOO^^^^^^^^XXXXXX^^^^^^^^Oxxxxxxxx" />
+        <Row Tiles="xxxxxxxxOOOOOOOOXXXXXXXXOOOOOOOOxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxOOOOOXXXXXXXXXXOOOOOOxxxxxxxxx" />
+        <Row Tiles="xxxxxxxxxxxOOOOXXXXXXXXXXOOOxxxxxxxxxxxx" />
+      </Rows>
+    </TileGrid>
+  </TileGrids>
+  <Doors>
+    <Door Name="In" Template="Door/Plain">
+      <GridPosition Left="6.5" Top="9" />
+      <Target Room="Room/DevLand_12" ObjectName="Out" />
+    </Door>
+    <Door Name="Out" Template="Door/Plain">
+      <GridPosition Left="32.5" Top="9" />
+      <Target Room="Room/DevLand_30" ObjectName="In" />
+    </Door>
+  </Doors>
+  <Collectibles />
+  <Obstacles />
+  <Directors />
+  <SpawnPoints />
+  <Speakers />
+  <MusicPoints />
+  <Switches />
+</Room>

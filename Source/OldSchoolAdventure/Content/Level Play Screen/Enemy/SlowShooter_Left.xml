@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EnemyTemplate VerticalAlignment="Bottom" RenderMode="Movement" Offense="2" Defense="2">
+	<Size Width="30" Height="34" />
+	<StartVelocity X="-1" Y="0" />
+	<Left IsSolid="false" />
+	<Top IsSolid="true" Die="true" TangentSpeed="7" />
+	<Right IsSolid="false" />
+	<Bottom IsSolid="false" />
+	<MovementProvider Name="RunAndJump" MaxHorizontalSpeed="2.5" IntelligenceAlgorithm="TurnOnHoleOrCollision" DeathDuration="600" />
+	<ShootInformation Duration="10" MinWait="96" MaxWait="96" FlipOnNegativeX="true" FlipOnNegativeY="false">
+		<Object Path="Projectile/Fire" MaxCount="10" />
+		<StartPosition X="15" Y="15" />
+		<StartVelocity X="7.5" Y="0" />
+	</ShootInformation>
+</EnemyTemplate>
