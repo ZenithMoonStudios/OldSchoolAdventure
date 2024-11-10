@@ -1,22 +1,22 @@
 # Old School Adventure
 
  <div align="center">
-  <img height="384" alt="Old School Adventure" src="https://raw.githubusercontent.com/ZenithMoonStudios/OldSchoolAdventure/refs/heads/main/Logo.png">
+  <img height="384" alt="Old School Adventure" src="https://media.githubusercontent.com/media/ZenithMoonStudios/OldSchoolAdventure/refs/heads/main/Logo.png">
 </div>
 
 **Version**: v1.2
 
 **Visual Studio requirements**: version 2022 with the .NET 8.0 workload.
 
-This is the main repository for [Old School Adventure](https://www.microsoft.com/store/apps/9NBLGGH0DLHC) which was originally published using XNA on Xbox (XBLIG) and Windows Phone.
+This is the main repository for [Old School Adventure](ms-windows-store://pdp/?productid=9NBLGGH0DLHC&cid=PCCongratsBnr) which was originally published using XNA on Xbox (XBLIG) and Windows Phone.
 
-Old School Adventure is coded in C# with [MonoGame](https://monogame.net/) 3.8.2.
+Old School Adventure was coded in XNA and has now been migrated to [MonoGame](https://monogame.net/) 3.8.2. (with very minimal changes)
 
 ## All rights reserved
 
 Old School Adventure © 2017-2024 ZenithMoon Studios. All rights reserved.
 
-This is **not** a free software. You can't use code or assets for your own projects.
+This is **not** a free software. You cannot use code or assets for your own projects.
 
 Old School Adventure was originally created by [Chris Hughes](https://x.com/chrishughes2d) of [Chris Hughes Games](https://chrishughes.games/) and redistributed on Windows Phone by [ZenithMoon Studios](https://zenithmoon.com/)
 
@@ -24,9 +24,9 @@ Old School Adventure was originally created by [Chris Hughes](https://x.com/chri
 
 ZenithMoon Studios is allowing derivative works for **educational purposes** only (e.g. learning MonoGame or learning to make games) under these conditions:
 
-- No commercial use can be made
-- Obligation to credit Chris Hughes Games and ZenithMoon Studios
-- Obligation to detail which part is being used or modified
+- No commercial use can be made.
+- Obligation to credit Chris Hughes Games and ZenithMoon Studios.
+- Obligation to detail which part is being used or modified.
 
 ## Repository content
 
@@ -37,7 +37,7 @@ The code has been migrated to MonoGame from its original XNA source, updated and
 The code and content is found in the [Source](/Source/) folder with the following directories:
 
 - [Source\Destiny](/Source/Destiny/) - Engine style code for the Old School Adventure.
-- [Source\OldSchoolAdventure](/Source/OldSchoolAdventure/) - Main game implementation code.
+- [Source\OldSchoolAdventure](/Source/OldSchoolAdventure/Source%20Code/) - Main game implementation code.
 - [Source\OldSchoolAdventure\Content](/Source/OldSchoolAdventure/Content/) - All game content and xml configuration files.
 - [Source\ThirdParty](/Source/ThirdParty/) - Original platform addons, no longer used but added for reference.
 
