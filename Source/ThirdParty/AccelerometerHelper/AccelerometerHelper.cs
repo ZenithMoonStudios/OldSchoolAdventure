@@ -56,7 +56,7 @@ namespace AccelerometerHelper
     {
         #region Private fields
 
-        // Singleton instance for helper - prefered solution to static class to avoid static constructor (10x slower)
+        // Singleton instance for helper - preferred solution to static class to avoid static constructor (10x slower)
         private static volatile AccelerometerHelper _singletonInstance;
 
         private static Object _syncRoot = new Object();
