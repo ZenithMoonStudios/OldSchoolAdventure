@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace OSA
 {
@@ -8,6 +9,7 @@ namespace OSA
         {
             try
             {
+                CultureInfo.DefaultThreadCurrentCulture = CultureInfo.InvariantCulture;
                 using (PlatformerGame game = PlatformerGame.Instance)
                 {
                     game.Run();
